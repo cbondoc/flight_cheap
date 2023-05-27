@@ -14,10 +14,11 @@ import {
 } from "@mui/material";
 import Image from "next/image";
 import { LocalAirport, Lock } from "@mui/icons-material";
+import Router from "next/router";
 
 const exclude_pathname = ["access/logout", "access/login", "about_us"];
 
-import AccountCircleRoundedIcon from '@mui/icons-material/AccountCircleRounded';
+import AccountCircleRoundedIcon from "@mui/icons-material/AccountCircleRounded";
 
 function Copyright() {
   return (
@@ -51,13 +52,15 @@ function Layout(props) {
   };
   const handleClose = () => {
     setAnchorEl(null);
+    sessionStorage.removeItem("token");
+    Router.push("/access/login");
   };
 
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
       <AppBar position="fixed" color="transparent">
-        <Toolbar sx={{ flexWrap: "wrap", width: '70%', alignSelf: 'center'}}>
+        <Toolbar sx={{ flexWrap: "wrap", width: "70%", alignSelf: "center" }}>
           <LocalAirport />
           <Link
             variant="button"
@@ -65,39 +68,27 @@ function Layout(props) {
             href="/"
             sx={{ my: 1, mx: 1.5, textDecoration: "none", flexGrow: 1 }}
           >
-            <Typography variant="h6" color="inherit" noWrap sx={{textTransform: 'capitalize', fontWeight: 600}}>
+            <Typography
+              variant="h6"
+              color="inherit"
+              noWrap
+              sx={{ textTransform: "capitalize", fontWeight: 600 }}
+            >
               FlightCheap
             </Typography>
           </Link>
           <nav>
-            {/* {isLogin ? (
-              <>
-                <Link
-                  variant="button"
-                  color="inherit"
-                  href="/#"
-                  sx={{ my: 1, mx: 1.5, textDecoration: "none" }}
-                >
-                  Logout
-                </Link>
-              </>
-            ) : (
-              <>
-                <Link
-                  variant="button"
-                  color="inherit"
-                  href="/access/login"
-                  sx={{ my: 1, mx: 1.5, textDecoration: "none" }}
-                >
-                  Login
-                </Link>
-              </>
-            )} */}
             <Link
               variant="button"
               color="inherit"
               href="/bookings"
-              sx={{ my: 1, mx: 1.5, textDecoration: "none", textTransform: 'capitalize', fontWeight: 600 }}
+              sx={{
+                my: 1,
+                mx: 1.5,
+                textDecoration: "none",
+                textTransform: "capitalize",
+                fontWeight: 600,
+              }}
             >
               Bookings
             </Link>
@@ -105,7 +96,13 @@ function Layout(props) {
               variant="button"
               color="inherit"
               href="/contact-us"
-              sx={{ my: 1, mx: 1.5, textDecoration: "none", textTransform: 'capitalize', fontWeight: 600 }}
+              sx={{
+                my: 1,
+                mx: 1.5,
+                textDecoration: "none",
+                textTransform: "capitalize",
+                fontWeight: 600,
+              }}
             >
               Contact Us
             </Link>
@@ -113,16 +110,22 @@ function Layout(props) {
               variant="button"
               color="inherit"
               href="/about_us"
-              sx={{ my: 1, mx: 1.5, textDecoration: "none", textTransform: 'capitalize', fontWeight: 600 }}
+              sx={{
+                my: 1,
+                mx: 1.5,
+                textDecoration: "none",
+                textTransform: "capitalize",
+                fontWeight: 600,
+              }}
             >
               About Us
             </Link>
 
             <Button
               id="basic-button"
-              aria-controls={open ? 'basic-menu' : undefined}
+              aria-controls={open ? "basic-menu" : undefined}
               aria-haspopup="true"
-              aria-expanded={open ? 'true' : undefined}
+              aria-expanded={open ? "true" : undefined}
               onClick={handleClick}
             >
               <AccountCircleRoundedIcon />
@@ -133,12 +136,11 @@ function Layout(props) {
               open={open}
               onClose={handleClose}
               MenuListProps={{
-                'aria-labelledby': 'basic-button',
+                "aria-labelledby": "basic-button",
               }}
             >
               <MenuItem onClick={handleClose}>Logout</MenuItem>
             </Menu>
-
           </nav>
         </Toolbar>
       </AppBar>
