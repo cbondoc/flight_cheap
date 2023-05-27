@@ -20,37 +20,52 @@ const devTeam = [
     id: 3,
     name: "Cary",
     role: "Team Leader",
-    picture: "avatar3.jpg",
+    picture: "cary.jpg",
   },
   {
     id: 5,
     name: "Francely",
     role: "Assistant Team Leader/Backend",
-    picture: "avatar5.jpg",
+    picture: "franceley.jpg",
   },
   {
     id: 4,
     name: "John Paul",
     role: "Full Stack Developer",
-    picture: "avatar4.jpg",
+    picture: "john.jpg",
   },
+  {
+    id: 2,
+    name: "Rocky",
+    role: "Frontend Lead",
+    picture: "rocky.jpg",
+  },
+  {
+    id: 1,
+    name: "Ezekiel",
+    role: "Backend Developer",
+    picture: "placeholder.jpg",
+  },
+];
+
+const devTeamContributors = [
   {
     id: 2,
     name: "Cedric",
     role: "Frontend Lead",
-    picture: "avatar2.jpg",
+    picture: "cedric.jpg",
   },
   {
     id: 1,
     name: "Starsky",
     role: "Backend Developer",
-    picture: "avatar1.jpg",
+    picture: "starsky.jpg",
   },
   {
     id: 6,
     name: "Romart",
     role: "Frontend Developer",
-    picture: "avatar6.jpg",
+    picture: "romart.jpg",
   },
 ];
 
@@ -138,6 +153,47 @@ const AboutUs = () => {
         pb={8}
       >
         {devTeam.map((persons, index) => (
+          <Grid item xs={12} sm={4} key={persons.id}>
+            <Card>
+              <CardContent>
+                <Avatar
+                  src={`/about-us/${persons.picture}`}
+                  sx={{
+                    margin: "auto",
+                    width: 125,
+                    height: 125,
+                  }}
+                />
+                <CardHeader title={persons.name} subheader={persons.role} />
+              </CardContent>
+            </Card>
+          </Grid>
+        ))}
+      </Grid>
+
+      <Typography
+        component="h1"
+        variant="h1"
+        align="center"
+        color="text.primary"
+        gutterBottom
+      >
+        With Contributions From
+      </Typography>
+
+      {/* Avatar */}
+
+      <Grid
+        sx={{
+          textAlign: "center !important",
+        }}
+        container
+        spacing={2}
+        pl={8}
+        pr={8}
+        pb={8}
+      >
+        {devTeamContributors.map((persons, index) => (
           <Grid item xs={12} sm={4} key={persons.id}>
             <Card>
               <CardContent>

@@ -12,7 +12,11 @@ import CircularProgress from "@mui/material/CircularProgress";
 import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
 
-import { post_booking_users,post_booking_payment,post_booking_final } from "@/api/auth";
+import {
+  post_booking_users,
+  post_booking_payment,
+  post_booking_final,
+} from "@/api/auth";
 
 const style = {
   position: "absolute",
@@ -27,7 +31,6 @@ const style = {
 };
 
 function AppointmentModal(props) {
-
   const handleClose = () => {
     setEmail("");
     setPhone("");
@@ -46,11 +49,9 @@ function AppointmentModal(props) {
     setEmail(event.target.value);
   };
 
-
   useEffect(() => {
     validateEmail();
   }, [email]);
-
 
   const validateEmail = () => {
     const emailRegex = /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i;
@@ -62,31 +63,31 @@ function AppointmentModal(props) {
   };
 
   const handleButtonClick = () => {
-   
-
     setLoading(true);
     post_booking_users({
-      "user": [
+      user: [
         {
-          "first_name": firstName,
-          "last_name": middleName,
-          "middle_name": lastName
-        }
+          first_name: firstName,
+          last_name: middleName,
+          middle_name: lastName,
+        },
       ],
-      "booking_token": props.booking.booking_token,
-      "book_details": {
-        "from_city_code": props.booking.cityFrom,
-        "to_city_code": props.booking.cityTo,
-        "from_time": props.booking.utc_arrival,
-        "to_time": props.booking.utc_departure
-      }
-    }).then(val=>{
-      setLoading(false);
-      window.localStorage.setItem("booking_user_info",val.data.token);
-      props.router.push('/booking/checkout');
-    }).catch((e) => {
-      alert(e.response.data.detail);
-    });
+      booking_token: props.booking.booking_token,
+      book_details: {
+        from_city_code: props.booking.cityFrom,
+        to_city_code: props.booking.cityTo,
+        from_time: props.booking.utc_arrival,
+        to_time: props.booking.utc_departure,
+      },
+    })
+      .then((val) => {
+        setLoading(false);
+        window.localStorage.setItem("booking_user_info", val.data.token);
+        props.router.push("/booking/checkout");
+      })
+      .catch((e) => {
+        alert(e.response.data.detail);
+      });
     console.log(props.booking);
   };
   let spinner = false;
@@ -98,7 +99,6 @@ function AppointmentModal(props) {
       />
     );
   }
-
 
   return (
     <>
@@ -116,46 +116,45 @@ function AppointmentModal(props) {
             Fly high, pay low with our unbeatable flight deals. Subscribe now!
           </Typography>
           <Box>
-
-          <TextField
-          sx={{ mt: 4, width: "90%" }}
-          id="input-with-icon-textfield"
-          label="Email Address"
-          InputProps={{
-            startAdornment: (
-              <InputAdornment position="start">
-                <EmailIcon />
-              </InputAdornment>
-            ),
-          }}
-          value={email}
-          onChange={handleEmailChange}
-          variant="standard"
-        />
-        <TextField
-          sx={{ mt: 4, width: "90%" }}
-          id="input-with-icon-textfield"
-          label="First Name"
-          value={firstName}
-          onChange={(event)=>setFirstName(event.target.value)}
-          variant="standard"
-        />
-        <TextField
-          sx={{ mt: 4, width: "90%" }}
-          id="input-with-icon-textfield"
-          label="Middle Name"
-          value={middleName}
-          onChange={(event)=>setMiddleName(event.target.value)}
-          variant="standard"
-        />
-        <TextField
-          sx={{ mt: 4, width: "90%" }}
-          id="input-with-icon-textfield"
-          label="Last Name"
-          value={lastName}
-          onChange={(event)=>setLastName(event.target.value)}
-          variant="standard"
-        />
+            <TextField
+              sx={{ mt: 4, width: "90%" }}
+              id="input-with-icon-textfield"
+              label="Email Address"
+              InputProps={{
+                startAdornment: (
+                  <InputAdornment position="start">
+                    <EmailIcon />
+                  </InputAdornment>
+                ),
+              }}
+              value={email}
+              onChange={handleEmailChange}
+              variant="standard"
+            />
+            <TextField
+              sx={{ mt: 4, width: "90%" }}
+              id="input-with-icon-textfield"
+              label="First Name"
+              value={firstName}
+              onChange={(event) => setFirstName(event.target.value)}
+              variant="standard"
+            />
+            <TextField
+              sx={{ mt: 4, width: "90%" }}
+              id="input-with-icon-textfield"
+              label="Middle Name"
+              value={middleName}
+              onChange={(event) => setMiddleName(event.target.value)}
+              variant="standard"
+            />
+            <TextField
+              sx={{ mt: 4, width: "90%" }}
+              id="input-with-icon-textfield"
+              label="Last Name"
+              value={lastName}
+              onChange={(event) => setLastName(event.target.value)}
+              variant="standard"
+            />
           </Box>
 
           <Button
@@ -169,7 +168,7 @@ function AppointmentModal(props) {
             Submit your information
           </Button>
           <FormHelperText sx={{ mt: 2 }} id="my-helper-text">
-            We'll never share your email/number.
+            We&apos;ll never share your email/number.
           </FormHelperText>
         </Box>
       </Modal>
