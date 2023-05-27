@@ -70,29 +70,6 @@ function Layout(props) {
             </Typography>
           </Link>
           <nav>
-            {/* {isLogin ? (
-              <>
-                <Link
-                  variant="button"
-                  color="inherit"
-                  href="/#"
-                  sx={{ my: 1, mx: 1.5, textDecoration: "none" }}
-                >
-                  Logout
-                </Link>
-              </>
-            ) : (
-              <>
-                <Link
-                  variant="button"
-                  color="inherit"
-                  href="/access/login"
-                  sx={{ my: 1, mx: 1.5, textDecoration: "none" }}
-                >
-                  Login
-                </Link>
-              </>
-            )} */}
             <Link
               variant="button"
               color="inherit"
