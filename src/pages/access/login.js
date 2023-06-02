@@ -38,7 +38,7 @@ export default function Login() {
           alignItems: "center",
           minHeight: "calc(110vh - 120px)",
           backgroundImage: "url('/airplane-background.jpg')",
-          backgroundSize: "cover", // "contain", "cover", "no-repeat
+          backgroundSize: "cover", 
           backgroundPosition: "center",
         }}
       >

@@ -198,15 +198,6 @@ function SearchForm(props) {
             padding: 5,
           }}
         >
-          {/* First Column
-              
-              From and To
-              Adults
-              Infants
-              Children
-              Cabin Class
-              
-              */}
           <Grid container spacing={2} sx={{ marginTop: 3, mb: 4 }}>
             <Grid
               item
@@ -250,10 +241,9 @@ function SearchForm(props) {
               </FormControl>
             </Grid>
           </Grid>
-
           <Grid container spacing={2}>
             <Grid item xs={3}>
-              {/* First row */}
+              {/* From and To */}
               <Autocomplete
                 options={iataDataFrom.sort(
                   (a, b) => -b.Country.localeCompare(a.Country)
@@ -272,6 +262,7 @@ function SearchForm(props) {
                   <TextField sx={{ width: 1 }} {...params} label="From" />
                 )}
               />
+              {/*  Number of Adults */}
               <TextField
                 id="filled-number"
                 label="Adults"
@@ -280,7 +271,7 @@ function SearchForm(props) {
                 sx={{ width: 1, mt: 5 }}
                 variant="filled"
               />
-
+              {/* Number of children */}
               <TextField
                 id="filled-number"
                 label="Children"
@@ -290,6 +281,7 @@ function SearchForm(props) {
               />
             </Grid>
             <Grid item xs={3}>
+              {/* Cabin Class */}
               <Autocomplete
                 options={iataDataTo.sort(
                   (a, b) => -b.Country.localeCompare(a.Country)
@@ -315,14 +307,14 @@ function SearchForm(props) {
                 disablePortal
                 id="combo-box-demo"
                 options={cabinClass}
-                isOptionEqualToValue={(cabinClass[0], "Economy")}
+                defaultValue={"Economy"}
                 renderInput={(params) => (
                   <TextField {...params} label="Cabin Class" />
                 )}
                 sx={{ width: 1, mt: 5 }}
               />
             </Grid>
-
+            {/* Date Range Picker */}
             <Grid item xs={6}>
               <DateRangePicker
                 minDate={new Date()}
