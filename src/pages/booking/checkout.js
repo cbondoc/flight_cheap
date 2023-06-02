@@ -5,10 +5,10 @@ import { Grid, TextField,FormControlLabel, Checkbox, Container, Typography, Box,
 
 
 import dayjs from 'dayjs';
-import { DemoContainer } from '@mui/x-date-pickers/internals/demo';
-import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
-import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
-import { DatePicker } from '@mui/x-date-pickers/DatePicker';
+// import { DemoContainer } from '@mui/x-date-pickers/internals/demo';
+// import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
+// import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
+// import { DatePicker } from '@mui/x-date-pickers/DatePicker';
 
 // import { useBookingContext } from "@/context/booking";
 import { useRouter } from 'next/router'
@@ -79,7 +79,7 @@ function SelectFlight() {
             />
           </Grid>
           <Grid item xs={12} md={6}>
-          <LocalizationProvider dateAdapter={AdapterDayjs}>
+          {/* <LocalizationProvider dateAdapter={AdapterDayjs}>
             <DemoContainer components={['DatePicker', 'DatePicker']}>
             <DatePicker
               required
@@ -91,7 +91,7 @@ function SelectFlight() {
               onChange={(event)=>setExpiration(event.target.value)}
             />
             </DemoContainer>
-          </LocalizationProvider>
+          </LocalizationProvider> */}
             
           </Grid>
           <Grid item xs={12} md={6}>
