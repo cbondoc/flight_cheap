@@ -34,6 +34,10 @@ Before you begin, make sure you have the following installed:
 
 ```npm run dev```
 
+6. 
+
+```npm install -g yarn```
+
 
 That's it! You should now be able to access the application at `http://localhost:3000`.
 
