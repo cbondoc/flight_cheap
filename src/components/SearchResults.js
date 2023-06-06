@@ -54,7 +54,7 @@ export default function FixedSizeGrid(props) {
       field: "conversion",
       headerName: "Fare",
       width: 130,
-      valueGetter: (params) => params.row.conversion.PHP.toLocaleString(),
+      valueGetter: (params) => params.row.conversion,
     },
     {
       field: "deep_link",
@@ -99,7 +99,7 @@ export default function FixedSizeGrid(props) {
         airlines_name: dataRow2.airlines_name,
         utc_departure: dataRow2.utc_departure,
         utc_arrival: dataRow2.utc_arrival,
-        conversion: dataRow2.conversion,
+        conversion: dataRow2.price,
         deep_link: dataRow2.deep_link,
       });
     }
