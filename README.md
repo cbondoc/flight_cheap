@@ -13,7 +13,7 @@ Before you begin, make sure you have the following installed:
 
 1. Clone the repository:
 
-```git clone https://github.com/cedricp95/flight-cheap-react.git```
+```https://github.com/cbondoc/flight_cheap.git```
 
 
 2. Switch to the `main` branch:
