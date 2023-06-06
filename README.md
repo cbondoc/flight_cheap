@@ -25,8 +25,12 @@ Before you begin, make sure you have the following installed:
 
 ```npm i --save```
 
+4. Check for update (if there's any) on the main branch
 
-4. Start the development server:
+```git pull origin main```
+
+
+5. Start the development server:
 
 ```npm run dev```
 
