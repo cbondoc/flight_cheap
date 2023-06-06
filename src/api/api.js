@@ -3,7 +3,7 @@ import axios from "axios";
 const list_except_path_auth = ["/login", "/healthz"];
 export default function handler() {
   const instance = axios.create({
-    baseURL: "http://188.166.133.135",
+    baseURL: "http://flightcheap.store",
     withCredentials: true,
   });
   // Add a request interceptor
