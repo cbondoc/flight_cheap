@@ -1,0 +1,4607 @@
+{
+  "search_id": "98e970fd-622b-1a4f-cae2-f3ce91cc662d",
+  "currency": "PHP",
+  "fx_rate": 60.146569,
+  "data": [
+    {
+      "id": "1edb12104c3b0000204618c3_0",
+      "flyFrom": "MNL",
+      "flyTo": "CEB",
+      "cityFrom": "Manila",
+      "cityCodeFrom": "MNL",
+      "cityTo": "Cebu",
+      "cityCodeTo": "CEB",
+      "countryFrom": {
+        "code": "PH",
+        "name": "Philippines"
+      },
+      "countryTo": {
+        "code": "PH",
+        "name": "Philippines"
+      },
+      "nightsInDest": null,
+      "quality": 103.40272,
+      "distance": 567.63,
+      "duration": {
+        "departure": 4800,
+        "return": 0,
+        "total": 4800
+      },
+      "price": 4856,
+      "conversion": {
+        "EUR": 80.73611,
+        "PHP": 4856
+      },
+      "fare": {
+        "adults": 4856,
+        "children": 4856,
+        "infants": 4856
+      },
+      "price_dropdown": {
+        "base_fare": 4856,
+        "fees": 0
+      },
+      "bags_price": {
+        "1": 14.34,
+        "2": 59.34
+      },
+      "baglimit": {
+        "hand_height": 36,
+        "hand_length": 56,
+        "hand_weight": 7,
+        "hand_width": 23,
+        "hold_dimensions_sum": 319,
+        "hold_height": 119,
+        "hold_length": 119,
+        "hold_weight": 20,
+        "hold_width": 81
+      },
+      "availability": {
+        "seats": 2
+      },
+      "airlines": [
+        "Z2"
+      ],
+      "route": [
+        {
+          "id": "1edb12104c3b0000204618c3_0",
+          "combination_id": "1edb12104c3b0000204618c3",
+          "flyFrom": "MNL",
+          "flyTo": "CEB",
+          "cityFrom": "Manila",
+          "cityCodeFrom": "MNL",
+          "cityTo": "Cebu",
+          "cityCodeTo": "CEB",
+          "airline": "Z2",
+          "flight_no": 773,
+          "operating_carrier": "Z2",
+          "operating_flight_no": "773",
+          "fare_basis": "P01H00H",
+          "fare_category": "M",
+          "fare_classes": "P",
+          "fare_family": "",
+          "return": 0,
+          "bags_recheck_required": false,
+          "vi_connection": false,
+          "guarantee": false,
+          "equipment": null,
+          "vehicle_type": "aircraft",
+          "local_arrival": "2023-06-07T23:25:00.000Z",
+          "utc_arrival": "2023-06-07T15:25:00.000Z",
+          "local_departure": "2023-06-07T22:05:00.000Z",
+          "utc_departure": "2023-06-07T14:05:00.000Z"
+        }
+      ],
+      "booking_token": "Fejv49yxgNkCjOUFD7WBR5RXxbE77nWsgWmI6hxYUOHVHzHFTtq8IA9HvUPuzShknPDJ5S3aB0FaNCDAsCgRsDyFlQRrfWR2mZjelOwOwdT3jPmmZRpTiGs2218SAbCMcFWbjbAJ4rIkyM7SnsST4HQpG3Niu7-cZGJTwBrDGJ_cBXM0_OMjzAqbcauH9KPGD-tu7zc__QZzjP9d7l1Ue7jQvbYmDbMNDUCZ5nH2tSFVq4Yr634qd5d0R8KF3BDXyvtOJFNyo_ZA6eWl6m_4MD3I7LOCVf-u3wW61Mxegev0M2wZCk1Ganl3fpvJyTDYGnmYebdW-e2-Bl_7w5CweL10IQAqIk93LBPQjy35NBif37shyVkGA1oBIG_r8ID3kYU_D4RgXn0S42nBGWUdIV2Az9ddCssZsd3ERSsFOLREnX7OA-iHg7yEADRnw63FSUFNUmBv2yvhch9KqBj490WhuHFq2En1OTW4FnUZO8d0L6DmTudE5RUfpN34F3D4na8nrO2krSWGI4yx4StPOrx4lCduCZX9DZEFDq4p4ym96_-vkBLYj1aclkk4NJlLUTPTfO32fJYpTcwGg3jiH4bG8uKJP4NCF1VUZj1RJ_UT79zAqv2AH95qgslQ6Uy5gtTqhTS5M3FHpOjcusBT312Fv0qfeBO0T8NUm7W0KSWfoE8hymmAikagZ8mv94WpmQLqx_bjKebKvMaKzLh0QkA==",
+      "facilitated_booking_available": true,
+      "pnr_count": 1,
+      "has_airport_change": false,
+      "technical_stops": 0,
+      "throw_away_ticketing": false,
+      "hidden_city_ticketing": false,
+      "virtual_interlining": false,
+      "local_arrival": "2023-06-07T23:25:00.000Z",
+      "utc_arrival": "2023-06-07T15:25:00.000Z",
+      "local_departure": "2023-06-07T22:05:00.000Z",
+      "utc_departure": "2023-06-07T14:05:00.000Z"
+    },
+    {
+      "id": "1edb12104c3b0000272bdcda_0",
+      "flyFrom": "MNL",
+      "flyTo": "CEB",
+      "cityFrom": "Manila",
+      "cityCodeFrom": "MNL",
+      "cityTo": "Cebu",
+      "cityCodeTo": "CEB",
+      "countryFrom": {
+        "code": "PH",
+        "name": "Philippines"
+      },
+      "countryTo": {
+        "code": "PH",
+        "name": "Philippines"
+      },
+      "nightsInDest": null,
+      "quality": 104.069385,
+      "distance": 567.63,
+      "duration": {
+        "departure": 5100,
+        "return": 0,
+        "total": 5100
+      },
+      "price": 4856,
+      "conversion": {
+        "EUR": 80.73611,
+        "PHP": 4856
+      },
+      "fare": {
+        "adults": 4856,
+        "children": 4856,
+        "infants": 4856
+      },
+      "price_dropdown": {
+        "base_fare": 4856,
+        "fees": 0
+      },
+      "bags_price": {
+        "1": 13.185,
+        "2": 58.185
+      },
+      "baglimit": {
+        "hand_height": 36,
+        "hand_length": 56,
+        "hand_weight": 7,
+        "hand_width": 23,
+        "hold_dimensions_sum": 319,
+        "hold_height": 119,
+        "hold_length": 119,
+        "hold_weight": 20,
+        "hold_width": 81
+      },
+      "availability": {
+        "seats": 1
+      },
+      "airlines": [
+        "Z2"
+      ],
+      "route": [
+        {
+          "id": "1edb12104c3b0000272bdcda_0",
+          "combination_id": "1edb12104c3b0000272bdcda",
+          "flyFrom": "MNL",
+          "flyTo": "CEB",
+          "cityFrom": "Manila",
+          "cityCodeFrom": "MNL",
+          "cityTo": "Cebu",
+          "cityCodeTo": "CEB",
+          "airline": "Z2",
+          "flight_no": 777,
+          "operating_carrier": "Z2",
+          "operating_flight_no": "777",
+          "fare_basis": "P01H00H",
+          "fare_category": "M",
+          "fare_classes": "P",
+          "fare_family": "",
+          "return": 0,
+          "bags_recheck_required": false,
+          "vi_connection": false,
+          "guarantee": false,
+          "equipment": null,
+          "vehicle_type": "aircraft",
+          "local_arrival": "2023-06-07T16:30:00.000Z",
+          "utc_arrival": "2023-06-07T08:30:00.000Z",
+          "local_departure": "2023-06-07T15:05:00.000Z",
+          "utc_departure": "2023-06-07T07:05:00.000Z"
+        }
+      ],
+      "booking_token": "FbmdJnWT6zthI_Y_sTVG_h8P2Z51ib65ZeO4tDFFQl1AhZHoYAniqtQmNSnD2eao9a9B3hF1ZYTaG2iuI-wKRGs4HZUATb5NbHnDT7DDyGOAcdH7SWZICIxcKCZ9LQH_40EaJAgzmCx_0MxJH_1FflSy6xGFBb6pcBGpbgwooldW-PlcH2V9LvneMILOQiqYePdCk93Ksi6p0pVL3x_fxK9pJ17OEtqmCZiYGVJVL5Ud2znOLkErMJcZJceAc_2OnlJKH4EgcOqa0glypiptzlI3ZGcvjOnziz-5cCBz-Yfc85lC6n_NGQi-SNYrV6TKFCyUJmDsOp1d7mgbf0XZbtxFWEHSnGGjU6k4i_zuM7tdUZuqn5QbAGChVNYDMJQPlhHiypSVH6D0zYLSCFIYhdQRmEdT-OpRXK0Qf8FrKb1DnFBXaAbc29gdzyWOKKC6xmPmJr9oyD4L8O-V7bIswMqdUkCIVnR8fFVGvLJncGVca8CsILafN-3pYUhHSR2AwW_Ag4g6WehkrEMmbtNbpU0B_fgGg9kZRfNkylUncUCM4jIQFVaDow-m0HP5oEz5buVhjMrnnxHiLv2woZ06upnyif1jjtbTXrB1MsJoNHIQsS6og727v5Xox3yugSYmibk_rz9VkoM2BLYrB6lQsDPjpBirtEyrSaLJeyGLc7E2kZHtpCJ4fFRfB7zT7adxxFTyvXb3rB2GgIxfoElzTJw==",
+      "facilitated_booking_available": true,
+      "pnr_count": 1,
+      "has_airport_change": false,
+      "technical_stops": 0,
+      "throw_away_ticketing": false,
+      "hidden_city_ticketing": false,
+      "virtual_interlining": false,
+      "local_arrival": "2023-06-07T16:30:00.000Z",
+      "utc_arrival": "2023-06-07T08:30:00.000Z",
+      "local_departure": "2023-06-07T15:05:00.000Z",
+      "utc_departure": "2023-06-07T07:05:00.000Z"
+    },
+    {
+      "id": "1edb12104c3b0000ce4879ef_0",
+      "flyFrom": "MNL",
+      "flyTo": "CEB",
+      "cityFrom": "Manila",
+      "cityCodeFrom": "MNL",
+      "cityTo": "Cebu",
+      "cityCodeTo": "CEB",
+      "countryFrom": {
+        "code": "PH",
+        "name": "Philippines"
+      },
+      "countryTo": {
+        "code": "PH",
+        "name": "Philippines"
+      },
+      "nightsInDest": null,
+      "quality": 104.069385,
+      "distance": 567.63,
+      "duration": {
+        "departure": 5100,
+        "return": 0,
+        "total": 5100
+      },
+      "price": 4856,
+      "conversion": {
+        "EUR": 80.73611,
+        "PHP": 4856
+      },
+      "fare": {
+        "adults": 4856,
+        "children": 4856,
+        "infants": 4856
+      },
+      "price_dropdown": {
+        "base_fare": 4856,
+        "fees": 0
+      },
+      "bags_price": {
+        "1": 14.325,
+        "2": 59.325
+      },
+      "baglimit": {
+        "hand_height": 36,
+        "hand_length": 56,
+        "hand_weight": 7,
+        "hand_width": 23,
+        "hold_dimensions_sum": 319,
+        "hold_height": 119,
+        "hold_length": 119,
+        "hold_weight": 20,
+        "hold_width": 81
+      },
+      "availability": {
+        "seats": 8
+      },
+      "airlines": [
+        "Z2"
+      ],
+      "route": [
+        {
+          "id": "1edb12104c3b0000ce4879ef_0",
+          "combination_id": "1edb12104c3b0000ce4879ef",
+          "flyFrom": "MNL",
+          "flyTo": "CEB",
+          "cityFrom": "Manila",
+          "cityCodeFrom": "MNL",
+          "cityTo": "Cebu",
+          "cityCodeTo": "CEB",
+          "airline": "Z2",
+          "flight_no": 771,
+          "operating_carrier": "Z2",
+          "operating_flight_no": "771",
+          "fare_basis": "P01H00H",
+          "fare_category": "M",
+          "fare_classes": "P",
+          "fare_family": "",
+          "return": 0,
+          "bags_recheck_required": false,
+          "vi_connection": false,
+          "guarantee": false,
+          "equipment": null,
+          "vehicle_type": "aircraft",
+          "local_arrival": "2023-06-07T21:25:00.000Z",
+          "utc_arrival": "2023-06-07T13:25:00.000Z",
+          "local_departure": "2023-06-07T20:00:00.000Z",
+          "utc_departure": "2023-06-07T12:00:00.000Z"
+        }
+      ],
+      "booking_token": "FaKrrovQLCRog-DzSdDSICDjI0W9_adribLQmbdsmkQgjlTy3tQDqmHxnXy8E-tlbHQ65C10ANTzVOSdFmjrD-0z5PYdyC8m0SvzPFHOMYd0xPdy41ty8qalgLN8yVS9Gjpq3_MyFGX359isBMybUnEHZhIhOwEyglgNn6vBZCDGjjWHy2gFskomVWHmrsClRg-GQ8wdShMB9pavNWKuGJkY0RpcgNB6BaWZtArZsElG_LSq3UvcIWO2zRR2RSTfyOGO165ZQ4Zhq0pb5hVzoDYfyml_wToW5OnxDh6Wmwfz8jzCAeljiRqwguwmiOGTn6BhAcmAE_VPp5L7WgISPGZx9JUwj88-UmGMk8mi96tTyo7OHEar_7BYzfvVbYtXTUwMb044Z73eWoa6IbJjkEP7abpZFWpbb9wV8yKxK7XrYQqPjdHt55ZI3o0FuhVbadZ-jQFzsiJr2Xy3SxhqT9rHjd2flDTDnYPthvQyKP5NCczQ8LQQfYlYOd90iSCZfIMMI_GTUa_0t8urpNFXyVYuIgLMrM_88uJiMxGkNlxSiWGB7x4TiquURNryibjiWmGSdcIVa_JDsG9ovY2UWV0fUzRpzMYUsws2RPUYN-OwpkOoshPDUHJmVbGAJI5QudsQV8tDkSXqoE-3G_X3Q5kD19UV4hkdy-QRhWXqdaX_xwNjvlxQ-iJPFEFshTDMv",
+      "facilitated_booking_available": true,
+      "pnr_count": 1,
+      "has_airport_change": false,
+      "technical_stops": 0,
+      "throw_away_ticketing": false,
+      "hidden_city_ticketing": false,
+      "virtual_interlining": false,
+      "local_arrival": "2023-06-07T21:25:00.000Z",
+      "utc_arrival": "2023-06-07T13:25:00.000Z",
+      "local_departure": "2023-06-07T20:00:00.000Z",
+      "utc_departure": "2023-06-07T12:00:00.000Z"
+    },
+    {
+      "id": "1edb12104c3b0000f2a5935f_0",
+      "flyFrom": "MNL",
+      "flyTo": "CEB",
+      "cityFrom": "Manila",
+      "cityCodeFrom": "MNL",
+      "cityTo": "Cebu",
+      "cityCodeTo": "CEB",
+      "countryFrom": {
+        "code": "PH",
+        "name": "Philippines"
+      },
+      "countryTo": {
+        "code": "PH",
+        "name": "Philippines"
+      },
+      "nightsInDest": null,
+      "quality": 115.40673,
+      "distance": 567.63,
+      "duration": {
+        "departure": 4800,
+        "return": 0,
+        "total": 4800
+      },
+      "price": 5578,
+      "conversion": {
+        "EUR": 92.74012,
+        "PHP": 5578
+      },
+      "fare": {
+        "adults": 5578,
+        "children": 5578,
+        "infants": 5578
+      },
+      "price_dropdown": {
+        "base_fare": 5578,
+        "fees": 0
+      },
+      "bags_price": {
+        "1": 13.185,
+        "2": 58.185
+      },
+      "baglimit": {
+        "hand_height": 36,
+        "hand_length": 56,
+        "hand_weight": 7,
+        "hand_width": 23,
+        "hold_dimensions_sum": 319,
+        "hold_height": 119,
+        "hold_length": 119,
+        "hold_weight": 20,
+        "hold_width": 81
+      },
+      "availability": {
+        "seats": 1
+      },
+      "airlines": [
+        "Z2"
+      ],
+      "route": [
+        {
+          "id": "1edb12104c3b0000f2a5935f_0",
+          "combination_id": "1edb12104c3b0000f2a5935f",
+          "flyFrom": "MNL",
+          "flyTo": "CEB",
+          "cityFrom": "Manila",
+          "cityCodeFrom": "MNL",
+          "cityTo": "Cebu",
+          "cityCodeTo": "CEB",
+          "airline": "Z2",
+          "flight_no": 759,
+          "operating_carrier": "Z2",
+          "operating_flight_no": "759",
+          "fare_basis": "L01H00H",
+          "fare_category": "M",
+          "fare_classes": "L",
+          "fare_family": "",
+          "return": 0,
+          "bags_recheck_required": false,
+          "vi_connection": false,
+          "guarantee": false,
+          "equipment": null,
+          "vehicle_type": "aircraft",
+          "local_arrival": "2023-06-07T09:35:00.000Z",
+          "utc_arrival": "2023-06-07T01:35:00.000Z",
+          "local_departure": "2023-06-07T08:15:00.000Z",
+          "utc_departure": "2023-06-07T00:15:00.000Z"
+        }
+      ],
+      "booking_token": "FeJP5qDzoE374Db1YrY0YcMmOi2nfnqiKHWPDAKccpQnAfk7irZY0zCfnZcjQNBs-C3Lxt0oeitUHkXo1i2TfKIqnv54Io_6IAfEjWw4PH81LBtqLyNZkOnJ-DCVttiaBbHS2sB7dwkePkXm909ljhikVI9UpoSstqIq9g7RmTfZaVwaWY3czEv1rFffrGen0ss_lPqSZy6AithKGZ7BGIC-Gfprg1ORqh2buaGYKpk06dHbUiAmaMtZSBJWCgd0Csy0PC4Oh5HJXhSKxBfgWV0_rTogMJJAvgEmjlj8R-tVm5d00Fdd1igNyIXfq2LM70jOpx-XxyEcc5rETHvrRaIy3_56kwxOk67zVps25eTyZFJUyuGwy4MrjfhechP5Yavk_vv2LnmnBfJ3EpcmExu0qCAFRT6mNLlzjj2InfWpSZ8L4xEIGzeW1Vcsshnsp1V3mnjid658ljEHWil4Gxoic-RH10zuhly_Zx3QyPqBEsEjRqEp-t3Jc0j1zeZUueKZxnu9St0Mw-0SoGTXf1eeMmJyOzTj-k3lcM2K5XxqWmNDRFXFYMHQyLUsTNVq7htEo4ELsb84T5JHr6kxq6l2SAP-1vWGfmFvVlk2Zm758ehwfSlvFGHnUPwWSmlqk0AVUCuHvyniTPQ2HEhbEzNjq_OAKGqwBmvnMUtzX4J4YRfCJcHtjXFzfi9CS9Oope8bXQl1X1DxNKCf4IjfpRA==",
+      "facilitated_booking_available": true,
+      "pnr_count": 1,
+      "has_airport_change": false,
+      "technical_stops": 0,
+      "throw_away_ticketing": false,
+      "hidden_city_ticketing": false,
+      "virtual_interlining": false,
+      "local_arrival": "2023-06-07T09:35:00.000Z",
+      "utc_arrival": "2023-06-07T01:35:00.000Z",
+      "local_departure": "2023-06-07T08:15:00.000Z",
+      "utc_departure": "2023-06-07T00:15:00.000Z"
+    },
+    {
+      "id": "1edb12104c3b000049d06520_0",
+      "flyFrom": "MNL",
+      "flyTo": "CEB",
+      "cityFrom": "Manila",
+      "cityCodeFrom": "MNL",
+      "cityTo": "Cebu",
+      "cityCodeTo": "CEB",
+      "countryFrom": {
+        "code": "PH",
+        "name": "Philippines"
+      },
+      "countryTo": {
+        "code": "PH",
+        "name": "Philippines"
+      },
+      "nightsInDest": null,
+      "quality": 116.74006,
+      "distance": 567.63,
+      "duration": {
+        "departure": 5400,
+        "return": 0,
+        "total": 5400
+      },
+      "price": 5578,
+      "conversion": {
+        "EUR": 92.74012,
+        "PHP": 5578
+      },
+      "fare": {
+        "adults": 5578,
+        "children": 5578,
+        "infants": 5578
+      },
+      "price_dropdown": {
+        "base_fare": 5578,
+        "fees": 0
+      },
+      "bags_price": {
+        "1": 13.155,
+        "2": 58.155
+      },
+      "baglimit": {
+        "hand_height": 36,
+        "hand_length": 56,
+        "hand_weight": 7,
+        "hand_width": 23,
+        "hold_dimensions_sum": 319,
+        "hold_height": 119,
+        "hold_length": 119,
+        "hold_weight": 20,
+        "hold_width": 81
+      },
+      "availability": {
+        "seats": 2
+      },
+      "airlines": [
+        "Z2"
+      ],
+      "route": [
+        {
+          "id": "1edb12104c3b000049d06520_0",
+          "combination_id": "1edb12104c3b000049d06520",
+          "flyFrom": "MNL",
+          "flyTo": "CEB",
+          "cityFrom": "Manila",
+          "cityCodeFrom": "MNL",
+          "cityTo": "Cebu",
+          "cityCodeTo": "CEB",
+          "airline": "Z2",
+          "flight_no": 781,
+          "operating_carrier": "Z2",
+          "operating_flight_no": "781",
+          "fare_basis": "L01H00H",
+          "fare_category": "M",
+          "fare_classes": "L",
+          "fare_family": "",
+          "return": 0,
+          "bags_recheck_required": false,
+          "vi_connection": false,
+          "guarantee": false,
+          "equipment": null,
+          "vehicle_type": "aircraft",
+          "local_arrival": "2023-06-07T10:05:00.000Z",
+          "utc_arrival": "2023-06-07T02:05:00.000Z",
+          "local_departure": "2023-06-07T08:35:00.000Z",
+          "utc_departure": "2023-06-07T00:35:00.000Z"
+        }
+      ],
+      "booking_token": "FskoObfZBHB92h6V5FXx3Ef3LbgMuJPRbzEM-EqYSc-c7h_rGdeEEzZnjJvsi5ULbpfCEUUcr3M8Ewzz0yEqZPN8szod6ANdkOY8L6IMaX0bEyE38GwwjlXwELu0s8jVUAXRnGPMVBs86vqNkJkbSieh-QB7n1k53kDR-CmWfSXJH2_E58UXfCigesA4ioh0nLBw-5iPSxMLDm0zWzoLCTdDjGfH7eFAaYiBxW2fXh8SHymiLT31HENgpzoLjBWXnKbBJ2K2mIUFiBt86uOJxIvrsoC5qRqFJkzoLmJWA_ej_iVdWeyxboelAu9ubUENOCflkktC7TAFBhG_K9jDPX7PNrQVP-LZbTkzSm9oHjN1pgSAunU_yG9dGURs8cZmo0Wf4KTrFpGEznOUyXpepr4icz-1OIg6lGRgCTtLDXsOtj3keoYLzsWktgT8RGJVX39p-TtsLU4sVI2xKOvLfPn84uwInkXN9RDB3SZqulobQU9EiYM91WREy1WPyIeMCQZgV-CSTNCBkjjegpUQSrz2II7tuuupqweObQJaQWkDrmi0Q2WUuEGkNbLGO6ynJO5PjoEVuMA4r54jLisiDcLPvYyoCTVQNsa4DynN624i3lZoaGfumhspHF41Iyj-H0FVHApLnMu0bskuq17gCx9WEzxzLS0PPynQJVeqXSH2ABhZwbgIukusmniyfxgT4XXanprOXsUaKM3PG0QMDtQ==",
+      "facilitated_booking_available": true,
+      "pnr_count": 1,
+      "has_airport_change": false,
+      "technical_stops": 0,
+      "throw_away_ticketing": false,
+      "hidden_city_ticketing": false,
+      "virtual_interlining": false,
+      "local_arrival": "2023-06-07T10:05:00.000Z",
+      "utc_arrival": "2023-06-07T02:05:00.000Z",
+      "local_departure": "2023-06-07T08:35:00.000Z",
+      "utc_departure": "2023-06-07T00:35:00.000Z"
+    },
+    {
+      "id": "1edb12104c3a00009b9b6181_0",
+      "flyFrom": "MNL",
+      "flyTo": "CEB",
+      "cityFrom": "Manila",
+      "cityCodeFrom": "MNL",
+      "cityTo": "Cebu",
+      "cityCodeTo": "CEB",
+      "countryFrom": {
+        "code": "PH",
+        "name": "Philippines"
+      },
+      "countryTo": {
+        "code": "PH",
+        "name": "Philippines"
+      },
+      "nightsInDest": null,
+      "quality": 120.432666,
+      "distance": 567.63,
+      "duration": {
+        "departure": 5700,
+        "return": 0,
+        "total": 5700
+      },
+      "price": 5760,
+      "conversion": {
+        "EUR": 95.766061,
+        "PHP": 5760
+      },
+      "fare": {
+        "adults": 5760,
+        "children": 5760,
+        "infants": 5760
+      },
+      "price_dropdown": {
+        "base_fare": 5639.71,
+        "fees": 120.29
+      },
+      "bags_price": {},
+      "baglimit": {
+        "hand_height": 36,
+        "hand_length": 56,
+        "hand_weight": 7,
+        "hand_width": 23,
+        "personal_item_height": 30,
+        "personal_item_length": 40,
+        "personal_item_weight": 4,
+        "personal_item_width": 10
+      },
+      "availability": {
+        "seats": null
+      },
+      "airlines": [
+        "PR"
+      ],
+      "route": [
+        {
+          "id": "1edb12104c3a00009b9b6181_0",
+          "combination_id": "1edb12104c3a00009b9b6181",
+          "flyFrom": "MNL",
+          "flyTo": "CEB",
+          "cityFrom": "Manila",
+          "cityCodeFrom": "MNL",
+          "cityTo": "Cebu",
+          "cityCodeTo": "CEB",
+          "airline": "PR",
+          "flight_no": 2869,
+          "operating_carrier": "2P",
+          "operating_flight_no": "",
+          "fare_basis": "KKPH",
+          "fare_category": "M",
+          "fare_classes": "K",
+          "fare_family": "",
+          "return": 0,
+          "bags_recheck_required": false,
+          "vi_connection": false,
+          "guarantee": false,
+          "equipment": null,
+          "vehicle_type": "aircraft",
+          "local_arrival": "2023-06-07T00:50:00.000Z",
+          "utc_arrival": "2023-06-06T16:50:00.000Z",
+          "local_departure": "2023-06-06T23:15:00.000Z",
+          "utc_departure": "2023-06-06T15:15:00.000Z"
+        }
+      ],
+      "booking_token": "FvqXQweX7gYjRNXqjxjwmwHoUwSLAG3Sh3WI4vtgRfeufoDvySNO092t94R7XBWddMtAZZtjZZaSFcRNF0rQ94YH1WyFSPfBNh9fttVoWcjezkdS6u1aLRVbF_pdWTz3mPY71qxkYNoZgAha3aiwkqydFt0F9ybuDGhBb4QpbwHYoKKce-qYwt2573Gc98TaRFQ_uF5H71fjXvqdNYXFkiYHm4zozwHfaK-5L6_kW8e_I-WiPtIyzArGs6ycfvX2-gKX2cfLoG04JeM7jIk8P0KnbxcuXuCM-JfAaV9vH_PaJgCZXMJ2yK2KSrTWJKVGYGZz7Eq3tfgIqI8sCOiVIoePQ_FsUZNjT7oIywgWEwbGMyxhDb7x-UZgBKinhyQU9mL4ttsT13gObK44rC8zquCNltMdz8Oo1i7ilOFm0Lw6tAr7mjDUeeWg9g5ieXOZUT4kRTFfQbB6gbqgI6UUciKvlvn-G36Jm220Xrx_TxTaFzmunavxB_Ye3fPev3OECzWKAoI40Ewp6lEf45_7oIPm0iSKIYiw130OVv6zSvNHTpYd_04J9dQlVzpneQjl79yIabWEeAxZBXA7c2e2Z0SRAwtwXGkZePlO3592o06gnrP3NxSQ6iksBeDVOxQMh9y_GFdMwzX64kyEbEYgdQtGRwmy63Cpmpyz0mnzoUxURpu7oQVDBo1cr_Ev0M1xT6mo33zubowS8S7ZFbLvZZg==",
+      "facilitated_booking_available": false,
+      "pnr_count": 1,
+      "has_airport_change": false,
+      "technical_stops": 0,
+      "throw_away_ticketing": false,
+      "hidden_city_ticketing": false,
+      "virtual_interlining": false,
+      "local_arrival": "2023-06-07T00:50:00.000Z",
+      "utc_arrival": "2023-06-06T16:50:00.000Z",
+      "local_departure": "2023-06-06T23:15:00.000Z",
+      "utc_departure": "2023-06-06T15:15:00.000Z"
+    },
+    {
+      "id": "1edb12104c3a0000b0b63242_0",
+      "flyFrom": "MNL",
+      "flyTo": "CEB",
+      "cityFrom": "Manila",
+      "cityCodeFrom": "MNL",
+      "cityTo": "Cebu",
+      "cityCodeTo": "CEB",
+      "countryFrom": {
+        "code": "PH",
+        "name": "Philippines"
+      },
+      "countryTo": {
+        "code": "PH",
+        "name": "Philippines"
+      },
+      "nightsInDest": null,
+      "quality": 120.432666,
+      "distance": 567.63,
+      "duration": {
+        "departure": 5700,
+        "return": 0,
+        "total": 5700
+      },
+      "price": 5760,
+      "conversion": {
+        "EUR": 95.766061,
+        "PHP": 5760
+      },
+      "fare": {
+        "adults": 5760,
+        "children": 5760,
+        "infants": 5760
+      },
+      "price_dropdown": {
+        "base_fare": 5639.71,
+        "fees": 120.29
+      },
+      "bags_price": {},
+      "baglimit": {
+        "hand_height": 36,
+        "hand_length": 56,
+        "hand_weight": 7,
+        "hand_width": 23,
+        "personal_item_height": 30,
+        "personal_item_length": 40,
+        "personal_item_weight": 4,
+        "personal_item_width": 10
+      },
+      "availability": {
+        "seats": null
+      },
+      "airlines": [
+        "PR"
+      ],
+      "route": [
+        {
+          "id": "1edb12104c3a0000b0b63242_0",
+          "combination_id": "1edb12104c3a0000b0b63242",
+          "flyFrom": "MNL",
+          "flyTo": "CEB",
+          "cityFrom": "Manila",
+          "cityCodeFrom": "MNL",
+          "cityTo": "Cebu",
+          "cityCodeTo": "CEB",
+          "airline": "PR",
+          "flight_no": 2859,
+          "operating_carrier": "2P",
+          "operating_flight_no": "",
+          "fare_basis": "KKPH",
+          "fare_category": "M",
+          "fare_classes": "K",
+          "fare_family": "",
+          "return": 0,
+          "bags_recheck_required": false,
+          "vi_connection": false,
+          "guarantee": false,
+          "equipment": null,
+          "vehicle_type": "aircraft",
+          "local_arrival": "2023-06-06T22:50:00.000Z",
+          "utc_arrival": "2023-06-06T14:50:00.000Z",
+          "local_departure": "2023-06-06T21:15:00.000Z",
+          "utc_departure": "2023-06-06T13:15:00.000Z"
+        }
+      ],
+      "booking_token": "F87Jg0lhxBDGgS7EFYTQcbVUEYcBue38j7f94DOJZkgF0qrOXQu90ilRuv07eOhg9t9wsOqo1X0qz14x0O9pv_aTAaG4e89-kw0g0_AanvCCo2lmb4xmNnVYmJEEWH43DhELTG2COBfA3K_htyUKlim5rm-X1HmzOIvVNtE8NLqbO-VUskpZ0IN0vWnA1_RBnZzg7ScA7_a4_ZqSkOi3NPwGay2tKWhfWmMzLMRfOWGZ7BNiYgZGRaId24EG2XxT7vLJGE6n9GZlZ7KQ3YVdtX2EouByBQPbTP0ornNAodGxrnN20DxJJwwb5C_ZMPnsFZkzGtKbCHqh7SADmTC7JxZVgGfZotAJigrJh7hDPv_YcEAHLkU3d8jom5l07g3FPwh520iaA9XrBJ1b8sqvcAKkZTEwPkvBPuLe9qek3ifZ7iXl80_oNRltaGTie9SC8nb0Y8SJln2wfv5RMDA9qWa0Ugpt_ay-k8mGGYs-XoxLcKMife7T5RAUfaPxR62jPrU88Gw_-GSBNipegI93Utp8k5FZaIspko3CKnMjAY-OpLNfQccYRJRYyCPyjEV59Y8ePohEFIN6BswEAZlSkK21NEI_iDjLMOa-vUd4tYADmsd7c7n7U3YjIMGY6DnpI6OvSPc6AXGMhSoIQMxWJL0Gbt6zci8zQqlv1vk0Ls3YFQ3h6dzOrQUvBw-5-P4Ae",
+      "facilitated_booking_available": false,
+      "pnr_count": 1,
+      "has_airport_change": false,
+      "technical_stops": 0,
+      "throw_away_ticketing": false,
+      "hidden_city_ticketing": false,
+      "virtual_interlining": false,
+      "local_arrival": "2023-06-06T22:50:00.000Z",
+      "utc_arrival": "2023-06-06T14:50:00.000Z",
+      "local_departure": "2023-06-06T21:15:00.000Z",
+      "utc_departure": "2023-06-06T13:15:00.000Z"
+    },
+    {
+      "id": "1edb12104c3b0000b2fb7903_0",
+      "flyFrom": "MNL",
+      "flyTo": "CEB",
+      "cityFrom": "Manila",
+      "cityCodeFrom": "MNL",
+      "cityTo": "Cebu",
+      "cityCodeTo": "CEB",
+      "countryFrom": {
+        "code": "PH",
+        "name": "Philippines"
+      },
+      "countryTo": {
+        "code": "PH",
+        "name": "Philippines"
+      },
+      "nightsInDest": null,
+      "quality": 129.593621,
+      "distance": 567.63,
+      "duration": {
+        "departure": 5700,
+        "return": 0,
+        "total": 5700
+      },
+      "price": 6311,
+      "conversion": {
+        "EUR": 104.927016,
+        "PHP": 6311
+      },
+      "fare": {
+        "adults": 6311,
+        "children": 6311,
+        "infants": 6311
+      },
+      "price_dropdown": {
+        "base_fare": 6311,
+        "fees": 0
+      },
+      "bags_price": {
+        "1": 15.345
+      },
+      "baglimit": {
+        "hand_height": 36,
+        "hand_length": 56,
+        "hand_weight": 7,
+        "hand_width": 23,
+        "hold_dimensions_sum": 158,
+        "hold_height": 52,
+        "hold_length": 78,
+        "hold_weight": 20,
+        "hold_width": 28
+      },
+      "availability": {
+        "seats": null
+      },
+      "airlines": [
+        "5J"
+      ],
+      "route": [
+        {
+          "id": "1edb12104c3b0000b2fb7903_0",
+          "combination_id": "1edb12104c3b0000b2fb7903",
+          "flyFrom": "MNL",
+          "flyTo": "CEB",
+          "cityFrom": "Manila",
+          "cityCodeFrom": "MNL",
+          "cityTo": "Cebu",
+          "cityCodeTo": "CEB",
+          "airline": "5J",
+          "flight_no": 579,
+          "operating_carrier": "5J",
+          "operating_flight_no": "579",
+          "fare_basis": "",
+          "fare_category": "M",
+          "fare_classes": "K",
+          "fare_family": "",
+          "return": 0,
+          "bags_recheck_required": false,
+          "vi_connection": false,
+          "guarantee": false,
+          "equipment": null,
+          "vehicle_type": "aircraft",
+          "local_arrival": "2023-06-07T23:20:00.000Z",
+          "utc_arrival": "2023-06-07T15:20:00.000Z",
+          "local_departure": "2023-06-07T21:45:00.000Z",
+          "utc_departure": "2023-06-07T13:45:00.000Z"
+        }
+      ],
+      "booking_token": "FiLByxr2IYOHWapRNnU4gRS0vS7TSUmH1KLRk65HVsJybvR5xyyvL0UTxmQ0sHo7N9TVoaNorYtPccdjoD9j9fgy8PB-_PwahJe0ZG9ykJlMVZ1mzEQk5UI_z3gxQuxpPPug9Xa5qW5MU54mpoD7gSJ5P6FYC-o_siHKuK2txdf7YuTAJi7QP_Qyp6Y8P3pr6eYXKEoHJ31bnyeSkyx-SQkH7rd2WTBKHJPxRh1CtY68esFOmIQk3rjw5O0vgTr-Xjm0KunmMBQAVekPRkAku6Ay0VNHQpKT6e26D1ob3n0bJ9Z15bsCc-FLoKaI4b91f9lItJKgDB-J1W8nltBLVJbfXtoIqNOshso59f2SEc8zgpj09I5cwmlt59sEbDPQhTllNRpM78C2qCDtCvLFSLaGIT6537MeJfMmWg6RfP7jWASLlcvD1OxWkmA9WncduVsojnX-Xm3euUXjg-_y8A4yZFHq83ZBIZyh4cfbmY2Svh4gs_iXwxy6gE3GSjRSfHWa9IjFZ5c-rE9oYMLNmsVmbaUWZitHtzS_5NQfofUqV4B_HeW3LyY5upaqctFtl82gu2tC6nJcHxaVfQyRKaPyH0kXNOmybKKAjA_CSoV0pSwdCgPIyqUT3gtFl7D77oJfGTpsTa-LjFFFRg3pKdaTye5-Au4Sk5qnJrx22EwLtafpv3657urbRCSu2mFj2",
+      "facilitated_booking_available": true,
+      "pnr_count": 1,
+      "has_airport_change": false,
+      "technical_stops": 0,
+      "throw_away_ticketing": false,
+      "hidden_city_ticketing": false,
+      "virtual_interlining": false,
+      "local_arrival": "2023-06-07T23:20:00.000Z",
+      "utc_arrival": "2023-06-07T15:20:00.000Z",
+      "local_departure": "2023-06-07T21:45:00.000Z",
+      "utc_departure": "2023-06-07T13:45:00.000Z"
+    },
+    {
+      "id": "1edb12104c3b0000bc20f131_0",
+      "flyFrom": "MNL",
+      "flyTo": "CEB",
+      "cityFrom": "Manila",
+      "cityCodeFrom": "MNL",
+      "cityTo": "Cebu",
+      "cityCodeTo": "CEB",
+      "countryFrom": {
+        "code": "PH",
+        "name": "Philippines"
+      },
+      "countryTo": {
+        "code": "PH",
+        "name": "Philippines"
+      },
+      "nightsInDest": null,
+      "quality": 130.260286,
+      "distance": 567.63,
+      "duration": {
+        "departure": 6000,
+        "return": 0,
+        "total": 6000
+      },
+      "price": 6311,
+      "conversion": {
+        "EUR": 104.927016,
+        "PHP": 6311
+      },
+      "fare": {
+        "adults": 6311,
+        "children": 6311,
+        "infants": 6311
+      },
+      "price_dropdown": {
+        "base_fare": 6311,
+        "fees": 0
+      },
+      "bags_price": {
+        "1": 15.345
+      },
+      "baglimit": {
+        "hand_height": 36,
+        "hand_length": 56,
+        "hand_weight": 7,
+        "hand_width": 23,
+        "hold_dimensions_sum": 158,
+        "hold_height": 52,
+        "hold_length": 78,
+        "hold_weight": 20,
+        "hold_width": 28
+      },
+      "availability": {
+        "seats": null
+      },
+      "airlines": [
+        "5J"
+      ],
+      "route": [
+        {
+          "id": "1edb12104c3b0000bc20f131_0",
+          "combination_id": "1edb12104c3b0000bc20f131",
+          "flyFrom": "MNL",
+          "flyTo": "CEB",
+          "cityFrom": "Manila",
+          "cityCodeFrom": "MNL",
+          "cityTo": "Cebu",
+          "cityCodeTo": "CEB",
+          "airline": "5J",
+          "flight_no": 571,
+          "operating_carrier": "5J",
+          "operating_flight_no": "571",
+          "fare_basis": "",
+          "fare_category": "M",
+          "fare_classes": "K",
+          "fare_family": "",
+          "return": 0,
+          "bags_recheck_required": false,
+          "vi_connection": false,
+          "guarantee": false,
+          "equipment": null,
+          "vehicle_type": "aircraft",
+          "local_arrival": "2023-06-07T22:45:00.000Z",
+          "utc_arrival": "2023-06-07T14:45:00.000Z",
+          "local_departure": "2023-06-07T21:05:00.000Z",
+          "utc_departure": "2023-06-07T13:05:00.000Z"
+        }
+      ],
+      "booking_token": "FNIQaWZxmT08AwRuQXfEuCvhsawhVeNOOwZcG-nphUIy5R-j_oIgTDh8GDQIJivdc69mvRVZF3DEcPW_sfKok0OivNvcJ0ecA7J5uoXjRmr6FZElnBaUHBaKQgb8gJf9zipc5L2KdxaXgIqGsyA_-viDeBrrdn99Z6zBRhkTriIdStuH-_xNYPRBEvKMF-kPrjj0LH5CsNfGuPNXuu5RvdnkfOfKNepQJOL-3IO0QkdpUPSYuC_cbGhbH5XVs95vXavOJIWY19kmVy4j8jx0w6iBz0V-8TDTpUFU-IYGNmf8y8nwR5WeIxXlg7qihc2WqFVLcrsMfP2S3d_Scq3KlISDmVoxSjIdnXoLQo537xXfOC0175-DW3ENcN-gnFEZLgV6bQIME3bxuCdsde3TXb5JJr8I6ul5_2Bhw_8ngXnlLjbs7lpCSdx94x6nsBlS_kkh7gLx49RfSRbQ0DUe0Xo3xXYoXaqzKYLGuXsPMJY57WMgGA9FB4yramVUOPoHzLuMrD8_DrLgJR-KKhiA6YMiHG9teJPh8EHtZa0RJ3zX0NchAjnJia09_IvnnRml6nQjzq_PEL-3Z5Rqk01lBuiKTGbe8z-VzVgS6Ia2hov7huwG7hxYMVl_spH75dga7DBCXJxnneWoZ_pei29vYN7PmECjjVzSkzmRlaaNVSu6Ut-hlUvIVFEpg9GCIi9OI",
+      "facilitated_booking_available": true,
+      "pnr_count": 1,
+      "has_airport_change": false,
+      "technical_stops": 0,
+      "throw_away_ticketing": false,
+      "hidden_city_ticketing": false,
+      "virtual_interlining": false,
+      "local_arrival": "2023-06-07T22:45:00.000Z",
+      "utc_arrival": "2023-06-07T14:45:00.000Z",
+      "local_departure": "2023-06-07T21:05:00.000Z",
+      "utc_departure": "2023-06-07T13:05:00.000Z"
+    },
+    {
+      "id": "1edb12104c3b00002a53f047_0",
+      "flyFrom": "MNL",
+      "flyTo": "CEB",
+      "cityFrom": "Manila",
+      "cityCodeFrom": "MNL",
+      "cityTo": "Cebu",
+      "cityCodeTo": "CEB",
+      "countryFrom": {
+        "code": "PH",
+        "name": "Philippines"
+      },
+      "countryTo": {
+        "code": "PH",
+        "name": "Philippines"
+      },
+      "nightsInDest": null,
+      "quality": 132.926946,
+      "distance": 567.63,
+      "duration": {
+        "departure": 7200,
+        "return": 0,
+        "total": 7200
+      },
+      "price": 6311,
+      "conversion": {
+        "EUR": 104.927016,
+        "PHP": 6311
+      },
+      "fare": {
+        "adults": 6311,
+        "children": 6311,
+        "infants": 6311
+      },
+      "price_dropdown": {
+        "base_fare": 6311,
+        "fees": 0
+      },
+      "bags_price": {
+        "1": 15.09
+      },
+      "baglimit": {
+        "hand_height": 36,
+        "hand_length": 56,
+        "hand_weight": 7,
+        "hand_width": 23,
+        "hold_dimensions_sum": 158,
+        "hold_height": 52,
+        "hold_length": 78,
+        "hold_weight": 20,
+        "hold_width": 28
+      },
+      "availability": {
+        "seats": 1
+      },
+      "airlines": [
+        "DG"
+      ],
+      "route": [
+        {
+          "id": "1edb12104c3b00002a53f047_0",
+          "combination_id": "1edb12104c3b00002a53f047",
+          "flyFrom": "MNL",
+          "flyTo": "CEB",
+          "cityFrom": "Manila",
+          "cityCodeFrom": "MNL",
+          "cityTo": "Cebu",
+          "cityCodeTo": "CEB",
+          "airline": "DG",
+          "flight_no": 6507,
+          "operating_carrier": "",
+          "operating_flight_no": "",
+          "fare_basis": "",
+          "fare_category": "M",
+          "fare_classes": "K",
+          "fare_family": "",
+          "return": 0,
+          "bags_recheck_required": false,
+          "vi_connection": false,
+          "guarantee": false,
+          "equipment": null,
+          "vehicle_type": "aircraft",
+          "local_arrival": "2023-06-08T00:15:00.000Z",
+          "utc_arrival": "2023-06-07T16:15:00.000Z",
+          "local_departure": "2023-06-07T22:15:00.000Z",
+          "utc_departure": "2023-06-07T14:15:00.000Z"
+        }
+      ],
+      "booking_token": "F83_zEI_k_LWR-v9AwBDd-h-NuKO2f5V4qS1PpKt89ktPa-BKZ1t2Z9Uf5VkqwttJc6Pn0tXTNNe2YmD74O2tWsAs3Mkl2gmLiku9wlMY_vYgQP9XpbHW9h3etVfO_DZTvGofS1YanbUT3_SR5ifsqm0Mw2Gc9JPeDttDbzNvOdSdnE8VRB8B6tDFmMAjYPlw7ojbO6-gZXgIG2p-XOAUKuevePMPYwtMDpRtV4vKNnd0kq8CvKngPvOlrRiGH8gHifbTC5oYcq0RCC5TGcAG-YeBnesoReT9H7BoY4M8Xyb5iDAROw8UgnPV5gSSvyGadgbUJJMpltQiT5jjNQbpLRmIf1MyN3-_gxcaSECcA_DbqD30HNLuROwiNATZn5fy0BV3KWO-5oIn810bgohxKVhhePGh15E0eJ48-FMkfzih8Jl8xpz0AB_N3__Sm8D20gEifesOnYIKSgjGirFr8S_Q8oTTuNyzUGtaJr_kK7ZX7bcXEIpumNI_rW6kwwkO7zWkC0qtmXut_ZLOVOTNy_DQm9ZCI1ioTelwyjzfWCAsbiWD5_dfIwcFRiFRukd6cxVaaf1-pbTjs86_FeN5gWm9eYfdgw50Mk540jBFUqimB6J8frXjdjUs-yzVMgN8D_PHg7bH7vsEyCO45pxi58t2RyPx1CLavSIUMUyK1fuS0W32QEhrWAbLoh4TAAV5wSB7Ry9nQ0OzgAzG1O4Hhg==",
+      "facilitated_booking_available": true,
+      "pnr_count": 1,
+      "has_airport_change": false,
+      "technical_stops": 0,
+      "throw_away_ticketing": false,
+      "hidden_city_ticketing": false,
+      "virtual_interlining": false,
+      "local_arrival": "2023-06-08T00:15:00.000Z",
+      "utc_arrival": "2023-06-07T16:15:00.000Z",
+      "local_departure": "2023-06-07T22:15:00.000Z",
+      "utc_departure": "2023-06-07T14:15:00.000Z"
+    },
+    {
+      "id": "1edb12104c3b00005575dfde_0",
+      "flyFrom": "MNL",
+      "flyTo": "CEB",
+      "cityFrom": "Manila",
+      "cityCodeFrom": "MNL",
+      "cityTo": "Cebu",
+      "cityCodeTo": "CEB",
+      "countryFrom": {
+        "code": "PH",
+        "name": "Philippines"
+      },
+      "countryTo": {
+        "code": "PH",
+        "name": "Philippines"
+      },
+      "nightsInDest": null,
+      "quality": 130.774071,
+      "distance": 567.63,
+      "duration": {
+        "departure": 5700,
+        "return": 0,
+        "total": 5700
+      },
+      "price": 6382,
+      "conversion": {
+        "EUR": 106.107466,
+        "PHP": 6382
+      },
+      "fare": {
+        "adults": 6382,
+        "children": 6382,
+        "infants": 6382
+      },
+      "price_dropdown": {
+        "base_fare": 6261.71,
+        "fees": 120.29
+      },
+      "bags_price": {},
+      "baglimit": {
+        "hand_height": 36,
+        "hand_length": 56,
+        "hand_weight": 7,
+        "hand_width": 23,
+        "personal_item_height": 30,
+        "personal_item_length": 40,
+        "personal_item_weight": 4,
+        "personal_item_width": 10
+      },
+      "availability": {
+        "seats": null
+      },
+      "airlines": [
+        "PR"
+      ],
+      "route": [
+        {
+          "id": "1edb12104c3b00005575dfde_0",
+          "combination_id": "1edb12104c3b00005575dfde",
+          "flyFrom": "MNL",
+          "flyTo": "CEB",
+          "cityFrom": "Manila",
+          "cityCodeFrom": "MNL",
+          "cityTo": "Cebu",
+          "cityCodeTo": "CEB",
+          "airline": "PR",
+          "flight_no": 2859,
+          "operating_carrier": "2P",
+          "operating_flight_no": "",
+          "fare_basis": "XKTPH",
+          "fare_category": "M",
+          "fare_classes": "X",
+          "fare_family": "",
+          "return": 0,
+          "bags_recheck_required": false,
+          "vi_connection": false,
+          "guarantee": false,
+          "equipment": null,
+          "vehicle_type": "aircraft",
+          "local_arrival": "2023-06-07T22:50:00.000Z",
+          "utc_arrival": "2023-06-07T14:50:00.000Z",
+          "local_departure": "2023-06-07T21:15:00.000Z",
+          "utc_departure": "2023-06-07T13:15:00.000Z"
+        }
+      ],
+      "booking_token": "F3Q9RnywjMeH_f_yko5pmt_t4QefNlTf2m0PatYz6FHdTxJmJZ_8j-kk_X5GWJmUl94i2hz9hyNj_bohMjMZUYBZ3lgQm9V47yUYAL5iozUJQtdOL3126WHKJEQUqNl6Ai2W2-Z9RuGgHyMvg3gz7Yw6K2Pzqp0pePFDJTcxB890akmVmCKKo6YS82hKS5ufOdy1F--6Ys1OvUm0yik3rt4w8QkmLhRvYJSDO25-uEoaSAqVT0mQJpMzmREhhYdqMiTv4WMAlnjbEESMpo_NAFUtFLK1bWS-OvaLe0ShysW9gCJRba7kWmsmb7ZcBMgxuglh9DVu-cD2xKIDqN07bXCSeCM_h_9xFsAtS2DJIABL2U_TWzgFtEmy78Qtr2VT_96env5SBQVckCxCBdNX897vayEVu-HKdStZ93SQddHgE2--2-vJP3N2qnqbMtY3fcjOcCTXe8r1pAsa_ptN-5C5BBe1XQ395p_4HXi1SUGVyQVTtjhZx4sCz1_F0HkTF46hypoHdAMYyPW-JH2PEWIWSZvFiD9dsSafHWs91GtsFwDSLIsFQA0GU_ZP6mrL4YRxLJaxNTAgfCfbxojch7d4YgE5xxUuiervSXYefe1fkZ2rj13xIuK0REhLCfT1DabKH3SibC1efcUA3gb7FMLBCUlexzlQJs6VeSvHZ2BJYDJWeiatsKhK988mP6576H8pi-HBXEkbNWl7eX2dd0A==",
+      "facilitated_booking_available": false,
+      "pnr_count": 1,
+      "has_airport_change": false,
+      "technical_stops": 0,
+      "throw_away_ticketing": false,
+      "hidden_city_ticketing": false,
+      "virtual_interlining": false,
+      "local_arrival": "2023-06-07T22:50:00.000Z",
+      "utc_arrival": "2023-06-07T14:50:00.000Z",
+      "local_departure": "2023-06-07T21:15:00.000Z",
+      "utc_departure": "2023-06-07T13:15:00.000Z"
+    },
+    {
+      "id": "1edb12104c3b00007e588c1d_0",
+      "flyFrom": "MNL",
+      "flyTo": "CEB",
+      "cityFrom": "Manila",
+      "cityCodeFrom": "MNL",
+      "cityTo": "Cebu",
+      "cityCodeTo": "CEB",
+      "countryFrom": {
+        "code": "PH",
+        "name": "Philippines"
+      },
+      "countryTo": {
+        "code": "PH",
+        "name": "Philippines"
+      },
+      "nightsInDest": null,
+      "quality": 130.907079,
+      "distance": 567.63,
+      "duration": {
+        "departure": 5700,
+        "return": 0,
+        "total": 5700
+      },
+      "price": 6390,
+      "conversion": {
+        "EUR": 106.240474,
+        "PHP": 6390
+      },
+      "fare": {
+        "adults": 6390,
+        "children": 6390,
+        "infants": 6390
+      },
+      "price_dropdown": {
+        "base_fare": 6269.71,
+        "fees": 120.29
+      },
+      "bags_price": {},
+      "baglimit": {
+        "hand_height": 36,
+        "hand_length": 56,
+        "hand_weight": 7,
+        "hand_width": 23,
+        "personal_item_height": 30,
+        "personal_item_length": 40,
+        "personal_item_weight": 4,
+        "personal_item_width": 10
+      },
+      "availability": {
+        "seats": null
+      },
+      "airlines": [
+        "PR"
+      ],
+      "route": [
+        {
+          "id": "1edb12104c3b00007e588c1d_0",
+          "combination_id": "1edb12104c3b00007e588c1d",
+          "flyFrom": "MNL",
+          "flyTo": "CEB",
+          "cityFrom": "Manila",
+          "cityCodeFrom": "MNL",
+          "cityTo": "Cebu",
+          "cityCodeTo": "CEB",
+          "airline": "PR",
+          "flight_no": 2869,
+          "operating_carrier": "2P",
+          "operating_flight_no": "",
+          "fare_basis": "XKTPH",
+          "fare_category": "M",
+          "fare_classes": "X",
+          "fare_family": "",
+          "return": 0,
+          "bags_recheck_required": false,
+          "vi_connection": false,
+          "guarantee": false,
+          "equipment": null,
+          "vehicle_type": "aircraft",
+          "local_arrival": "2023-06-08T00:50:00.000Z",
+          "utc_arrival": "2023-06-07T16:50:00.000Z",
+          "local_departure": "2023-06-07T23:15:00.000Z",
+          "utc_departure": "2023-06-07T15:15:00.000Z"
+        }
+      ],
+      "booking_token": "Fu2MdxS7t9VoZ63gbYfTlCXKuwpVHIKPCRAv9wDnl-s625NW5qHtFApePnC6gQSVzWU2EzgVBSJKxwhnfp6drQkS958Yqqz4Je8rF36dZv2kjQN2i4NvBa6qPCHw0rNxDZxHIDeSS61Xx-fDwnJYugEFig29M8Gty09koaDehFrZZX-w2ZzJ-bt1OjmWgUbFZE0bqvudxTGeXnYAopjz9dyW-6ADxYacRCoG8b1psu2C4gqYCjJzyynV664GlEajvtFG5_jczrkPSh-de_jZBJNZeK0PgmfGWsOmuKsNbKI04IgmQg2SdnHZBEHM6kN3yKmtyWry20dmZ1CoXBIdyb0O1yyBgW564X40ypt1mNYUgygIk_JcFL_o5AneXlJfIzfkYZXmMAmkcW0eRUbf8ZgxV6OUXTk3bmblma4uTIwPyZW2MlY84AxlrL3Nb6-j0dOJfsNx51txZNaQhXrl3T4iUo5cH9MagAQXXLJ46-sIwjhOUQPbE6EiQK2Flk8_J19tRMdZrr3h34UzzbZOH6-X0-A0ZyRzLW2WiJ569Bg1Iyu1rDanbME7_agasOfkn6bU5x7ccR8nev4vhqvGy3Nd-LISucrRxfAoCOWFtoAI4FuLvJFSSTispS-FPqLonPz5WbxIwWYCcyY7cuga0EyMJK0gYG3Rkeb8gYu86QVNyjFIhR9T9HlL9d8RJdnc30jVF-VKQMoPoMTVYRpRqsQKoGlzYKwL9pzNt06obUgA=",
+      "facilitated_booking_available": false,
+      "pnr_count": 1,
+      "has_airport_change": false,
+      "technical_stops": 0,
+      "throw_away_ticketing": false,
+      "hidden_city_ticketing": false,
+      "virtual_interlining": false,
+      "local_arrival": "2023-06-08T00:50:00.000Z",
+      "utc_arrival": "2023-06-07T16:50:00.000Z",
+      "local_departure": "2023-06-07T23:15:00.000Z",
+      "utc_departure": "2023-06-07T15:15:00.000Z"
+    },
+    {
+      "id": "1edb12104c3a00007b4e889f_0",
+      "flyFrom": "MNL",
+      "flyTo": "CEB",
+      "cityFrom": "Manila",
+      "cityCodeFrom": "MNL",
+      "cityTo": "Cebu",
+      "cityCodeTo": "CEB",
+      "countryFrom": {
+        "code": "PH",
+        "name": "Philippines"
+      },
+      "countryTo": {
+        "code": "PH",
+        "name": "Philippines"
+      },
+      "nightsInDest": null,
+      "quality": 132.120781,
+      "distance": 567.63,
+      "duration": {
+        "departure": 5700,
+        "return": 0,
+        "total": 5700
+      },
+      "price": 6463,
+      "conversion": {
+        "EUR": 107.454176,
+        "PHP": 6463
+      },
+      "fare": {
+        "adults": 6463,
+        "children": 6463,
+        "infants": 6463
+      },
+      "price_dropdown": {
+        "base_fare": 6342.71,
+        "fees": 120.29
+      },
+      "bags_price": {},
+      "baglimit": {
+        "hand_height": 36,
+        "hand_length": 56,
+        "hand_weight": 7,
+        "hand_width": 23,
+        "personal_item_height": 30,
+        "personal_item_length": 40,
+        "personal_item_weight": 4,
+        "personal_item_width": 10
+      },
+      "availability": {
+        "seats": null
+      },
+      "airlines": [
+        "PR"
+      ],
+      "route": [
+        {
+          "id": "1edb12104c3a00007b4e889f_0",
+          "combination_id": "1edb12104c3a00007b4e889f",
+          "flyFrom": "MNL",
+          "flyTo": "CEB",
+          "cityFrom": "Manila",
+          "cityCodeFrom": "MNL",
+          "cityTo": "Cebu",
+          "cityCodeTo": "CEB",
+          "airline": "PR",
+          "flight_no": 2863,
+          "operating_carrier": "2P",
+          "operating_flight_no": "",
+          "fare_basis": "XKPH",
+          "fare_category": "M",
+          "fare_classes": "X",
+          "fare_family": "",
+          "return": 0,
+          "bags_recheck_required": false,
+          "vi_connection": false,
+          "guarantee": false,
+          "equipment": null,
+          "vehicle_type": "aircraft",
+          "local_arrival": "2023-06-06T22:10:00.000Z",
+          "utc_arrival": "2023-06-06T14:10:00.000Z",
+          "local_departure": "2023-06-06T20:35:00.000Z",
+          "utc_departure": "2023-06-06T12:35:00.000Z"
+        }
+      ],
+      "booking_token": "FyeaWFgbpcPTa-sPrBi2v3caRxWMsd9GhlF-lsLF5qbOMFN42njQu4B79ODI3UmxKdbWKPjsqW0Sxtl9GqmonHb34g979-6T0rxqqIOnwiZ99rnds7ZFFJvKB27AoOCu7XWEop0Mv5itr79TNKiI7EJc4CY-_vhmS4qHMh9KETKqKaKsoiEgMtoAO5HucjtQOBdLDf7mtPZOqMeWuvJUu2RwkOkxQ_u90_WOOfHYrwcfAXUdTYenLo3tiAyneZIYjCnQoKAfDY3g2Fjln4R4D5sqt4z-dETs-1MkjSlu2_zEfKjlGhJHGcyYx0iW0P7W0n4qxPQkq7kXfzV1gEP7QXB8G5tzvc6j7pvzlWEM6NJWG39ov-TuZtweLFdUpXlYMeAY6B4OLGR3jS7I-0-BXzvA-YWIgD9bfd5E-SFvhAR4BZNCtYhkjrgF2ESlhsRp3vY6cs1i2Fg0FcokUIOtskLtVwIZ2KA2-DfrgA-XoVdvkvuLw4F1zqeQbRwyIq70CTknroT7UP396DoAg-BMy0ylpRT3mzT4OmgvT4QZkeqUAZL3dCFmFLTm0C5Zp6tbda3cPssub9Ia6zTPlIyMY_KRvmM3aUqZ7GJcXBC1wXW5qbaqHShAZ5B76OtkI_sxUh1V-YVy6styboeSttRXvJPgcXpkJv2h5AMDk7MIO_V_tKR-mfLKlWFKONPBr-rSG",
+      "facilitated_booking_available": false,
+      "pnr_count": 1,
+      "has_airport_change": false,
+      "technical_stops": 0,
+      "throw_away_ticketing": false,
+      "hidden_city_ticketing": false,
+      "virtual_interlining": false,
+      "local_arrival": "2023-06-06T22:10:00.000Z",
+      "utc_arrival": "2023-06-06T14:10:00.000Z",
+      "local_departure": "2023-06-06T20:35:00.000Z",
+      "utc_departure": "2023-06-06T12:35:00.000Z"
+    },
+    {
+      "id": "1edb12104c3b0000a7de040c_0",
+      "flyFrom": "MNL",
+      "flyTo": "CEB",
+      "cityFrom": "Manila",
+      "cityCodeFrom": "MNL",
+      "cityTo": "Cebu",
+      "cityCodeTo": "CEB",
+      "countryFrom": {
+        "code": "PH",
+        "name": "Philippines"
+      },
+      "countryTo": {
+        "code": "PH",
+        "name": "Philippines"
+      },
+      "nightsInDest": null,
+      "quality": 131.518997,
+      "distance": 567.63,
+      "duration": {
+        "departure": 5100,
+        "return": 0,
+        "total": 5100
+      },
+      "price": 6507,
+      "conversion": {
+        "EUR": 108.185722,
+        "PHP": 6507
+      },
+      "fare": {
+        "adults": 6507,
+        "children": 6507,
+        "infants": 6507
+      },
+      "price_dropdown": {
+        "base_fare": 6507,
+        "fees": 0
+      },
+      "bags_price": {
+        "1": 13.26,
+        "2": 58.26
+      },
+      "baglimit": {
+        "hand_height": 36,
+        "hand_length": 56,
+        "hand_weight": 7,
+        "hand_width": 23,
+        "hold_dimensions_sum": 319,
+        "hold_height": 119,
+        "hold_length": 119,
+        "hold_weight": 20,
+        "hold_width": 81
+      },
+      "availability": {
+        "seats": 3
+      },
+      "airlines": [
+        "Z2"
+      ],
+      "route": [
+        {
+          "id": "1edb12104c3b0000a7de040c_0",
+          "combination_id": "1edb12104c3b0000a7de040c",
+          "flyFrom": "MNL",
+          "flyTo": "CEB",
+          "cityFrom": "Manila",
+          "cityCodeFrom": "MNL",
+          "cityTo": "Cebu",
+          "cityCodeTo": "CEB",
+          "airline": "Z2",
+          "flight_no": 783,
+          "operating_carrier": "Z2",
+          "operating_flight_no": "783",
+          "fare_basis": "U01H00H",
+          "fare_category": "M",
+          "fare_classes": "U",
+          "fare_family": "",
+          "return": 0,
+          "bags_recheck_required": false,
+          "vi_connection": false,
+          "guarantee": false,
+          "equipment": null,
+          "vehicle_type": "aircraft",
+          "local_arrival": "2023-06-07T13:50:00.000Z",
+          "utc_arrival": "2023-06-07T05:50:00.000Z",
+          "local_departure": "2023-06-07T12:25:00.000Z",
+          "utc_departure": "2023-06-07T04:25:00.000Z"
+        }
+      ],
+      "booking_token": "F41lPsuxmbvlscd69APrdrEn8tMWLpgwToXgJPZTwdZ8OrtwVRptDNACkpmsXdraPbFdkN4KjIQcLMuJxYJHZouT-OHuXgEs8KgED8p1m5sdPDCU_gNo1cbBy7FLFpJ6pNCY20TSpdWk9v3YlNPUVwz5YsnVp7oYEfb_oLMmjveS6mcblIysJ4mebuAeZJJvtWtYGpJIeuaMLLIisD16Ytuq32ThKnzKFLantlXoTxtY6Yl9Yc_rwsmkjx6nBWMRWtN3EBTivQ2mwoqx7GQHuTbMeSJVwtymA-101g4SBYPQeSlSFUVZGVtuiw7a9-_ARFiEcEVE_xMkFhcsXSuxSF-_VRjBwxQeO0tsLHkxXALJ2Kl3PIvoCetbjdGnaPnSTR4VkcV5AEIDjOWkIWtUCiZk4C-sElhgqsX-N4CY86LnZ5VlswO8iO2YF22WjrkCm2dVoW9X-btYR6R5zYsIUD0mR4wL5DeQNTns6mEAgCaCndlm0U9WNlrLvJH8Yau954eG_QHnKaHS25QxccWEUqnrG0w59dyxEOR8eW2zCcx0SZay5ri9kisQ59vqKAgwzMFb9BlwBpB9gvr_xMkwkvEXwR5EwzAu_5xBqHbYNlajVFPbrmYdF6HE0vBMW-oxiyRnIuhGj_00vmZFfHfXLVfhQtDrOa8EAUqx9qJda-ovEzhIsuS3crJViq1wpYkVn3fXT12NS--ID1HMSJ1TLyuOrsYlp1HSNioPWiBXyUTs=",
+      "facilitated_booking_available": true,
+      "pnr_count": 1,
+      "has_airport_change": false,
+      "technical_stops": 0,
+      "throw_away_ticketing": false,
+      "hidden_city_ticketing": false,
+      "virtual_interlining": false,
+      "local_arrival": "2023-06-07T13:50:00.000Z",
+      "utc_arrival": "2023-06-07T05:50:00.000Z",
+      "local_departure": "2023-06-07T12:25:00.000Z",
+      "utc_departure": "2023-06-07T04:25:00.000Z"
+    },
+    {
+      "id": "1edb12104c3b00009e8d6503_0",
+      "flyFrom": "MNL",
+      "flyTo": "CEB",
+      "cityFrom": "Manila",
+      "cityCodeFrom": "MNL",
+      "cityTo": "Cebu",
+      "cityCodeTo": "CEB",
+      "countryFrom": {
+        "code": "PH",
+        "name": "Philippines"
+      },
+      "countryTo": {
+        "code": "PH",
+        "name": "Philippines"
+      },
+      "nightsInDest": null,
+      "quality": 135.66213,
+      "distance": 567.63,
+      "duration": {
+        "departure": 5700,
+        "return": 0,
+        "total": 5700
+      },
+      "price": 6676,
+      "conversion": {
+        "EUR": 110.995525,
+        "PHP": 6676
+      },
+      "fare": {
+        "adults": 6676,
+        "children": 6676,
+        "infants": 6676
+      },
+      "price_dropdown": {
+        "base_fare": 6555.71,
+        "fees": 120.29
+      },
+      "bags_price": {},
+      "baglimit": {
+        "hand_height": 36,
+        "hand_length": 56,
+        "hand_weight": 7,
+        "hand_width": 23,
+        "personal_item_height": 30,
+        "personal_item_length": 40,
+        "personal_item_weight": 4,
+        "personal_item_width": 10
+      },
+      "availability": {
+        "seats": null
+      },
+      "airlines": [
+        "PR"
+      ],
+      "route": [
+        {
+          "id": "1edb12104c3b00009e8d6503_0",
+          "combination_id": "1edb12104c3b00009e8d6503",
+          "flyFrom": "MNL",
+          "flyTo": "CEB",
+          "cityFrom": "Manila",
+          "cityCodeFrom": "MNL",
+          "cityTo": "Cebu",
+          "cityCodeTo": "CEB",
+          "airline": "PR",
+          "flight_no": 2863,
+          "operating_carrier": "2P",
+          "operating_flight_no": "",
+          "fare_basis": "EIPH",
+          "fare_category": "M",
+          "fare_classes": "E",
+          "fare_family": "",
+          "return": 0,
+          "bags_recheck_required": false,
+          "vi_connection": false,
+          "guarantee": false,
+          "equipment": null,
+          "vehicle_type": "aircraft",
+          "local_arrival": "2023-06-07T21:00:00.000Z",
+          "utc_arrival": "2023-06-07T13:00:00.000Z",
+          "local_departure": "2023-06-07T19:25:00.000Z",
+          "utc_departure": "2023-06-07T11:25:00.000Z"
+        }
+      ],
+      "booking_token": "FJA7kbzfWXy3rk8fwBcivZ9rtTTzx8z_K1mSs9gYiXNIJFpwNkJWy_0TYEHiicxpTpwLbtjYrKgh5PVa1OGKUNv5ssHzjCY7GBTb87kPQvnFVqrEi6dKgPLi6KXRknoLfjBzffRqQGdZSj-rJviMeW4zVe6yorOD2SZzayKX-0C1mh8DZ4ND9I_9xF4W4vip0BgiPIDuNtD7UbomIhRfyJGRPhSD6D_HhGTBuMSfYyFwwpJd6Al72zMzMnLZY4fvXsyXRDUcwYQBHWGKj-wFgONz2ldFPGeS2ee996LSqxJWfmatMqatSqQMet3js1R5RZ-3JN78oouFEGey35eCxuUhG4PWB0-JL3Wm9IxvgNSYnzBQm6BBKxOpRJDN5wXf1dOVjf0oljWXmPiFZC7M__MaMyQOL7a6_1B2lpnrLKKxk6sHbwEWrZBnrIDCvEHbZIQoE3apEgURMPvzjpU4CVaQuPWJqbvV4Ho7waVdCrPEulstMmw0ONKoCaP-B_rwdDHW9FUzaz_EUq78733lq2FzMZIap6IXS5WUE0tHZIcCwH-Ux2Y640gE6jvqA8nqTaILaLWTYQPF7b6uVLE4kZtFW4x8Oxn7pYWhUZxkvChaMcP_XEU-b40GBMu2q68CLH7OCafNNybRvw5A7Tf11nbh3uo875eZuikgRQRFdynyq2wJmtGr2Fe2KE01nprZb",
+      "facilitated_booking_available": false,
+      "pnr_count": 1,
+      "has_airport_change": false,
+      "technical_stops": 0,
+      "throw_away_ticketing": false,
+      "hidden_city_ticketing": false,
+      "virtual_interlining": false,
+      "local_arrival": "2023-06-07T21:00:00.000Z",
+      "utc_arrival": "2023-06-07T13:00:00.000Z",
+      "local_departure": "2023-06-07T19:25:00.000Z",
+      "utc_departure": "2023-06-07T11:25:00.000Z"
+    },
+    {
+      "id": "1edb12104c3a00005ca081ea_0",
+      "flyFrom": "MNL",
+      "flyTo": "CEB",
+      "cityFrom": "Manila",
+      "cityCodeFrom": "MNL",
+      "cityTo": "Cebu",
+      "cityCodeTo": "CEB",
+      "countryFrom": {
+        "code": "PH",
+        "name": "Philippines"
+      },
+      "countryTo": {
+        "code": "PH",
+        "name": "Philippines"
+      },
+      "nightsInDest": null,
+      "quality": 136.822708,
+      "distance": 567.63,
+      "duration": {
+        "departure": 5100,
+        "return": 0,
+        "total": 5100
+      },
+      "price": 6826,
+      "conversion": {
+        "EUR": 113.489433,
+        "PHP": 6826
+      },
+      "fare": {
+        "adults": 6826,
+        "children": 6826,
+        "infants": 6826
+      },
+      "price_dropdown": {
+        "base_fare": 6826,
+        "fees": 0
+      },
+      "bags_price": {},
+      "baglimit": {
+        "hand_height": 36,
+        "hand_length": 56,
+        "hand_weight": 7,
+        "hand_width": 23,
+        "personal_item_height": 30,
+        "personal_item_length": 40,
+        "personal_item_weight": 4,
+        "personal_item_width": 10
+      },
+      "availability": {
+        "seats": null
+      },
+      "airlines": [
+        "PR"
+      ],
+      "route": [
+        {
+          "id": "1edb12104c3a00005ca081ea_0",
+          "combination_id": "1edb12104c3a00005ca081ea",
+          "flyFrom": "MNL",
+          "flyTo": "CEB",
+          "cityFrom": "Manila",
+          "cityCodeFrom": "MNL",
+          "cityTo": "Cebu",
+          "cityCodeTo": "CEB",
+          "airline": "PR",
+          "flight_no": 1847,
+          "operating_carrier": "PR",
+          "operating_flight_no": "1847",
+          "fare_basis": "EIPH",
+          "fare_category": "M",
+          "fare_classes": "E",
+          "fare_family": "",
+          "return": 0,
+          "bags_recheck_required": false,
+          "vi_connection": false,
+          "guarantee": false,
+          "equipment": null,
+          "vehicle_type": "aircraft",
+          "local_arrival": "2023-06-06T23:30:00.000Z",
+          "utc_arrival": "2023-06-06T15:30:00.000Z",
+          "local_departure": "2023-06-06T22:05:00.000Z",
+          "utc_departure": "2023-06-06T14:05:00.000Z"
+        }
+      ],
+      "booking_token": "F8GcWydI0VHO3f7WEaTGc8xmBk7F2FRR_vUAstrFhReAwNYvKh4KCP8hFdX1e5iyMlEe7s8Y8DCGJIdwBtkB_24hLgWzp9ui9azCnnFTYMcADOGUEkrFiCgPt6StvVCqj4MICBy3y3r0C5OIcZHCyi1xngSEUajYG9il9c1-0A3fEPonqBFC8p0tYv8Dbk6FabTT1AUg1wBANBo0z6dMf8USjHaIfIDYW_z7LUhWZJQiMsB4mmktN5GwGkoCA4w4rh2MN0OsahVnHvQwEPMpQw0SM-teUjx62gfOER5e7eM1bgyLBJOkvRzrz0FDaPTPdNV4IIffwM8eJ7MiZdVeMd--A-t8njaDI546h8N3uiYIihYA-AlgWBOgDcInZhgCDQtCSP7l5htvNdgxKyDOabHNUmnUldRSq-2FfbmC-tlajsKTfn-2p0InEAIKjaJ1MTfYL1ZEiBqYpl91_B-9ZUC4Fx-rxnIwWHvcBAkk578cwn2WGmVLCFQaE_zvUTP3iNaS3u4Rbk0VLoZg30UrgpqocnPJoXjTP26dArjT4L4CVEWGthhQsDWPPwEAjFpcakTMVZBjw-O_q0e5viD-OLZwlCFhWYKeK24uFHAS8rhLIBuTj0f50zfFbr9DrPabpZkwxmj4KV20XTGC5U4oJUPM42vv7ynOd3-7hqVxV090hGF9QNaPBlLdDC-VCgOpira2rupSkKYhzy9q_GCToxQ==",
+      "facilitated_booking_available": false,
+      "pnr_count": 1,
+      "has_airport_change": false,
+      "technical_stops": 0,
+      "throw_away_ticketing": false,
+      "hidden_city_ticketing": false,
+      "virtual_interlining": false,
+      "local_arrival": "2023-06-06T23:30:00.000Z",
+      "utc_arrival": "2023-06-06T15:30:00.000Z",
+      "local_departure": "2023-06-06T22:05:00.000Z",
+      "utc_departure": "2023-06-06T14:05:00.000Z"
+    },
+    {
+      "id": "1edb12104c3b00007083042f_0",
+      "flyFrom": "MNL",
+      "flyTo": "CEB",
+      "cityFrom": "Manila",
+      "cityCodeFrom": "MNL",
+      "cityTo": "Cebu",
+      "cityCodeTo": "CEB",
+      "countryFrom": {
+        "code": "PH",
+        "name": "Philippines"
+      },
+      "countryTo": {
+        "code": "PH",
+        "name": "Philippines"
+      },
+      "nightsInDest": null,
+      "quality": 149.144235,
+      "distance": 567.63,
+      "duration": {
+        "departure": 5400,
+        "return": 0,
+        "total": 5400
+      },
+      "price": 7527,
+      "conversion": {
+        "EUR": 125.144295,
+        "PHP": 7527
+      },
+      "fare": {
+        "adults": 7527,
+        "children": 7527,
+        "infants": 7527
+      },
+      "price_dropdown": {
+        "base_fare": 7406.71,
+        "fees": 120.29
+      },
+      "bags_price": {},
+      "baglimit": {
+        "hand_height": 36,
+        "hand_length": 56,
+        "hand_weight": 7,
+        "hand_width": 23,
+        "personal_item_height": 30,
+        "personal_item_length": 40,
+        "personal_item_weight": 4,
+        "personal_item_width": 10
+      },
+      "availability": {
+        "seats": null
+      },
+      "airlines": [
+        "PR"
+      ],
+      "route": [
+        {
+          "id": "1edb12104c3b00007083042f_0",
+          "combination_id": "1edb12104c3b00007083042f",
+          "flyFrom": "MNL",
+          "flyTo": "CEB",
+          "cityFrom": "Manila",
+          "cityCodeFrom": "MNL",
+          "cityTo": "Cebu",
+          "cityCodeTo": "CEB",
+          "airline": "PR",
+          "flight_no": 2861,
+          "operating_carrier": "2P",
+          "operating_flight_no": "",
+          "fare_basis": "VKTPH",
+          "fare_category": "M",
+          "fare_classes": "V",
+          "fare_family": "",
+          "return": 0,
+          "bags_recheck_required": false,
+          "vi_connection": false,
+          "guarantee": false,
+          "equipment": null,
+          "vehicle_type": "aircraft",
+          "local_arrival": "2023-06-07T19:30:00.000Z",
+          "utc_arrival": "2023-06-07T11:30:00.000Z",
+          "local_departure": "2023-06-07T18:00:00.000Z",
+          "utc_departure": "2023-06-07T10:00:00.000Z"
+        }
+      ],
+      "booking_token": "FvbvOTtgIPlTqsdCo5Ev-P86UWx2ENnVzq9s78n10RKb9BpjfDDO3ntRXX07oVNWIkxC9Gouk6HkAl7wZOErvfz9LB5irR1OfeyGCy3Ct3L8BRwexeBLrBdlxIbyIn0ntoK-XZX5M6rblKpY9_3zqCPHo0eGhlKh9tOFx2gzY6tg0y8ENmnYQPZ8z1cG-j45xfVk7rcdKYyEYt7ecFXot7G4P2-VYvkeKimPAE2-DEzN9sjw1LmQIUCkbZl2Ji2TamO4f1JlG_VNLOpMPGQBAqX1ZfDAPsdutsYrizf8TIFFqrRr4Qmq8S2KzdZOY5ZgzoghGIBvmM2jZ5yUSbjtkoJq8WjewJebMYdCDsiaH4DOnsuf6oVEi7Cd7-S4pPATb0HXXAC8Jk-mefo6GCILRmU07GmUvxgQ-ZNhdhqILgvEa6A9ZbSq9hu_Uqx7pjKl-kNLV4X9FOXAxhWZG6UYCtBX7JM3_DUsQu1km-KoVJMQ9LS-A_GsTKCVt-9QZb83V6RTDaRtvApBANg4hSWqpKq_-NNKkaPQatBMkxVp6f_szud29RM3QHGBvCfiGKdwMJcfLCTNf4aYtUrRxl3yvXlVaYbCDskmJ0mryX-dfXuvbxCZl5DeeMzPvUVmGa9gcjvl3PdnEDvIV3QbM22y5UP9lagP-9KTz1D4_FeFTsJPloG8wvkGYUQ9-ajvPtl0q",
+      "facilitated_booking_available": false,
+      "pnr_count": 1,
+      "has_airport_change": false,
+      "technical_stops": 0,
+      "throw_away_ticketing": false,
+      "hidden_city_ticketing": false,
+      "virtual_interlining": false,
+      "local_arrival": "2023-06-07T19:30:00.000Z",
+      "utc_arrival": "2023-06-07T11:30:00.000Z",
+      "local_departure": "2023-06-07T18:00:00.000Z",
+      "utc_departure": "2023-06-07T10:00:00.000Z"
+    },
+    {
+      "id": "1edb12104c3b0000395d2982_0",
+      "flyFrom": "MNL",
+      "flyTo": "CEB",
+      "cityFrom": "Manila",
+      "cityCodeFrom": "MNL",
+      "cityTo": "Cebu",
+      "cityCodeTo": "CEB",
+      "countryFrom": {
+        "code": "PH",
+        "name": "Philippines"
+      },
+      "countryTo": {
+        "code": "PH",
+        "name": "Philippines"
+      },
+      "nightsInDest": null,
+      "quality": 148.660457,
+      "distance": 567.63,
+      "duration": {
+        "departure": 5100,
+        "return": 0,
+        "total": 5100
+      },
+      "price": 7538,
+      "conversion": {
+        "EUR": 125.327182,
+        "PHP": 7538
+      },
+      "fare": {
+        "adults": 7538,
+        "children": 7538,
+        "infants": 7538
+      },
+      "price_dropdown": {
+        "base_fare": 7538,
+        "fees": 0
+      },
+      "bags_price": {
+        "1": 13.155,
+        "2": 58.155
+      },
+      "baglimit": {
+        "hand_height": 36,
+        "hand_length": 56,
+        "hand_weight": 7,
+        "hand_width": 23,
+        "hold_dimensions_sum": 319,
+        "hold_height": 119,
+        "hold_length": 119,
+        "hold_weight": 20,
+        "hold_width": 81
+      },
+      "availability": {
+        "seats": 2
+      },
+      "airlines": [
+        "Z2"
+      ],
+      "route": [
+        {
+          "id": "1edb12104c3b0000395d2982_0",
+          "combination_id": "1edb12104c3b0000395d2982",
+          "flyFrom": "MNL",
+          "flyTo": "CEB",
+          "cityFrom": "Manila",
+          "cityCodeFrom": "MNL",
+          "cityTo": "Cebu",
+          "cityCodeTo": "CEB",
+          "airline": "Z2",
+          "flight_no": 763,
+          "operating_carrier": "",
+          "operating_flight_no": "",
+          "fare_basis": "T01H00H",
+          "fare_category": "M",
+          "fare_classes": "T",
+          "fare_family": "",
+          "return": 0,
+          "bags_recheck_required": false,
+          "vi_connection": false,
+          "guarantee": false,
+          "equipment": null,
+          "vehicle_type": "aircraft",
+          "local_arrival": "2023-06-07T07:10:00.000Z",
+          "utc_arrival": "2023-06-06T23:10:00.000Z",
+          "local_departure": "2023-06-07T05:45:00.000Z",
+          "utc_departure": "2023-06-06T21:45:00.000Z"
+        }
+      ],
+      "booking_token": "FDW42bDeiLLRQKO37AjL7L4pNwCe6fyJA7iU_T367YYNx7gxwx_XUm2DMnDE2ohGEXFeWjbUvuW2pzK_JL2EAJUobYHJy0E7Wbbme_Fxq0OmQmujz8ETWc2iprWQ0M7oQG8woWndPK_KMq-StReooUuUGtEjhCALlCoR0vuYBn-zeHhZ3fyyZPgwBfPGCTlDi5UpKRFNH4dR11OurdBVQqTHBl-UIsFeFOdQ1Qr3b3E_dZSrCh-yA4rhRGmUC2PorOBQPZ-bZLYJ2khGBWA0KVrorfmzat6EFBWXcGd7yoqn0aI1v7ald_J6hB5wKgVb2ri9_yB5KpOiwMslQsyOGJYujv13PtRxPOZrMpNakgTZZLRrnpvb67nd2iH5B-UqIMr_J_5askQVzCB5PtuJkccICLEEMM8-Ac9-xEjFVlYhHlbQQZSSWjYS4qqy_u68XDH_wbKVWj8XYbWW7mNGUzZWKR7UgcVAAqqjIyGtIaGAf_k-RqKAv-ZWHdwFEjVaNWJr4Rgbzq8UFGjHiIzpbD1C3Cy5cL6TCwdg4XEfnKTDPH6aVfvxLjvX_-AZ4hsvJ817h0fDeuXjtrtnzkt8FLchytM-7QXEA6zazthuSPVbjeOmivBWv8ozzsrBJMI9NiFHKRHSW8vNLHUFrijq49SP6c9UHkeD1GG6AXXwp1ZDxzRlm9RGDRxbP2EYZAFRtfsowOGjukQMc6MLNRiS6_p4iiaDVSdRItLTckF8WRew=",
+      "facilitated_booking_available": true,
+      "pnr_count": 1,
+      "has_airport_change": false,
+      "technical_stops": 0,
+      "throw_away_ticketing": false,
+      "hidden_city_ticketing": false,
+      "virtual_interlining": false,
+      "local_arrival": "2023-06-07T07:10:00.000Z",
+      "utc_arrival": "2023-06-06T23:10:00.000Z",
+      "local_departure": "2023-06-07T05:45:00.000Z",
+      "utc_departure": "2023-06-06T21:45:00.000Z"
+    },
+    {
+      "id": "1edb12104c3b0000cdebdd40_0",
+      "flyFrom": "MNL",
+      "flyTo": "CEB",
+      "cityFrom": "Manila",
+      "cityCodeFrom": "MNL",
+      "cityTo": "Cebu",
+      "cityCodeTo": "CEB",
+      "countryFrom": {
+        "code": "PH",
+        "name": "Philippines"
+      },
+      "countryTo": {
+        "code": "PH",
+        "name": "Philippines"
+      },
+      "nightsInDest": null,
+      "quality": 155.937402,
+      "distance": 567.63,
+      "duration": {
+        "departure": 7200,
+        "return": 0,
+        "total": 7200
+      },
+      "price": 7695,
+      "conversion": {
+        "EUR": 127.937472,
+        "PHP": 7695
+      },
+      "fare": {
+        "adults": 7695,
+        "children": 7695,
+        "infants": 7695
+      },
+      "price_dropdown": {
+        "base_fare": 7695,
+        "fees": 0
+      },
+      "bags_price": {
+        "1": 15.09
+      },
+      "baglimit": {
+        "hand_height": 36,
+        "hand_length": 56,
+        "hand_weight": 7,
+        "hand_width": 23,
+        "hold_dimensions_sum": 158,
+        "hold_height": 52,
+        "hold_length": 78,
+        "hold_weight": 20,
+        "hold_width": 28
+      },
+      "availability": {
+        "seats": 1
+      },
+      "airlines": [
+        "DG"
+      ],
+      "route": [
+        {
+          "id": "1edb12104c3b0000cdebdd40_0",
+          "combination_id": "1edb12104c3b0000cdebdd40",
+          "flyFrom": "MNL",
+          "flyTo": "CEB",
+          "cityFrom": "Manila",
+          "cityCodeFrom": "MNL",
+          "cityTo": "Cebu",
+          "cityCodeTo": "CEB",
+          "airline": "DG",
+          "flight_no": 6509,
+          "operating_carrier": "",
+          "operating_flight_no": "",
+          "fare_basis": "",
+          "fare_category": "M",
+          "fare_classes": "H",
+          "fare_family": "",
+          "return": 0,
+          "bags_recheck_required": false,
+          "vi_connection": false,
+          "guarantee": false,
+          "equipment": null,
+          "vehicle_type": "aircraft",
+          "local_arrival": "2023-06-08T01:35:00.000Z",
+          "utc_arrival": "2023-06-07T17:35:00.000Z",
+          "local_departure": "2023-06-07T23:35:00.000Z",
+          "utc_departure": "2023-06-07T15:35:00.000Z"
+        }
+      ],
+      "booking_token": "FSzI0k-Bmec7hwkvUFIfnvEJTtpYtr0UaSGLyZ5wVoGs2bvhPFekBzEClyMTHK3gPcW0b2Ai5RQ6VeEdW_SevOshEE4HeKNEtqDLeX1XyozyZq5IZ_kLhgWK7PD3EoV8wSgNWjwp5b6XgmbjgTE1Wn2ahbvbSHZt3IZ06JWTtvLkDV6WE-UfIyb-AddevNkH9o4-_fmV-QCU2T6PVoNH837ts2HJFLaJl1ObkO_nx4rmYDl6mA0YSv73TpXtX0EwjdCicE4Gi4Opiq9eew8RHY1saRBUibviBTooXmWnn0Rl-6yk1Ewj_8KL8i505e2eRh9U_AX2ccsCw7caOw_nRg_y1FeNrcjfcptA-bHYyzY3weKDcZCRcerD0Slncnd-GiwNfAgxcWd8pKYBSg69--0HLKdbJgiTSHjtryq7LzN9Rai-VdblFSJqXhAn0dK0HDrjgyf9-6IUCxpDRqn1K-OFyrIrGum2DzZUmjZkn1_B14XC6NygBU8tBngsmPX9-Mg1JcKx2TvBlFBdauVTEEasQlAget9uTZO8nRGWpTvDXcUIW228JAo68b7pe9ry5ags-RIxrvA3OVsEGld1x2A-EuATyWvHWjR8amM18sDiInhUuAaXKE8y9UBhoja545C2gaSgmzHk8fiYhIKCAW9ezLa9bzSIBARWtKoZ-Av_yajWwqBxfY79cEf53N8JF",
+      "facilitated_booking_available": true,
+      "pnr_count": 1,
+      "has_airport_change": false,
+      "technical_stops": 0,
+      "throw_away_ticketing": false,
+      "hidden_city_ticketing": false,
+      "virtual_interlining": false,
+      "local_arrival": "2023-06-08T01:35:00.000Z",
+      "utc_arrival": "2023-06-07T17:35:00.000Z",
+      "local_departure": "2023-06-07T23:35:00.000Z",
+      "utc_departure": "2023-06-07T15:35:00.000Z"
+    },
+    {
+      "id": "1edb12104c3b000045d8a2b4_0",
+      "flyFrom": "MNL",
+      "flyTo": "CEB",
+      "cityFrom": "Manila",
+      "cityCodeFrom": "MNL",
+      "cityTo": "Cebu",
+      "cityCodeTo": "CEB",
+      "countryFrom": {
+        "code": "PH",
+        "name": "Philippines"
+      },
+      "countryTo": {
+        "code": "PH",
+        "name": "Philippines"
+      },
+      "nightsInDest": null,
+      "quality": 161.133242,
+      "distance": 567.63,
+      "duration": {
+        "departure": 5700,
+        "return": 0,
+        "total": 5700
+      },
+      "price": 8208,
+      "conversion": {
+        "EUR": 136.466637,
+        "PHP": 8208
+      },
+      "fare": {
+        "adults": 8208,
+        "children": 8208,
+        "infants": 8208
+      },
+      "price_dropdown": {
+        "base_fare": 8208,
+        "fees": 0
+      },
+      "bags_price": {},
+      "baglimit": {
+        "hand_height": 36,
+        "hand_length": 56,
+        "hand_weight": 7,
+        "hand_width": 23,
+        "personal_item_height": 30,
+        "personal_item_length": 40,
+        "personal_item_weight": 4,
+        "personal_item_width": 10
+      },
+      "availability": {
+        "seats": 1
+      },
+      "airlines": [
+        "PR"
+      ],
+      "route": [
+        {
+          "id": "1edb12104c3b000045d8a2b4_0",
+          "combination_id": "1edb12104c3b000045d8a2b4",
+          "flyFrom": "MNL",
+          "flyTo": "CEB",
+          "cityFrom": "Manila",
+          "cityCodeFrom": "MNL",
+          "cityTo": "Cebu",
+          "cityCodeTo": "CEB",
+          "airline": "PR",
+          "flight_no": 2845,
+          "operating_carrier": "2P",
+          "operating_flight_no": "",
+          "fare_basis": "XIPH",
+          "fare_category": "M",
+          "fare_classes": "X",
+          "fare_family": "",
+          "return": 0,
+          "bags_recheck_required": false,
+          "vi_connection": false,
+          "guarantee": false,
+          "equipment": null,
+          "vehicle_type": "aircraft",
+          "local_arrival": "2023-06-07T09:45:00.000Z",
+          "utc_arrival": "2023-06-07T01:45:00.000Z",
+          "local_departure": "2023-06-07T08:10:00.000Z",
+          "utc_departure": "2023-06-07T00:10:00.000Z"
+        }
+      ],
+      "booking_token": "Fmn0vKcy4S4XoW65aHLsnuaMb2jiGGVuuNL2ABWNdC7C5H9WCHB1pGMDWmGSStQ5UZEzS5nZtfkXx4qpICsWoVu5ietce4OIjcspxKV0D85jSTV9mQRBTQE_H_MxIXNfNkt0J8gRFfUVSIWwoFXkI9o4AgadzEs7FEGBMIVmMZs_SP7TNfwC9DpXspAAvMb7CmEa_kPfmacjQcAH8eQ_nJJceqCK7_FjoF13WbTvxeADVE8hBLM2gHbAlUxqdYXuku0DqoXEEa72DD32CLqC_CYOjkhv-uVueYV-BBaTOJCGoif804RWU9JJ4OkUPL7NhECS_f9cMWkR3x8DJHOTCf64l9d4TfFlcU8xFC2WK726gYctSCOfPxqjMHNjxh1A9dQNf-V1LSs0jMhDWItVHeLWngXkXI_5PuZ96wi1HPUOVQ5Ov90TlkLj7m0RHvqlufzamQa4N-Pn4dVQjlgqsRBRapNoWdpHRrY8l2G8d7DeBONeP5ybBREmEqpFQASibLIXY8o8F18QxURx3SGeZWDCBWrUUMrDMIwVdjj_OHNpfWkPqEKEAiKQtrHVE5Na_3POMKFsORALxoZRN5c1pxOrsfy83DLxVXd1OSBzTaByIASPHczbvNEYfYkQ9PuzHyYSln4RWIiNnUoy6KpMu5WKFIcYWIY2BbY2qrA-OTDdPxwoCu2unmkITp2-1026Q",
+      "facilitated_booking_available": false,
+      "pnr_count": 1,
+      "has_airport_change": false,
+      "technical_stops": 0,
+      "throw_away_ticketing": false,
+      "hidden_city_ticketing": false,
+      "virtual_interlining": false,
+      "local_arrival": "2023-06-07T09:45:00.000Z",
+      "utc_arrival": "2023-06-07T01:45:00.000Z",
+      "local_departure": "2023-06-07T08:10:00.000Z",
+      "utc_departure": "2023-06-07T00:10:00.000Z"
+    },
+    {
+      "id": "1edb12104c3a00009540e9b3_0",
+      "flyFrom": "MNL",
+      "flyTo": "CEB",
+      "cityFrom": "Manila",
+      "cityCodeFrom": "MNL",
+      "cityTo": "Cebu",
+      "cityCodeTo": "CEB",
+      "countryFrom": {
+        "code": "PH",
+        "name": "Philippines"
+      },
+      "countryTo": {
+        "code": "PH",
+        "name": "Philippines"
+      },
+      "nightsInDest": null,
+      "quality": 161.780035,
+      "distance": 567.63,
+      "duration": {
+        "departure": 5400,
+        "return": 0,
+        "total": 5400
+      },
+      "price": 8287,
+      "conversion": {
+        "EUR": 137.780095,
+        "PHP": 8287
+      },
+      "fare": {
+        "adults": 8287,
+        "children": 8287,
+        "infants": 8287
+      },
+      "price_dropdown": {
+        "base_fare": 8166.71,
+        "fees": 120.29
+      },
+      "bags_price": {},
+      "baglimit": {
+        "hand_height": 36,
+        "hand_length": 56,
+        "hand_weight": 7,
+        "hand_width": 23,
+        "personal_item_height": 30,
+        "personal_item_length": 40,
+        "personal_item_weight": 4,
+        "personal_item_width": 10
+      },
+      "availability": {
+        "seats": null
+      },
+      "airlines": [
+        "PR"
+      ],
+      "route": [
+        {
+          "id": "1edb12104c3a00009540e9b3_0",
+          "combination_id": "1edb12104c3a00009540e9b3",
+          "flyFrom": "MNL",
+          "flyTo": "CEB",
+          "cityFrom": "Manila",
+          "cityCodeFrom": "MNL",
+          "cityTo": "Cebu",
+          "cityCodeTo": "CEB",
+          "airline": "PR",
+          "flight_no": 2861,
+          "operating_carrier": "2P",
+          "operating_flight_no": "",
+          "fare_basis": "VKTPH",
+          "fare_category": "M",
+          "fare_classes": "V",
+          "fare_family": "",
+          "return": 0,
+          "bags_recheck_required": false,
+          "vi_connection": false,
+          "guarantee": false,
+          "equipment": null,
+          "vehicle_type": "aircraft",
+          "local_arrival": "2023-06-06T20:05:00.000Z",
+          "utc_arrival": "2023-06-06T12:05:00.000Z",
+          "local_departure": "2023-06-06T18:35:00.000Z",
+          "utc_departure": "2023-06-06T10:35:00.000Z"
+        }
+      ],
+      "booking_token": "FL7U0rYk9KVFvpiQ6MmyAoZC8JepkTcPISOFM8bmR7v_qjK590_-UZP_1EYMSk_guXM8IJS-L0tXkbIrEPXndjEFPElrLBMxc3Bmm1d4JZyfd7IIA_nKBkmz1ars3g5dcTO3mk-n98wXMTP2zbvtbL80oHv2Zc326aAKwfwOxoj81ITiv97raAtocMDywfKSddYz_yvvyxhBS5q7R-OLMCllKcJTX18WUR9CjdPepNKN2wXrnABfMa19QrzOHq_3Sm7BTW16vws5qJPMOlvRdggJ_BkfTi--bCeIKgg2rXECGHE79SeQjFYvtrPHHU_lxc5DxaoiBrD5uHLMJHy7kOGmTrF2IL-3rM-SofbdJmydDBBzFNUv7JlGXVtgCVA9TdzBiDhFye95cYylHB_OUTjfyh19Iq8NqEYfX03SUArPlGHgHVmw9Btbcx5rT5CDxwTqFr4Fy7fRDx2N2VoP7_AMtkSZ6bZQbFU-JAv-A6MfVHxy-JnbyuHuylN39h3qL89h6sRitcan68eb4EosGOxw_Dvza53dnpyLM11CJnfoDkoiKI40LuMT1dk7HABH189WeuhgKgS-zxwgQ2_Ru8yHqhH1o4r9YceuW7y5c3sijMJG4PpwacrnWmIgN70CERMsBJkV-4ExzzPE2iNvbBXYFwwbZzpv8IVG1-5tCAl14jiD3YJIbsMX8PJ6UDOwLb2_uoZbmji3Y8lojvzex9A==",
+      "facilitated_booking_available": false,
+      "pnr_count": 1,
+      "has_airport_change": false,
+      "technical_stops": 0,
+      "throw_away_ticketing": false,
+      "hidden_city_ticketing": false,
+      "virtual_interlining": false,
+      "local_arrival": "2023-06-06T20:05:00.000Z",
+      "utc_arrival": "2023-06-06T12:05:00.000Z",
+      "local_departure": "2023-06-06T18:35:00.000Z",
+      "utc_departure": "2023-06-06T10:35:00.000Z"
+    },
+    {
+      "id": "1edb12104c3b000080cd1b81_0",
+      "flyFrom": "MNL",
+      "flyTo": "CEB",
+      "cityFrom": "Manila",
+      "cityCodeFrom": "MNL",
+      "cityTo": "Cebu",
+      "cityCodeTo": "CEB",
+      "countryFrom": {
+        "code": "PH",
+        "name": "Philippines"
+      },
+      "countryTo": {
+        "code": "PH",
+        "name": "Philippines"
+      },
+      "nightsInDest": null,
+      "quality": 166.037927,
+      "distance": 567.63,
+      "duration": {
+        "departure": 5700,
+        "return": 0,
+        "total": 5700
+      },
+      "price": 8503,
+      "conversion": {
+        "EUR": 141.371322,
+        "PHP": 8503
+      },
+      "fare": {
+        "adults": 8503,
+        "children": 8503,
+        "infants": 8503
+      },
+      "price_dropdown": {
+        "base_fare": 8503,
+        "fees": 0
+      },
+      "bags_price": {
+        "1": 15.345
+      },
+      "baglimit": {
+        "hand_height": 36,
+        "hand_length": 56,
+        "hand_weight": 7,
+        "hand_width": 23,
+        "hold_dimensions_sum": 158,
+        "hold_height": 52,
+        "hold_length": 78,
+        "hold_weight": 20,
+        "hold_width": 28
+      },
+      "availability": {
+        "seats": 2
+      },
+      "airlines": [
+        "5J"
+      ],
+      "route": [
+        {
+          "id": "1edb12104c3b000080cd1b81_0",
+          "combination_id": "1edb12104c3b000080cd1b81",
+          "flyFrom": "MNL",
+          "flyTo": "CEB",
+          "cityFrom": "Manila",
+          "cityCodeFrom": "MNL",
+          "cityTo": "Cebu",
+          "cityCodeTo": "CEB",
+          "airline": "5J",
+          "flight_no": 559,
+          "operating_carrier": "5J",
+          "operating_flight_no": "559",
+          "fare_basis": "",
+          "fare_category": "M",
+          "fare_classes": "B",
+          "fare_family": "",
+          "return": 0,
+          "bags_recheck_required": false,
+          "vi_connection": false,
+          "guarantee": false,
+          "equipment": null,
+          "vehicle_type": "aircraft",
+          "local_arrival": "2023-06-07T20:00:00.000Z",
+          "utc_arrival": "2023-06-07T12:00:00.000Z",
+          "local_departure": "2023-06-07T18:25:00.000Z",
+          "utc_departure": "2023-06-07T10:25:00.000Z"
+        }
+      ],
+      "booking_token": "FTct8wAQMNUeSBqbnc3uL8N6r3sa3GaoYjyN4Y6FsTX7EkflgXUwfbLww1no_It73sJVAm75TRKRjCAbmuP5ZHgytBmVSo5stDRyX1iDU9bbR7kJjo9SwpUV4gvCwYpEQiqM9zrDtQiUZ0kY38EzOG5MW2BoJHWO4BlU4SpYPSt-5rC3eg2u3ACgtvESTzZ03HfdbbxblXPH2qw8XtygqKcM4u1C297vuZJgpRGViZ-hi4tcn7HPpFuqRqjl9wfGduNpO3mS9a-KUzNJkgOV6O_00YPAFvvMZW15fYGsO9gWISJdboku0GZkHrpQ1I4T3-VL4ctbJB3gtnIGpX3DTH_UROqToG0llp6hcAP2yGQYF84Ek0og-SYgeABlySbGxP-gAUmfieD5nLPEy3gfW9l4CNr_gc0EfMjwG2qB40RSHj4mP1u9xSeWZ0vGY_0oaJBkZ6hBMso7mTZPLDkNFwPUMEgYKyFA73imo8JAFZ4hp_G5scmME2pQkRUH6w0sKEXrhuIZk6eGvy9qmd-CMfpBCCT4v3cj5FAvzJiCTZaIJWeeQ4PCMFbxX5e-D-vsR1Qfcr5D_e-JDEd6Wd9EUykI2Ze7hpu6A8FitsReAHW6Iq6DeJJG2LBrwXRlDKWxZYXXT8hDxSsb2vki8WT1awIsNgUXlxMQEQpPCxtRd1QfMdUyywMRtd5h92_VogjhN4QLn5HnThjkyaGxWSu8m3g==",
+      "facilitated_booking_available": true,
+      "pnr_count": 1,
+      "has_airport_change": false,
+      "technical_stops": 0,
+      "throw_away_ticketing": false,
+      "hidden_city_ticketing": false,
+      "virtual_interlining": false,
+      "local_arrival": "2023-06-07T20:00:00.000Z",
+      "utc_arrival": "2023-06-07T12:00:00.000Z",
+      "local_departure": "2023-06-07T18:25:00.000Z",
+      "utc_departure": "2023-06-07T10:25:00.000Z"
+    },
+    {
+      "id": "1edb12104c3a0000b9e3a5b9_0|1edb12104c3a0000b9e3a5b9_1",
+      "flyFrom": "MNL",
+      "flyTo": "CEB",
+      "cityFrom": "Manila",
+      "cityCodeFrom": "MNL",
+      "cityTo": "Cebu",
+      "cityCodeTo": "CEB",
+      "countryFrom": {
+        "code": "PH",
+        "name": "Philippines"
+      },
+      "countryTo": {
+        "code": "PH",
+        "name": "Philippines"
+      },
+      "nightsInDest": null,
+      "quality": 211.008982,
+      "distance": 567.63,
+      "duration": {
+        "departure": 11400,
+        "return": 0,
+        "total": 11400
+      },
+      "price": 10446,
+      "conversion": {
+        "EUR": 173.675742,
+        "PHP": 10446
+      },
+      "fare": {
+        "adults": 10446,
+        "children": 10446,
+        "infants": 10446
+      },
+      "price_dropdown": {
+        "base_fare": 10446,
+        "fees": 0
+      },
+      "bags_price": {},
+      "baglimit": {
+        "hand_height": 36,
+        "hand_length": 56,
+        "hand_weight": 7,
+        "hand_width": 23,
+        "personal_item_height": 30,
+        "personal_item_length": 40,
+        "personal_item_weight": 4,
+        "personal_item_width": 10
+      },
+      "availability": {
+        "seats": 7
+      },
+      "airlines": [
+        "PR"
+      ],
+      "route": [
+        {
+          "id": "1edb12104c3a0000b9e3a5b9_0",
+          "combination_id": "1edb12104c3a0000b9e3a5b9",
+          "flyFrom": "MNL",
+          "flyTo": "BCD",
+          "cityFrom": "Manila",
+          "cityCodeFrom": "MNL",
+          "cityTo": "Bacolod",
+          "cityCodeTo": "BCD",
+          "airline": "PR",
+          "flight_no": 2135,
+          "operating_carrier": "2P",
+          "operating_flight_no": "",
+          "fare_basis": "EIPH",
+          "fare_category": "M",
+          "fare_classes": "E",
+          "fare_family": "",
+          "return": 0,
+          "bags_recheck_required": false,
+          "vi_connection": false,
+          "guarantee": false,
+          "equipment": null,
+          "vehicle_type": "aircraft",
+          "local_arrival": "2023-06-06T18:55:00.000Z",
+          "utc_arrival": "2023-06-06T10:55:00.000Z",
+          "local_departure": "2023-06-06T17:30:00.000Z",
+          "utc_departure": "2023-06-06T09:30:00.000Z"
+        },
+        {
+          "id": "1edb12104c3a0000b9e3a5b9_1",
+          "combination_id": "1edb12104c3a0000b9e3a5b9",
+          "flyFrom": "BCD",
+          "flyTo": "CEB",
+          "cityFrom": "Bacolod",
+          "cityCodeFrom": "BCD",
+          "cityTo": "Cebu",
+          "cityCodeTo": "CEB",
+          "airline": "PR",
+          "flight_no": 2290,
+          "operating_carrier": "2P",
+          "operating_flight_no": "",
+          "fare_basis": "EIPH",
+          "fare_category": "M",
+          "fare_classes": "E",
+          "fare_family": "",
+          "return": 0,
+          "bags_recheck_required": false,
+          "vi_connection": false,
+          "guarantee": false,
+          "equipment": null,
+          "vehicle_type": "aircraft",
+          "local_arrival": "2023-06-06T20:40:00.000Z",
+          "utc_arrival": "2023-06-06T12:40:00.000Z",
+          "local_departure": "2023-06-06T19:50:00.000Z",
+          "utc_departure": "2023-06-06T11:50:00.000Z"
+        }
+      ],
+      "booking_token": "F93qLeagXH_xqiWLSFYgaF2FHLuXq-6vsRnHGMmIE1cnKVkbm4vncve3Yw1D49R-BvtV_bugBp0wOBrWdnw-9ruT8g-K9ZeeLd30n8uYewEYhfGSTn_dOYepRTmkmrvzGN2NJ9ugVBk5M56mpuY_CnCZ-En9Sa2ocPeUM86uLP-PWxiD9r-ND6mukxh75j2rp5kE8YOEqUmj4ouf9voYqJ0ib-DmPEBlS0ZK5nIvXvFGz9dhiwIpgCZk6ELMuYmJ2TvretPi3ERbtno0zsjSWCU4pNKzdfNaswRNSoVIpQPtkdFcA0YuAVXM0evgX_wQfuLd5ZmAArYK-ZMJXr7DaTlvUTjRf8kdG2_RyADe4L1ZbT5KONKRfVgzrQek2fprYYGc1sV0-lly4o_hr7ZKdH6dk9FHX5blEsB1tVIcC4tAqEAMoEtpw0Kj9JkKgykbppVLG1I83YNSKmR6FZhg0aTuncutEPftNJkCab_mpTNyaknu64uuCAGujUw1Wnt8LIxUvRYkMgXgFAkJy92on9zCR0yFKhPfMq3e8rbZ1NBHEaCPBH3I4a45IjCJeuJxU-Kxbg59JMIGKdabvZpnnHpk_nqOuKCcKLr9AUsoEUyGTGhotQJTM6ujqQOhRxMYBi1hVVlWxTKmW-fy6mF2pgxEQI4QgY6uN8BiDVcAg1W0n7wqADipAEsw0NxP6sFKwOD0mpVsckfWFS_b-wgP-tBkJU_Qua8Guoyh8FCIJIkpIzp8XyGXpsQMD2vEWztKf",
+      "facilitated_booking_available": false,
+      "pnr_count": 1,
+      "has_airport_change": false,
+      "technical_stops": 0,
+      "throw_away_ticketing": false,
+      "hidden_city_ticketing": false,
+      "virtual_interlining": false,
+      "local_arrival": "2023-06-06T20:40:00.000Z",
+      "utc_arrival": "2023-06-06T12:40:00.000Z",
+      "local_departure": "2023-06-06T17:30:00.000Z",
+      "utc_departure": "2023-06-06T09:30:00.000Z"
+    },
+    {
+      "id": "1edb12104c3a0000a4a8e8ce_0",
+      "flyFrom": "MNL",
+      "flyTo": "CEB",
+      "cityFrom": "Manila",
+      "cityCodeFrom": "MNL",
+      "cityTo": "Cebu",
+      "cityCodeTo": "CEB",
+      "countryFrom": {
+        "code": "PH",
+        "name": "Philippines"
+      },
+      "countryTo": {
+        "code": "PH",
+        "name": "Philippines"
+      },
+      "nightsInDest": null,
+      "quality": 215.899458,
+      "distance": 567.63,
+      "duration": {
+        "departure": 5700,
+        "return": 0,
+        "total": 5700
+      },
+      "price": 11502,
+      "conversion": {
+        "EUR": 191.232853,
+        "PHP": 11502
+      },
+      "fare": {
+        "adults": 11502,
+        "children": 11502,
+        "infants": 11502
+      },
+      "price_dropdown": {
+        "base_fare": 11502,
+        "fees": 0
+      },
+      "bags_price": {
+        "1": 15.345
+      },
+      "baglimit": {
+        "hand_height": 36,
+        "hand_length": 56,
+        "hand_weight": 7,
+        "hand_width": 23,
+        "hold_dimensions_sum": 158,
+        "hold_height": 52,
+        "hold_length": 78,
+        "hold_weight": 20,
+        "hold_width": 28
+      },
+      "availability": {
+        "seats": 1
+      },
+      "airlines": [
+        "5J"
+      ],
+      "route": [
+        {
+          "id": "1edb12104c3a0000a4a8e8ce_0",
+          "combination_id": "1edb12104c3a0000a4a8e8ce",
+          "flyFrom": "MNL",
+          "flyTo": "CEB",
+          "cityFrom": "Manila",
+          "cityCodeFrom": "MNL",
+          "cityTo": "Cebu",
+          "cityCodeTo": "CEB",
+          "airline": "5J",
+          "flight_no": 579,
+          "operating_carrier": "5J",
+          "operating_flight_no": "579",
+          "fare_basis": "",
+          "fare_category": "M",
+          "fare_classes": "Y",
+          "fare_family": "",
+          "return": 0,
+          "bags_recheck_required": false,
+          "vi_connection": false,
+          "guarantee": false,
+          "equipment": null,
+          "vehicle_type": "aircraft",
+          "local_arrival": "2023-06-06T23:20:00.000Z",
+          "utc_arrival": "2023-06-06T15:20:00.000Z",
+          "local_departure": "2023-06-06T21:45:00.000Z",
+          "utc_departure": "2023-06-06T13:45:00.000Z"
+        }
+      ],
+      "booking_token": "FEiFwsymyo_99njAldA_NeyZwbvqnCV36F4XK31opPy0g1daJeLlvhpNS6l4WF6EG0sNgchFkAAi_vkWi3oRKBlDFNAV3iseEqlwyj5K8nYjK8pcfK3WNfD8AV5IpaINTY98dnhMZpqiFj66uLyudofx42yv1Y4m7tfPjpov--0P4vknoWzvqDEVycQrWWxy5SO2Fq5wqmiaISULezRih0uIKTwpxc5sFTg0uDmmsYOUGvRosB9HxNtHRvP3tDFNkNWBHQR9mOelaxuCIG3L2eSJk1e0Kmx6RyhMCtCGkBR9gfkn83Vcbk_Ep5ey68LmDj5rPqomE6D9G9ZVQmNC_mUmXiGS8wW9dG32o1zEAIrQujn6Yt5dFKR2nJwZnG_fiMLxtTMBK2xojAUf5Et9b212Se2Nnij_zileHYSWyhUQ_QqvrWKEnTl8LI3MzBQkCpTHgCjsX_zWD7uDhJ3a9f1_HWOpBHqrL63nevFiGigYuvJ-r2cMFofrTCUp3X8Jkcnp83OrlMMTyQC-PWAnblCGZDjZMy-I55EQe1FelOPTn2-Wj9QMrvHQF4vI4CNo1RdizQJVsyr77b4Z0IXIh85EMd1FEooYzA9DlDVcopLWwI1MekqMda2zJhU3g1BobXTwZqwTKpnH2nm_e5GP0ULzjQ5Mn_Uhd3vFkvX5cFAUPgY7nmIZ4dH7f7zF3ezHFUMCyjj-EPUVSKNOR3HNyxg==",
+      "facilitated_booking_available": true,
+      "pnr_count": 1,
+      "has_airport_change": false,
+      "technical_stops": 0,
+      "throw_away_ticketing": false,
+      "hidden_city_ticketing": false,
+      "virtual_interlining": false,
+      "local_arrival": "2023-06-06T23:20:00.000Z",
+      "utc_arrival": "2023-06-06T15:20:00.000Z",
+      "local_departure": "2023-06-06T21:45:00.000Z",
+      "utc_departure": "2023-06-06T13:45:00.000Z"
+    },
+    {
+      "id": "1edb12104c3b0000353ef83a_0|1edb12104c3b0000353ef83a_1",
+      "flyFrom": "MNL",
+      "flyTo": "CEB",
+      "cityFrom": "Manila",
+      "cityCodeFrom": "MNL",
+      "cityTo": "Cebu",
+      "cityCodeTo": "CEB",
+      "countryFrom": {
+        "code": "PH",
+        "name": "Philippines"
+      },
+      "countryTo": {
+        "code": "PH",
+        "name": "Philippines"
+      },
+      "nightsInDest": null,
+      "quality": 246.228658,
+      "distance": 567.63,
+      "duration": {
+        "departure": 18600,
+        "return": 0,
+        "total": 18600
+      },
+      "price": 11602,
+      "conversion": {
+        "EUR": 192.895458,
+        "PHP": 11602
+      },
+      "fare": {
+        "adults": 11602,
+        "children": 11602,
+        "infants": 11602
+      },
+      "price_dropdown": {
+        "base_fare": 11361.41,
+        "fees": 240.59
+      },
+      "bags_price": {},
+      "baglimit": {
+        "hand_height": 36,
+        "hand_length": 56,
+        "hand_weight": 7,
+        "hand_width": 23,
+        "personal_item_height": 30,
+        "personal_item_length": 40,
+        "personal_item_weight": 4,
+        "personal_item_width": 10
+      },
+      "availability": {
+        "seats": null
+      },
+      "airlines": [
+        "PR"
+      ],
+      "route": [
+        {
+          "id": "1edb12104c3b0000353ef83a_0",
+          "combination_id": "1edb12104c3b0000353ef83a",
+          "flyFrom": "MNL",
+          "flyTo": "ILO",
+          "cityFrom": "Manila",
+          "cityCodeFrom": "MNL",
+          "cityTo": "Iloilo City",
+          "cityCodeTo": "ILO",
+          "airline": "PR",
+          "flight_no": 2145,
+          "operating_carrier": "2P",
+          "operating_flight_no": "",
+          "fare_basis": "EIPH",
+          "fare_category": "M",
+          "fare_classes": "E",
+          "fare_family": "",
+          "return": 0,
+          "bags_recheck_required": false,
+          "vi_connection": false,
+          "guarantee": false,
+          "equipment": null,
+          "vehicle_type": "aircraft",
+          "local_arrival": "2023-06-07T18:10:00.000Z",
+          "utc_arrival": "2023-06-07T10:10:00.000Z",
+          "local_departure": "2023-06-07T16:50:00.000Z",
+          "utc_departure": "2023-06-07T08:50:00.000Z"
+        },
+        {
+          "id": "1edb12104c3b0000353ef83a_1",
+          "combination_id": "1edb12104c3b0000353ef83a",
+          "flyFrom": "ILO",
+          "flyTo": "CEB",
+          "cityFrom": "Iloilo City",
+          "cityCodeFrom": "ILO",
+          "cityTo": "Cebu",
+          "cityCodeTo": "CEB",
+          "airline": "PR",
+          "flight_no": 2399,
+          "operating_carrier": "2P",
+          "operating_flight_no": "",
+          "fare_basis": "EIPH",
+          "fare_category": "M",
+          "fare_classes": "E",
+          "fare_family": "",
+          "return": 0,
+          "bags_recheck_required": false,
+          "vi_connection": false,
+          "guarantee": false,
+          "equipment": null,
+          "vehicle_type": "aircraft",
+          "local_arrival": "2023-06-07T22:00:00.000Z",
+          "utc_arrival": "2023-06-07T14:00:00.000Z",
+          "local_departure": "2023-06-07T21:10:00.000Z",
+          "utc_departure": "2023-06-07T13:10:00.000Z"
+        }
+      ],
+      "booking_token": "F-Ew45_Nzt0UvaauxB8LJvZ3Un-S7RCzytkJ1Y86XMCfk5e0opBPSMLe4JDVLtEeOFeVxb4xzWPEjO8G_N1W9i1eS7noXGZ20Ha33k1LQi2OKxHmLhVeoy2H8APkpfdYUfXI-QzW6aaKtYZJKwsTEm9hDx0LbvPh1HT77GSEK06c8XSR7ainefd4sfXgDCxe2cbBfyByK492NZIhkqhQc-oHC59gM3pNAoI6IJNvc-BgvhI1JlZo9_cmr1m4PG6cmOQwacKg2hAwRRa07CNjsrEx9MBBIV6KOlljDRglj3ou5Bmfp0lXPUe3GnwAK_Re4SW7HXz_LBWZts4XOWQW3vtis5cSwThyVf7CFMaLwtCPkMXH3g2IpXf4u-XXgSRz7f1UiwwCQa-HLsWP_rkYWuAnikfngQ_D3fH_vdzOIPgj0Lwd-QUhqtsPh9iK15jD0BOfeAJxRnBryVxl0XCxqTL9p6yqCJ5qnVgt7H6wtx8bMDleTpopcS8SMSBa7iqortA1tV0yCQJDJ6UbsDNlJwJW56x89MJihfvgNHOyXM8dVysl9P9udjGKT_z8fH0w1JxA6sXhG-eAxnsdR4L_SBDazqxBkjM-SRhswsEYgE4F3seIOT69y5cEGfXe1Zu9AdfmpG0G-tl6eT9WRLCh7rv_IHL8nPx1cNQoUBlv_01VIjU2YsTNR54rxUuOlmtNznUQNnr9a7t2W0wnWrzGaXQEDhQpzZrV1VoDL3KTH7WTmRwhdZzkBRZMr8o551W7C",
+      "facilitated_booking_available": false,
+      "pnr_count": 1,
+      "has_airport_change": false,
+      "technical_stops": 0,
+      "throw_away_ticketing": false,
+      "hidden_city_ticketing": false,
+      "virtual_interlining": false,
+      "local_arrival": "2023-06-07T22:00:00.000Z",
+      "utc_arrival": "2023-06-07T14:00:00.000Z",
+      "local_departure": "2023-06-07T16:50:00.000Z",
+      "utc_departure": "2023-06-07T08:50:00.000Z"
+    },
+    {
+      "id": "1edb12104c3b0000136e8adc_0|1edb12104c3b0000136e8adc_1",
+      "flyFrom": "MNL",
+      "flyTo": "CEB",
+      "cityFrom": "Manila",
+      "cityCodeFrom": "MNL",
+      "cityTo": "Cebu",
+      "cityCodeTo": "CEB",
+      "countryFrom": {
+        "code": "PH",
+        "name": "Philippines"
+      },
+      "countryTo": {
+        "code": "PH",
+        "name": "Philippines"
+      },
+      "nightsInDest": null,
+      "quality": 280.898881,
+      "distance": 567.63,
+      "duration": {
+        "departure": 31800,
+        "return": 0,
+        "total": 31800
+      },
+      "price": 11923,
+      "conversion": {
+        "EUR": 198.232421,
+        "PHP": 11923
+      },
+      "fare": {
+        "adults": 11923,
+        "children": 11923,
+        "infants": 11923
+      },
+      "price_dropdown": {
+        "base_fare": 11923,
+        "fees": 0
+      },
+      "bags_price": {},
+      "baglimit": {
+        "hand_height": 36,
+        "hand_length": 56,
+        "hand_weight": 7,
+        "hand_width": 23,
+        "personal_item_height": 30,
+        "personal_item_length": 40,
+        "personal_item_weight": 4,
+        "personal_item_width": 10
+      },
+      "availability": {
+        "seats": 9
+      },
+      "airlines": [
+        "PR"
+      ],
+      "route": [
+        {
+          "id": "1edb12104c3b0000136e8adc_0",
+          "combination_id": "1edb12104c3b0000136e8adc",
+          "flyFrom": "MNL",
+          "flyTo": "ILO",
+          "cityFrom": "Manila",
+          "cityCodeFrom": "MNL",
+          "cityTo": "Iloilo City",
+          "cityCodeTo": "ILO",
+          "airline": "PR",
+          "flight_no": 2143,
+          "operating_carrier": "2P",
+          "operating_flight_no": "",
+          "fare_basis": "EIPH",
+          "fare_category": "M",
+          "fare_classes": "E",
+          "fare_family": "",
+          "return": 0,
+          "bags_recheck_required": false,
+          "vi_connection": false,
+          "guarantee": false,
+          "equipment": null,
+          "vehicle_type": "aircraft",
+          "local_arrival": "2023-06-07T14:35:00.000Z",
+          "utc_arrival": "2023-06-07T06:35:00.000Z",
+          "local_departure": "2023-06-07T13:10:00.000Z",
+          "utc_departure": "2023-06-07T05:10:00.000Z"
+        },
+        {
+          "id": "1edb12104c3b0000136e8adc_1",
+          "combination_id": "1edb12104c3b0000136e8adc",
+          "flyFrom": "ILO",
+          "flyTo": "CEB",
+          "cityFrom": "Iloilo City",
+          "cityCodeFrom": "ILO",
+          "cityTo": "Cebu",
+          "cityCodeTo": "CEB",
+          "airline": "PR",
+          "flight_no": 2399,
+          "operating_carrier": "2P",
+          "operating_flight_no": "",
+          "fare_basis": "EIPH",
+          "fare_category": "M",
+          "fare_classes": "E",
+          "fare_family": "",
+          "return": 0,
+          "bags_recheck_required": false,
+          "vi_connection": false,
+          "guarantee": false,
+          "equipment": null,
+          "vehicle_type": "aircraft",
+          "local_arrival": "2023-06-07T22:00:00.000Z",
+          "utc_arrival": "2023-06-07T14:00:00.000Z",
+          "local_departure": "2023-06-07T21:10:00.000Z",
+          "utc_departure": "2023-06-07T13:10:00.000Z"
+        }
+      ],
+      "booking_token": "FBl4d_ldOlyT8I0vTN64drmhVF6_6pYp2Thq5UCQ2pglMMssbz3Q3Ur4sAbqUUrH6e5T8E3AbibA-OzZbLfK7FyZCskpEDLQnD-hteOqPohVpiQJrqDXOOqUHBXimiE5L-uoYj7jFdPHjjPg2v1M_ZNrDgJbPQI9BwcIoXD4g-gyRF0dmOYrb4oh6vHTDrqtJeepu_d-5FbGz37t1PumIXGEFaTOgtd2gmAoePHwS81Ae8PezwQ1WqWMpMFb2-wHUNLwQQKNNMN8q8MrCNGL1QOzCjANj-COcafGdTQz4rE7XZWKF-CE2rzvHd0PFS3crab_wbTag1U8HbiDztLga5OAl0o8dNgj682d780UMdP6M_p6emcJnm7LZDFub6xD5Zm1voEKdIxilZRD17cIKOCj899ORp56ngF7SP8geIDcU5qQNt86CVZboP2UBaFTGTKYohhNjPUTDv4LGET4rnFnBnZhC9oAVrhlxeD6kWJjWBpxfq3i_hgV1kf0RKZIp_x5wd2BgtLphclQSZORuU6tyM_MebHgp8Xf6zugfe1lT5rQ07uyi0fzikHk-OjzXyfPYeydIb02befIRHRlTB6x6qHamDotNOpJnC6kJLlyQKPjjyrciK-IOs4BxznZYJ-rqQBtzzZ1GUmrx0ORaJ0ZTzhXQY_-jBF1Y1h9YfEyn0Gx3dudq7yL6Wj2-pfHabDp3kJ5DRyScFBLr0sNHloEqE842F-m1zmOXitn_fMqjNtCSMg0PsmlWPPmU04Ul",
+      "facilitated_booking_available": false,
+      "pnr_count": 1,
+      "has_airport_change": false,
+      "technical_stops": 0,
+      "throw_away_ticketing": false,
+      "hidden_city_ticketing": false,
+      "virtual_interlining": false,
+      "local_arrival": "2023-06-07T22:00:00.000Z",
+      "utc_arrival": "2023-06-07T14:00:00.000Z",
+      "local_departure": "2023-06-07T13:10:00.000Z",
+      "utc_departure": "2023-06-07T05:10:00.000Z"
+    },
+    {
+      "id": "1edb07544c3b000022b64719_0|07541a494c3c0000c8cdd2b5_0|1a4910ff4c3c000010c2cac3_0|10ff12104c3d0000cc1d37d8_0",
+      "flyFrom": "MNL",
+      "flyTo": "CEB",
+      "cityFrom": "Manila",
+      "cityCodeFrom": "MNL",
+      "cityTo": "Cebu",
+      "cityCodeTo": "CEB",
+      "countryFrom": {
+        "code": "PH",
+        "name": "Philippines"
+      },
+      "countryTo": {
+        "code": "PH",
+        "name": "Philippines"
+      },
+      "nightsInDest": null,
+      "quality": 514.971689,
+      "distance": 567.63,
+      "duration": {
+        "departure": 135300,
+        "return": 0,
+        "total": 135300
+      },
+      "price": 12168,
+      "conversion": {
+        "EUR": 202.305804,
+        "PHP": 12168
+      },
+      "fare": {
+        "adults": 12168,
+        "children": 12168,
+        "infants": 12168
+      },
+      "price_dropdown": {
+        "base_fare": 12168,
+        "fees": 0
+      },
+      "bags_price": {
+        "1": 107.205
+      },
+      "baglimit": {
+        "hand_height": 36,
+        "hand_length": 56,
+        "hand_weight": 7,
+        "hand_width": 23,
+        "hold_dimensions_sum": 158,
+        "hold_height": 52,
+        "hold_length": 78,
+        "hold_weight": 15,
+        "hold_width": 28
+      },
+      "availability": {
+        "seats": null
+      },
+      "airlines": [
+        "Z9",
+        "AK",
+        "5J"
+      ],
+      "route": [
+        {
+          "id": "1edb07544c3b000022b64719_0",
+          "combination_id": "1edb07544c3b000022b64719",
+          "flyFrom": "MNL",
+          "flyTo": "BKI",
+          "cityFrom": "Manila",
+          "cityCodeFrom": "MNL",
+          "cityTo": "Kota Kinabalu",
+          "cityCodeTo": "BKI",
+          "airline": "5J",
+          "flight_no": 733,
+          "operating_carrier": "",
+          "operating_flight_no": "",
+          "fare_basis": "",
+          "fare_category": "M",
+          "fare_classes": "C",
+          "fare_family": "",
+          "return": 0,
+          "bags_recheck_required": false,
+          "vi_connection": false,
+          "guarantee": false,
+          "equipment": null,
+          "vehicle_type": "aircraft",
+          "local_arrival": "2023-06-08T01:50:00.000Z",
+          "utc_arrival": "2023-06-07T17:50:00.000Z",
+          "local_departure": "2023-06-07T23:40:00.000Z",
+          "utc_departure": "2023-06-07T15:40:00.000Z"
+        },
+        {
+          "id": "07541a494c3c0000c8cdd2b5_0",
+          "combination_id": "07541a494c3c0000c8cdd2b5",
+          "flyFrom": "BKI",
+          "flyTo": "MYY",
+          "cityFrom": "Kota Kinabalu",
+          "cityCodeFrom": "BKI",
+          "cityTo": "Miri",
+          "cityCodeTo": "MYY",
+          "airline": "AK",
+          "flight_no": 6071,
+          "operating_carrier": "AK",
+          "operating_flight_no": "6071",
+          "fare_basis": "",
+          "fare_category": "M",
+          "fare_classes": "E",
+          "fare_family": "",
+          "return": 0,
+          "bags_recheck_required": true,
+          "vi_connection": true,
+          "guarantee": true,
+          "equipment": null,
+          "vehicle_type": "aircraft",
+          "local_arrival": "2023-06-08T08:15:00.000Z",
+          "utc_arrival": "2023-06-08T00:15:00.000Z",
+          "local_departure": "2023-06-08T07:25:00.000Z",
+          "utc_departure": "2023-06-07T23:25:00.000Z"
+        },
+        {
+          "id": "1a4910ff4c3c000010c2cac3_0",
+          "combination_id": "1a4910ff4c3c000010c2cac3",
+          "flyFrom": "MYY",
+          "flyTo": "KUL",
+          "cityFrom": "Miri",
+          "cityCodeFrom": "MYY",
+          "cityTo": "Kuala Lumpur",
+          "cityCodeTo": "KUL",
+          "airline": "Z9",
+          "flight_no": 8304,
+          "operating_carrier": "Z9",
+          "operating_flight_no": "8304",
+          "fare_basis": "",
+          "fare_category": "M",
+          "fare_classes": "",
+          "fare_family": "",
+          "return": 0,
+          "bags_recheck_required": true,
+          "vi_connection": true,
+          "guarantee": true,
+          "equipment": null,
+          "vehicle_type": "aircraft",
+          "local_arrival": "2023-06-08T23:15:00.000Z",
+          "utc_arrival": "2023-06-08T15:15:00.000Z",
+          "local_departure": "2023-06-08T21:00:00.000Z",
+          "utc_departure": "2023-06-08T13:00:00.000Z"
+        },
+        {
+          "id": "10ff12104c3d0000cc1d37d8_0",
+          "combination_id": "10ff12104c3d0000cc1d37d8",
+          "flyFrom": "KUL",
+          "flyTo": "CEB",
+          "cityFrom": "Kuala Lumpur",
+          "cityCodeFrom": "KUL",
+          "cityTo": "Cebu",
+          "cityCodeTo": "CEB",
+          "airline": "AK",
+          "flight_no": 590,
+          "operating_carrier": "AK",
+          "operating_flight_no": "590",
+          "fare_basis": "",
+          "fare_category": "M",
+          "fare_classes": "B",
+          "fare_family": "",
+          "return": 0,
+          "bags_recheck_required": true,
+          "vi_connection": true,
+          "guarantee": true,
+          "equipment": null,
+          "vehicle_type": "aircraft",
+          "local_arrival": "2023-06-09T13:15:00.000Z",
+          "utc_arrival": "2023-06-09T05:15:00.000Z",
+          "local_departure": "2023-06-09T09:10:00.000Z",
+          "utc_departure": "2023-06-09T01:10:00.000Z"
+        }
+      ],
+      "booking_token": "FMZNzki5oDuXDaUJM6zcSu1ypIxQnbo6SclVHGZpoKRFBSwpxP9cfsXVEw4EEDF4RaCsSaS-tn9Mv92F_RqD3jOXcGyskneUPOfHwR6Q0f2HxOKJV3VxGVcU-M7iKCrH6rc9jqOr10WCisZv1n6dRXtP9ByW3hd7RLHcHnXrhbGDTPqgI4b0V5pgvgL-eZ8VuCpFP_Ct1HW7tp3xJGIYBp0Z_pbjY2ZZwrq6cC7d0kUNBDt4QpjbId9LaNvHS8qcZiee8Ybp1_nQyjiVKK_LULxlEHBA69n6X9ak3g3VXjbJHEPTRiah5nlpUOESwlEuUSFPGxjG7zt9xbeAVfbuFqFgwl7WJ765bSxzMvHrwhhs776o6dYJDS6-fypvDqb9RLtHOYbMtgDDMbS-_pTOcD970AgQQ24xcp4SoeDRm4i6UuLts2XNnEGQ29A0emdKqn1jJgr_VxlOl_T3po8opPVhYi64fWnNTySLx_pCDQfqk_KN2pVe3jEFMymQuzB0DTdZ5SrvzaYgQ2RIInamIS8mgP4YXaf47-lc849-TEdsxxhJOoKESbbIOb6nCq6nDA1AZCZt9UOWcS1sBlvQ93jtkK84tBVRiX8QxksvDYuik5p3Z3j4RwlO_4oG8fVUe-tEWLLAOPllJzmLzrker2er5Q64IVkJcbLQw1Tmdx2eBVBi7ngaZybxyJCLRwqED2JJH4HsrMbJQgDAepm_Ci62A1tMafdlqsnzA5orcQEzc_3iLMxb-a4v6Jmzt9jJOmH8KX6D8eTO1LNEpr-XGGt5x77iAvqRhNmhXkyF3Lf9xAgMWroJpDvaj7hsIbpr935SGEsBdciKovO_XMRbXRgWbYyUdj4ZlrU7dL0t8YUDl53BRXl98Mu_AglMDfZavzDTtncZ2SLx1XQToo5gMaTAUlpattqYLg3rGsJ8klV90cBebladJi0Dg9YnCDEdh",
+      "facilitated_booking_available": true,
+      "pnr_count": 4,
+      "has_airport_change": false,
+      "technical_stops": 0,
+      "throw_away_ticketing": false,
+      "hidden_city_ticketing": false,
+      "virtual_interlining": true,
+      "local_arrival": "2023-06-09T13:15:00.000Z",
+      "utc_arrival": "2023-06-09T05:15:00.000Z",
+      "local_departure": "2023-06-07T23:40:00.000Z",
+      "utc_departure": "2023-06-07T15:40:00.000Z"
+    },
+    {
+      "id": "1edb12104c3b00006ac85dca_0|1edb12104c3b00006ac85dca_1",
+      "flyFrom": "MNL",
+      "flyTo": "CEB",
+      "cityFrom": "Manila",
+      "cityCodeFrom": "MNL",
+      "cityTo": "Cebu",
+      "cityCodeTo": "CEB",
+      "countryFrom": {
+        "code": "PH",
+        "name": "Philippines"
+      },
+      "countryTo": {
+        "code": "PH",
+        "name": "Philippines"
+      },
+      "nightsInDest": null,
+      "quality": 250.555075,
+      "distance": 567.63,
+      "duration": {
+        "departure": 16200,
+        "return": 0,
+        "total": 16200
+      },
+      "price": 12183,
+      "conversion": {
+        "EUR": 202.555195,
+        "PHP": 12183
+      },
+      "fare": {
+        "adults": 12183,
+        "children": 12183,
+        "infants": 12183
+      },
+      "price_dropdown": {
+        "base_fare": 11942.41,
+        "fees": 240.59
+      },
+      "bags_price": {},
+      "baglimit": {
+        "hand_height": 36,
+        "hand_length": 56,
+        "hand_weight": 7,
+        "hand_width": 23,
+        "personal_item_height": 30,
+        "personal_item_length": 40,
+        "personal_item_weight": 4,
+        "personal_item_width": 10
+      },
+      "availability": {
+        "seats": null
+      },
+      "airlines": [
+        "PR"
+      ],
+      "route": [
+        {
+          "id": "1edb12104c3b00006ac85dca_0",
+          "combination_id": "1edb12104c3b00006ac85dca",
+          "flyFrom": "MNL",
+          "flyTo": "USU",
+          "cityFrom": "Manila",
+          "cityCodeFrom": "MNL",
+          "cityTo": "Busuanga, Palawan",
+          "cityCodeTo": "USU",
+          "airline": "PR",
+          "flight_no": 2961,
+          "operating_carrier": "2P",
+          "operating_flight_no": "",
+          "fare_basis": "KHTPH",
+          "fare_category": "M",
+          "fare_classes": "K",
+          "fare_family": "",
+          "return": 0,
+          "bags_recheck_required": false,
+          "vi_connection": false,
+          "guarantee": false,
+          "equipment": null,
+          "vehicle_type": "aircraft",
+          "local_arrival": "2023-06-07T07:15:00.000Z",
+          "utc_arrival": "2023-06-06T23:15:00.000Z",
+          "local_departure": "2023-06-07T06:10:00.000Z",
+          "utc_departure": "2023-06-06T22:10:00.000Z"
+        },
+        {
+          "id": "1edb12104c3b00006ac85dca_1",
+          "combination_id": "1edb12104c3b00006ac85dca",
+          "flyFrom": "USU",
+          "flyTo": "CEB",
+          "cityFrom": "Busuanga, Palawan",
+          "cityCodeFrom": "USU",
+          "cityTo": "Cebu",
+          "cityCodeTo": "CEB",
+          "airline": "PR",
+          "flight_no": 2665,
+          "operating_carrier": "2P",
+          "operating_flight_no": "",
+          "fare_basis": "KLTPH",
+          "fare_category": "M",
+          "fare_classes": "K",
+          "fare_family": "",
+          "return": 0,
+          "bags_recheck_required": false,
+          "vi_connection": false,
+          "guarantee": false,
+          "equipment": null,
+          "vehicle_type": "aircraft",
+          "local_arrival": "2023-06-07T10:40:00.000Z",
+          "utc_arrival": "2023-06-07T02:40:00.000Z",
+          "local_departure": "2023-06-07T09:15:00.000Z",
+          "utc_departure": "2023-06-07T01:15:00.000Z"
+        }
+      ],
+      "booking_token": "Ffui7-IXej-GEisOdJ92pG8niNHmi1houNhnU_FgvMQy2TPkI68B5lrlbfvpeS6bfzqn5ojpa6nkX0qdGnc8iXOFYCw18PFV_GEHvMtetNYmiMouvajufb5Ha7NxqGeF8erYWDcsoYM-Ffcg-UpWLrQdHOF0lbeD1f7ZgUF5vVErYnfBb-SvpWBNjWIf1wKjESQ0R0X6Qmgcxf1x_4XNc5EomugB1ERf_zDAsGd8NU35vEMID8iwllwso38hZtH-TjUG15uEi5eRKym-Wd1E9i6BF4JM9f4xOvWgo8-3yVoFg2YVYCHtBqpBm7JE612TaKn6b7SUkWdJ_LJNsF2xiD79qIGYvXXwB7wlEuZt0j0rNLZyY-lfRlWKPhZUNRmjmWOW_aMoJ_h9GYs1yulTeOSPxt-AXmj-E-Jp83fmvGgdq-zmMZXvqZJ9I3bPjQr9Dm0f9SdCJ28PkqtMDgItuJ7MwU2meeVe6_y1BmU-ypVoP_lEq44M6-78rS5mO4DXLkAipC1lpIEOnufRWU4hBzpRoRbSZRiNdLSp2AgNXxAOG8Qlu6F6_MSP4lLX3nqWiSS2n0uu_5S0T0Ms7Uvr726c2w5r3GojN4I97EZvWi9Cu6o5A0ucO-bYRBRVFrsJbhtAgdFj0iIfwbu08TcTw99N627v-Mwz4tzP5BkpXva6VfgmPTrxLpmFMLiAtDL171WTAZ-PQwbLYCm936rTHtfamO1goRkpj2WLuyhnMZUH6hWJQptnEubjhdAN9nx1QufqW249ZwXKOspsJZHweGg==",
+      "facilitated_booking_available": false,
+      "pnr_count": 1,
+      "has_airport_change": false,
+      "technical_stops": 0,
+      "throw_away_ticketing": false,
+      "hidden_city_ticketing": false,
+      "virtual_interlining": false,
+      "local_arrival": "2023-06-07T10:40:00.000Z",
+      "utc_arrival": "2023-06-07T02:40:00.000Z",
+      "local_departure": "2023-06-07T06:10:00.000Z",
+      "utc_departure": "2023-06-06T22:10:00.000Z"
+    },
+    {
+      "id": "1edb07544c3b000022b64719_0|075410ff4c3c00006cc65d91_0|10ff12104c3d0000cc1d37d8_0",
+      "flyFrom": "MNL",
+      "flyTo": "CEB",
+      "cityFrom": "Manila",
+      "cityCodeFrom": "MNL",
+      "cityTo": "Cebu",
+      "cityCodeTo": "CEB",
+      "countryFrom": {
+        "code": "PH",
+        "name": "Philippines"
+      },
+      "countryTo": {
+        "code": "PH",
+        "name": "Philippines"
+      },
+      "nightsInDest": null,
+      "quality": 515.936,
+      "distance": 567.63,
+      "duration": {
+        "departure": 135300,
+        "return": 0,
+        "total": 135300
+      },
+      "price": 12226,
+      "conversion": {
+        "EUR": 203.270115,
+        "PHP": 12226
+      },
+      "fare": {
+        "adults": 12226,
+        "children": 12226,
+        "infants": 12226
+      },
+      "price_dropdown": {
+        "base_fare": 12226,
+        "fees": 0
+      },
+      "bags_price": {
+        "1": 91.365
+      },
+      "baglimit": {
+        "hand_height": 36,
+        "hand_length": 56,
+        "hand_weight": 7,
+        "hand_width": 23,
+        "hold_dimensions_sum": 158,
+        "hold_height": 52,
+        "hold_length": 78,
+        "hold_weight": 15,
+        "hold_width": 28
+      },
+      "availability": {
+        "seats": 9
+      },
+      "airlines": [
+        "Z9",
+        "AK",
+        "5J"
+      ],
+      "route": [
+        {
+          "id": "1edb07544c3b000022b64719_0",
+          "combination_id": "1edb07544c3b000022b64719",
+          "flyFrom": "MNL",
+          "flyTo": "BKI",
+          "cityFrom": "Manila",
+          "cityCodeFrom": "MNL",
+          "cityTo": "Kota Kinabalu",
+          "cityCodeTo": "BKI",
+          "airline": "5J",
+          "flight_no": 733,
+          "operating_carrier": "",
+          "operating_flight_no": "",
+          "fare_basis": "",
+          "fare_category": "M",
+          "fare_classes": "C",
+          "fare_family": "",
+          "return": 0,
+          "bags_recheck_required": false,
+          "vi_connection": false,
+          "guarantee": false,
+          "equipment": null,
+          "vehicle_type": "aircraft",
+          "local_arrival": "2023-06-08T01:50:00.000Z",
+          "utc_arrival": "2023-06-07T17:50:00.000Z",
+          "local_departure": "2023-06-07T23:40:00.000Z",
+          "utc_departure": "2023-06-07T15:40:00.000Z"
+        },
+        {
+          "id": "075410ff4c3c00006cc65d91_0",
+          "combination_id": "075410ff4c3c00006cc65d91",
+          "flyFrom": "BKI",
+          "flyTo": "KUL",
+          "cityFrom": "Kota Kinabalu",
+          "cityCodeFrom": "BKI",
+          "cityTo": "Kuala Lumpur",
+          "cityCodeTo": "KUL",
+          "airline": "Z9",
+          "flight_no": 8808,
+          "operating_carrier": "Z9",
+          "operating_flight_no": "8808",
+          "fare_basis": "",
+          "fare_category": "M",
+          "fare_classes": "",
+          "fare_family": "",
+          "return": 0,
+          "bags_recheck_required": true,
+          "vi_connection": true,
+          "guarantee": true,
+          "equipment": null,
+          "vehicle_type": "aircraft",
+          "local_arrival": "2023-06-08T19:05:00.000Z",
+          "utc_arrival": "2023-06-08T11:05:00.000Z",
+          "local_departure": "2023-06-08T16:25:00.000Z",
+          "utc_departure": "2023-06-08T08:25:00.000Z"
+        },
+        {
+          "id": "10ff12104c3d0000cc1d37d8_0",
+          "combination_id": "10ff12104c3d0000cc1d37d8",
+          "flyFrom": "KUL",
+          "flyTo": "CEB",
+          "cityFrom": "Kuala Lumpur",
+          "cityCodeFrom": "KUL",
+          "cityTo": "Cebu",
+          "cityCodeTo": "CEB",
+          "airline": "AK",
+          "flight_no": 590,
+          "operating_carrier": "AK",
+          "operating_flight_no": "590",
+          "fare_basis": "",
+          "fare_category": "M",
+          "fare_classes": "B",
+          "fare_family": "",
+          "return": 0,
+          "bags_recheck_required": true,
+          "vi_connection": true,
+          "guarantee": true,
+          "equipment": null,
+          "vehicle_type": "aircraft",
+          "local_arrival": "2023-06-09T13:15:00.000Z",
+          "utc_arrival": "2023-06-09T05:15:00.000Z",
+          "local_departure": "2023-06-09T09:10:00.000Z",
+          "utc_departure": "2023-06-09T01:10:00.000Z"
+        }
+      ],
+      "booking_token": "FY65OahCxiF8rYjiFmEtKV8MVL6fVfT4TP7Jg1yQry1ZxZ3-nWxxhzgxyV-ksMa6VAGjRvgVyCKw6uCG2SJBgN1L0OMGyfkW4ojqW5xq1hPQzNkEVdrMUVVX4QkEoOktVXzEBrYNUdvZOUxiDVSA68_4zcBsD9Hiy04gpnVPkafWoLy05iUo-YDy8DhmCDW7_5HrSZBCEEafK_VXWIz8iIJsTL0bAeIfFzABPwgaIjSh7Loid3UJuvzubG0hxsiWm_10OOgOa-FANkWZhWYazMOmldG1AxUuykCyILoDQffhoWqjiSxc32TfgD3REGJKBoQDUBp5q2M8Z_4yzWEzeshRKsORaiBs_LWi8r4KfvnDkrpk8mO-vd-xMpA3MfgoMKeiuWgGFBZsOWJ6mtQzzbj6RalasAJcqn_UmmpcPj83Zs8yi3hrwL-pMxgP220waeN1H4lAfF5LAu-nN5JsbkfcanhIjasN69-riy317y4UphSQmw_zw0ZzQ8Idg0qfIx1yYAXDMWtGJ5RJmXhmEj6GhFvS3eDFZgpvVpqSrK6Zv0JgIGkBXAVe20GMC_5Svz1eK8x0tUZl30uYWHMpPCMbWSzxDBtfVvQbCDYAOLxZDnFfFn-Xe4kjrez9kk8jYRc0JFjflIpi5GHpfUdoGBL7HUx1fvs3fLcPmeVClzvecueBpdbujWVLyDjpvi1RTxN4SlRKvF8_m5rHgTlTBQ5pSUs5UzQQTc6A219SAHduyW3SrtQ4H2j9P8o5dcNUg9BPcFTZ5yOoE3ZSHkEO_YGlY0OpesrsWV9TqcTMNs4qFvgnLOgrl3zMWF9htgFw5h1nKxbNw4DNITNYZFBFtxxKzgiqgzhh8MGwjOCPkC6w=",
+      "facilitated_booking_available": true,
+      "pnr_count": 3,
+      "has_airport_change": false,
+      "technical_stops": 0,
+      "throw_away_ticketing": false,
+      "hidden_city_ticketing": false,
+      "virtual_interlining": true,
+      "local_arrival": "2023-06-09T13:15:00.000Z",
+      "utc_arrival": "2023-06-09T05:15:00.000Z",
+      "local_departure": "2023-06-07T23:40:00.000Z",
+      "utc_departure": "2023-06-07T15:40:00.000Z"
+    },
+    {
+      "id": "1edb12104c3b00002051e8aa_0|1edb12104c3b00002051e8aa_1",
+      "flyFrom": "MNL",
+      "flyTo": "CEB",
+      "cityFrom": "Manila",
+      "cityCodeFrom": "MNL",
+      "cityTo": "Cebu",
+      "cityCodeTo": "CEB",
+      "countryFrom": {
+        "code": "PH",
+        "name": "Philippines"
+      },
+      "countryTo": {
+        "code": "PH",
+        "name": "Philippines"
+      },
+      "nightsInDest": null,
+      "quality": 242.45047,
+      "distance": 567.63,
+      "duration": {
+        "departure": 11700,
+        "return": 0,
+        "total": 11700
+      },
+      "price": 12297,
+      "conversion": {
+        "EUR": 204.450565,
+        "PHP": 12297
+      },
+      "fare": {
+        "adults": 12297,
+        "children": 12297,
+        "infants": 12297
+      },
+      "price_dropdown": {
+        "base_fare": 12056.41,
+        "fees": 240.59
+      },
+      "bags_price": {},
+      "baglimit": {
+        "hand_height": 36,
+        "hand_length": 56,
+        "hand_weight": 7,
+        "hand_width": 23,
+        "personal_item_height": 30,
+        "personal_item_length": 40,
+        "personal_item_weight": 4,
+        "personal_item_width": 10
+      },
+      "availability": {
+        "seats": null
+      },
+      "airlines": [
+        "PR"
+      ],
+      "route": [
+        {
+          "id": "1edb12104c3b00002051e8aa_0",
+          "combination_id": "1edb12104c3b00002051e8aa",
+          "flyFrom": "MNL",
+          "flyTo": "MPH",
+          "cityFrom": "Manila",
+          "cityCodeFrom": "MNL",
+          "cityTo": "Caticlan",
+          "cityCodeTo": "MPH",
+          "airline": "PR",
+          "flight_no": 2045,
+          "operating_carrier": "2P",
+          "operating_flight_no": "",
+          "fare_basis": "EIPH",
+          "fare_category": "M",
+          "fare_classes": "E",
+          "fare_family": "",
+          "return": 0,
+          "bags_recheck_required": false,
+          "vi_connection": false,
+          "guarantee": false,
+          "equipment": null,
+          "vehicle_type": "aircraft",
+          "local_arrival": "2023-06-07T14:55:00.000Z",
+          "utc_arrival": "2023-06-07T06:55:00.000Z",
+          "local_departure": "2023-06-07T13:45:00.000Z",
+          "utc_departure": "2023-06-07T05:45:00.000Z"
+        },
+        {
+          "id": "1edb12104c3b00002051e8aa_1",
+          "combination_id": "1edb12104c3b00002051e8aa",
+          "flyFrom": "MPH",
+          "flyTo": "CEB",
+          "cityFrom": "Caticlan",
+          "cityCodeFrom": "MPH",
+          "cityTo": "Cebu",
+          "cityCodeTo": "CEB",
+          "airline": "PR",
+          "flight_no": 2369,
+          "operating_carrier": "2P",
+          "operating_flight_no": "",
+          "fare_basis": "EIPH",
+          "fare_category": "M",
+          "fare_classes": "E",
+          "fare_family": "",
+          "return": 0,
+          "bags_recheck_required": false,
+          "vi_connection": false,
+          "guarantee": false,
+          "equipment": null,
+          "vehicle_type": "aircraft",
+          "local_arrival": "2023-06-07T17:00:00.000Z",
+          "utc_arrival": "2023-06-07T09:00:00.000Z",
+          "local_departure": "2023-06-07T16:00:00.000Z",
+          "utc_departure": "2023-06-07T08:00:00.000Z"
+        }
+      ],
+      "booking_token": "FYCsiDjc4YmZeAycMHnFSzVXQ82PE81QMQ7k1zg_PIkcrYMnHnldiOryRUP-szSXhak3eXu1jtFWjj3hevyhL4Xh8eAedbArv9tVjMOcgc7Qn-bwQN4FZwpj5dZ9w1Fbt6wCV_Nnq9CNZ7aMgD_-RtGJnEkkgSNQaVVgHmg2P9sBHGaMS_4VlvXRVdwDkn-y63uiykGsjmlLmoE5Y55lQ-0D6omALqI-lUhC9yq-6NsIkL4hKnCbdz4UTm9eAoyjTmqLr9GMlKw_lesKEJ_EUmzOqsC2dr8t40FwtyxQ6E4R7sbLOnnJnF2LIwJzic4rPZmJyaGGdC_NxYce9z6j9m3Q-zJYq9Nq9jtMpNRoZe5tjsCPfP9q92DOdzzmPx1FWHreBVga1IE2wX6OFnpQwidwiZiNijLk-UtrqIAOBiEfEPbdIHH88aY76sERewYHZhLCc_3bYhiWGdJN-p8zi9vRGeKRh0Bo8c5Y8Eb7hQFZnjKf9k9MbjWxt9ex0aGHDj4i1PUJU34o8Z2tdqr4PXTmKbsvWkB5qzXUFvcP0XhORU1PZ2GKGr6O0nPQFnxPDqicUvo1hl04yqIcgYQpMUkaNxN7Czvk-1EksvW-ZBTS1ey_7dVATFO3bH3EF7XaictgTHw0CAzb7mTS-YlihjvNl6NNkEtRiG4eROGxJdO0DoFaHxHMq8jOUaIm84fzj3IBX34yQe5hfvNTo8a7bWicSRPN-ttl1dULIPf2plTf-RO2_JuSK1q6BJuT2NHpz",
+      "facilitated_booking_available": false,
+      "pnr_count": 1,
+      "has_airport_change": false,
+      "technical_stops": 0,
+      "throw_away_ticketing": false,
+      "hidden_city_ticketing": false,
+      "virtual_interlining": false,
+      "local_arrival": "2023-06-07T17:00:00.000Z",
+      "utc_arrival": "2023-06-07T09:00:00.000Z",
+      "local_departure": "2023-06-07T13:45:00.000Z",
+      "utc_departure": "2023-06-07T05:45:00.000Z"
+    },
+    {
+      "id": "1edb12104c3b0000d1d2648a_0|1edb12104c3b0000d1d2648a_1",
+      "flyFrom": "MNL",
+      "flyTo": "CEB",
+      "cityFrom": "Manila",
+      "cityCodeFrom": "MNL",
+      "cityTo": "Cebu",
+      "cityCodeTo": "CEB",
+      "countryFrom": {
+        "code": "PH",
+        "name": "Philippines"
+      },
+      "countryTo": {
+        "code": "PH",
+        "name": "Philippines"
+      },
+      "nightsInDest": null,
+      "quality": 245.783795,
+      "distance": 567.63,
+      "duration": {
+        "departure": 13200,
+        "return": 0,
+        "total": 13200
+      },
+      "price": 12297,
+      "conversion": {
+        "EUR": 204.450565,
+        "PHP": 12297
+      },
+      "fare": {
+        "adults": 12297,
+        "children": 12297,
+        "infants": 12297
+      },
+      "price_dropdown": {
+        "base_fare": 12056.41,
+        "fees": 240.59
+      },
+      "bags_price": {},
+      "baglimit": {
+        "hand_height": 36,
+        "hand_length": 56,
+        "hand_weight": 7,
+        "hand_width": 23,
+        "personal_item_height": 30,
+        "personal_item_length": 40,
+        "personal_item_weight": 4,
+        "personal_item_width": 10
+      },
+      "availability": {
+        "seats": null
+      },
+      "airlines": [
+        "PR"
+      ],
+      "route": [
+        {
+          "id": "1edb12104c3b0000d1d2648a_0",
+          "combination_id": "1edb12104c3b0000d1d2648a",
+          "flyFrom": "MNL",
+          "flyTo": "MPH",
+          "cityFrom": "Manila",
+          "cityCodeFrom": "MNL",
+          "cityTo": "Caticlan",
+          "cityCodeTo": "MPH",
+          "airline": "PR",
+          "flight_no": 2041,
+          "operating_carrier": "2P",
+          "operating_flight_no": "",
+          "fare_basis": "EIPH",
+          "fare_category": "M",
+          "fare_classes": "E",
+          "fare_family": "",
+          "return": 0,
+          "bags_recheck_required": false,
+          "vi_connection": false,
+          "guarantee": false,
+          "equipment": null,
+          "vehicle_type": "aircraft",
+          "local_arrival": "2023-06-07T14:30:00.000Z",
+          "utc_arrival": "2023-06-07T06:30:00.000Z",
+          "local_departure": "2023-06-07T13:20:00.000Z",
+          "utc_departure": "2023-06-07T05:20:00.000Z"
+        },
+        {
+          "id": "1edb12104c3b0000d1d2648a_1",
+          "combination_id": "1edb12104c3b0000d1d2648a",
+          "flyFrom": "MPH",
+          "flyTo": "CEB",
+          "cityFrom": "Caticlan",
+          "cityCodeFrom": "MPH",
+          "cityTo": "Cebu",
+          "cityCodeTo": "CEB",
+          "airline": "PR",
+          "flight_no": 2369,
+          "operating_carrier": "2P",
+          "operating_flight_no": "",
+          "fare_basis": "EIPH",
+          "fare_category": "M",
+          "fare_classes": "E",
+          "fare_family": "",
+          "return": 0,
+          "bags_recheck_required": false,
+          "vi_connection": false,
+          "guarantee": false,
+          "equipment": null,
+          "vehicle_type": "aircraft",
+          "local_arrival": "2023-06-07T17:00:00.000Z",
+          "utc_arrival": "2023-06-07T09:00:00.000Z",
+          "local_departure": "2023-06-07T16:00:00.000Z",
+          "utc_departure": "2023-06-07T08:00:00.000Z"
+        }
+      ],
+      "booking_token": "FtoU15Zazy2klY9kByyV9rbNMgs547RJjN0O3tNgvh71GrpjPJcxrHZxh3vaxIcfAOvbTX6BR7BOvCoPo4C3SWywCXX6cu8rPawC3eDMAgQRzlmIMjt6wvGvh2DS43WCU4eLidWZY-wdKg9N_jeuUEJZr_3ingxWBR96pn5kq8nZkcEoHbr3VsCLY79-TPiPOyZRcMakk-gkeJ9ms9P6hJqLXVFtSDKBW--IaHQoXYuRL8Hz9uvujFWK6GNZN15ZLH_0sAJYAjB6dvDOs6n_KT9qmK3IBCH7UvSmoT5NErJ-c7kYSW4SU8NUU2RehBzoES5PH_a-6vEbXABKqQdyA_JUXUtQar-ht4P9JGS80b0L64Gl_XpcAoBstxSJMBQ6AF4O67dEa7RIxaQGFUyvLzYeFYl4iN-PUh2MxFTBTJ3yBsSlP8N8YUpQKWlR6DV89urSJlTMPdJFcBLwRg0hD6UaALeU_uFlHMrfOwSXBVVnovG_V6KNOrF5STjrvdEU4UhUdC46Ujhth9xWdEXgcKRn3RRefuaZbvMd_tmpYqN1rmwdIdSGOleEOjOqtJ9vnkIei_Eb1kOVT8fifvbaTdoxw9yN8GARtWLhvCcqeeEk6BwnIiQewnjfFRrobmSVSIrgWbEDS916hOzJMvg7Dn2azHtFCkBAJSjMkRc6HjGhtEXvfzljKzv8_y2JHitCkcUh46huUDmqmY2pB7o3dRc3LdQbeqIYgMzL8ouKkruMke8T7P52AUto5svVel3mi",
+      "facilitated_booking_available": false,
+      "pnr_count": 1,
+      "has_airport_change": false,
+      "technical_stops": 0,
+      "throw_away_ticketing": false,
+      "hidden_city_ticketing": false,
+      "virtual_interlining": false,
+      "local_arrival": "2023-06-07T17:00:00.000Z",
+      "utc_arrival": "2023-06-07T09:00:00.000Z",
+      "local_departure": "2023-06-07T13:20:00.000Z",
+      "utc_departure": "2023-06-07T05:20:00.000Z"
+    },
+    {
+      "id": "1edb12104c3b0000e325709c_0|1edb12104c3b0000e325709c_1",
+      "flyFrom": "MNL",
+      "flyTo": "CEB",
+      "cityFrom": "Manila",
+      "cityCodeFrom": "MNL",
+      "cityTo": "Cebu",
+      "cityCodeTo": "CEB",
+      "countryFrom": {
+        "code": "PH",
+        "name": "Philippines"
+      },
+      "countryTo": {
+        "code": "PH",
+        "name": "Philippines"
+      },
+      "nightsInDest": null,
+      "quality": 276.731802,
+      "distance": 567.63,
+      "duration": {
+        "departure": 23700,
+        "return": 0,
+        "total": 23700
+      },
+      "price": 12755,
+      "conversion": {
+        "EUR": 212.065297,
+        "PHP": 12755
+      },
+      "fare": {
+        "adults": 12755,
+        "children": 12755,
+        "infants": 12755
+      },
+      "price_dropdown": {
+        "base_fare": 12514.41,
+        "fees": 240.59
+      },
+      "bags_price": {},
+      "baglimit": {
+        "hand_height": 36,
+        "hand_length": 56,
+        "hand_weight": 7,
+        "hand_width": 23,
+        "personal_item_height": 30,
+        "personal_item_length": 40,
+        "personal_item_weight": 4,
+        "personal_item_width": 10
+      },
+      "availability": {
+        "seats": null
+      },
+      "airlines": [
+        "PR"
+      ],
+      "route": [
+        {
+          "id": "1edb12104c3b0000e325709c_0",
+          "combination_id": "1edb12104c3b0000e325709c",
+          "flyFrom": "MNL",
+          "flyTo": "IAO",
+          "cityFrom": "Manila",
+          "cityCodeFrom": "MNL",
+          "cityTo": "Del Carmen",
+          "cityCodeTo": "IAO",
+          "airline": "PR",
+          "flight_no": 2971,
+          "operating_carrier": "2P",
+          "operating_flight_no": "",
+          "fare_basis": "BKTPH",
+          "fare_category": "M",
+          "fare_classes": "B",
+          "fare_family": "",
+          "return": 0,
+          "bags_recheck_required": false,
+          "vi_connection": false,
+          "guarantee": false,
+          "equipment": null,
+          "vehicle_type": "aircraft",
+          "local_arrival": "2023-06-07T13:20:00.000Z",
+          "utc_arrival": "2023-06-07T05:20:00.000Z",
+          "local_departure": "2023-06-07T11:20:00.000Z",
+          "utc_departure": "2023-06-07T03:20:00.000Z"
+        },
+        {
+          "id": "1edb12104c3b0000e325709c_1",
+          "combination_id": "1edb12104c3b0000e325709c",
+          "flyFrom": "IAO",
+          "flyTo": "CEB",
+          "cityFrom": "Del Carmen",
+          "cityCodeFrom": "IAO",
+          "cityTo": "Cebu",
+          "cityCodeTo": "CEB",
+          "airline": "PR",
+          "flight_no": 2383,
+          "operating_carrier": "2P",
+          "operating_flight_no": "",
+          "fare_basis": "KLTPH",
+          "fare_category": "M",
+          "fare_classes": "K",
+          "fare_family": "",
+          "return": 0,
+          "bags_recheck_required": false,
+          "vi_connection": false,
+          "guarantee": false,
+          "equipment": null,
+          "vehicle_type": "aircraft",
+          "local_arrival": "2023-06-07T17:55:00.000Z",
+          "utc_arrival": "2023-06-07T09:55:00.000Z",
+          "local_departure": "2023-06-07T17:00:00.000Z",
+          "utc_departure": "2023-06-07T09:00:00.000Z"
+        }
+      ],
+      "booking_token": "FRp31EqaqoCSpu3C0PphEYZHu5gtnkprp0JfO4HL47sJYh1n-M8P5hKOGDLogtiEzVBfps4SOB-OUWwDGfDFZj9t512HjvObcCk9VfpuCSsVEbmRdGFMOMp-a8HNAVtBYsCFPrD7H68l2FxNliCuJAyE0cJPocVJI6iBq2oGO-jnuM0_MR9gOXJ3U7--YcCWbNIKhZf6Ou-uoFUw4L_qrqVbQtJhMg1pPlk4Yp_PkzmAMuZqNiq2n7IFzIpVoPHSdymJADjUVBPTqvsyD2MnfFDUy1x87hIHcI5m4sWuaZ6ZjLhPOnR_DYLOJ9dutALrXAMa40u59BpATFwvrICR9Y8k0nm9QiXfJZL8GGRgqv0Y_hIIZVeYdshuQoyp5M3Vki-m8wIEDfO5pGa1n8SBFQ-_TwnXW4uCLWCk4t0oVH9cSkKCh3TryCjDLhm4q9xvwNyFQQaiatjrUndqtHqQ-Kic0tZ-c_fdtrdAmnzzxDSO-OQsRGyS1KotwmJC021J8iRFnXYSyQQ7OgPsVQqPBf23dKqLJ4QI4XMB-zRBWYgieZulLRfWAnf5kvz1YVKcZqRnrpETa7fnfMt8_zKq86oxKsi1pB61hpxk_3ySYs2nSUkR2-MqRwvHBHJ3lXdY93LVOFJyjOJ5iL2eYh-vRM2KG9HyDlMpvIH3_TzwKlGTPvU1P-1A-T0nOyOFcAKbC44AFD2zwtzr7rslBf6OXEAMtP25LERtDgpEA9vdY7BQkYt6mDibeLe91po_RCvAO3B3WlSSQeieGjl2lGgQY5Q==",
+      "facilitated_booking_available": false,
+      "pnr_count": 1,
+      "has_airport_change": false,
+      "technical_stops": 0,
+      "throw_away_ticketing": false,
+      "hidden_city_ticketing": false,
+      "virtual_interlining": false,
+      "local_arrival": "2023-06-07T17:55:00.000Z",
+      "utc_arrival": "2023-06-07T09:55:00.000Z",
+      "local_departure": "2023-06-07T11:20:00.000Z",
+      "utc_departure": "2023-06-07T03:20:00.000Z"
+    },
+    {
+      "id": "1edb12104c3b0000c4c307b6_0|1edb12104c3b0000c4c307b6_1",
+      "flyFrom": "MNL",
+      "flyTo": "CEB",
+      "cityFrom": "Manila",
+      "cityCodeFrom": "MNL",
+      "cityTo": "Cebu",
+      "cityCodeTo": "CEB",
+      "countryFrom": {
+        "code": "PH",
+        "name": "Philippines"
+      },
+      "countryTo": {
+        "code": "PH",
+        "name": "Philippines"
+      },
+      "nightsInDest": null,
+      "quality": 291.140926,
+      "distance": 567.63,
+      "duration": {
+        "departure": 28800,
+        "return": 0,
+        "total": 28800
+      },
+      "price": 12940,
+      "conversion": {
+        "EUR": 215.141116,
+        "PHP": 12940
+      },
+      "fare": {
+        "adults": 12940,
+        "children": 12940,
+        "infants": 12940
+      },
+      "price_dropdown": {
+        "base_fare": 12940,
+        "fees": 0
+      },
+      "bags_price": {
+        "1": 30.18
+      },
+      "baglimit": {
+        "hand_height": 36,
+        "hand_length": 56,
+        "hand_weight": 7,
+        "hand_width": 23,
+        "hold_dimensions_sum": 158,
+        "hold_height": 52,
+        "hold_length": 78,
+        "hold_weight": 20,
+        "hold_width": 28
+      },
+      "availability": {
+        "seats": 2
+      },
+      "airlines": [
+        "DG"
+      ],
+      "route": [
+        {
+          "id": "1edb12104c3b0000c4c307b6_0",
+          "combination_id": "1edb12104c3b0000c4c307b6",
+          "flyFrom": "MNL",
+          "flyTo": "IAO",
+          "cityFrom": "Manila",
+          "cityCodeFrom": "MNL",
+          "cityTo": "Del Carmen",
+          "cityCodeTo": "IAO",
+          "airline": "DG",
+          "flight_no": 6841,
+          "operating_carrier": "",
+          "operating_flight_no": "",
+          "fare_basis": "",
+          "fare_category": "M",
+          "fare_classes": "K",
+          "fare_family": "",
+          "return": 0,
+          "bags_recheck_required": false,
+          "vi_connection": false,
+          "guarantee": false,
+          "equipment": null,
+          "vehicle_type": "aircraft",
+          "local_arrival": "2023-06-07T07:40:00.000Z",
+          "utc_arrival": "2023-06-06T23:40:00.000Z",
+          "local_departure": "2023-06-07T05:20:00.000Z",
+          "utc_departure": "2023-06-06T21:20:00.000Z"
+        },
+        {
+          "id": "1edb12104c3b0000c4c307b6_1",
+          "combination_id": "1edb12104c3b0000c4c307b6",
+          "flyFrom": "IAO",
+          "flyTo": "CEB",
+          "cityFrom": "Del Carmen",
+          "cityCodeFrom": "IAO",
+          "cityTo": "Cebu",
+          "cityCodeTo": "CEB",
+          "airline": "DG",
+          "flight_no": 6856,
+          "operating_carrier": "",
+          "operating_flight_no": "",
+          "fare_basis": "",
+          "fare_category": "M",
+          "fare_classes": "K",
+          "fare_family": "",
+          "return": 0,
+          "bags_recheck_required": false,
+          "vi_connection": false,
+          "guarantee": false,
+          "equipment": null,
+          "vehicle_type": "aircraft",
+          "local_arrival": "2023-06-07T13:20:00.000Z",
+          "utc_arrival": "2023-06-07T05:20:00.000Z",
+          "local_departure": "2023-06-07T12:10:00.000Z",
+          "utc_departure": "2023-06-07T04:10:00.000Z"
+        }
+      ],
+      "booking_token": "FOEyH36JjG8BgD6PnFGLPpY6vVlAMIyNpLyOJQjzz4sQkYhBZ-B21JTD3H-NuXunX2FQEzdy0eZ-Np9bDptfJNsLn15Z6QMiDXwgyt0D7DEcUF5Ur_I53hpqOy2S0deLcFt6g7OTbum3Jy57vIvuxlQ2rVikHPotWljpMA4hRRaDJMGa_Yh2VdNjta_DKiXB_c7ycSyG2-6QhnTzbKc_LVfmMrlc5Nf19U01RudBPEsEvn63dCiOciApsvnhDOG1REFHf4ZYMcvCGicfi01_i62g9_n1OMT_KcZL48crHx6oz3DU3-OOqaMvvqwh71wuFEt4lX2Z6HPs-7qvMGQZF4MjAa0GOiSfYAe0bAL_a_k6YwU9l1Qzm44pl0SO7m_MdGqXpJJP8L70MJKTjsmcTmq6uGTwLoxI_6pAUy1gJd0uI0Gav6VToX1vG5Q1Ul517VhnqsiB8glviDs_9bavNlf8UvryNQMM7szBZCTNW4hB9UaMO4xjCZo1MsWwNP_y-2TPXWP7CqUqOlP_fDvIO7nwFciDQesZ7fuEdJ7Da-mEuG2uhgybkwTpSZJEnSTua05vvOsdj_HRp2rMnt1bzoTyA8cJ400evm3eu3QI-Sv4hOf35EAtBMh-MfClgOnIvrftWQM6VD3v6vg2WHx2nQDg56AW-aO3xItjPxjZFWp_PJsoYy9dnH8LYcUzd8cWeXQl2F1Y3SsEno73MtVE_5w==",
+      "facilitated_booking_available": true,
+      "pnr_count": 1,
+      "has_airport_change": false,
+      "technical_stops": 0,
+      "throw_away_ticketing": false,
+      "hidden_city_ticketing": false,
+      "virtual_interlining": false,
+      "local_arrival": "2023-06-07T13:20:00.000Z",
+      "utc_arrival": "2023-06-07T05:20:00.000Z",
+      "local_departure": "2023-06-07T05:20:00.000Z",
+      "utc_departure": "2023-06-06T21:20:00.000Z"
+    },
+    {
+      "id": "1edb12104c3b0000eee965ff_0|1edb12104c3b0000eee965ff_1",
+      "flyFrom": "MNL",
+      "flyTo": "CEB",
+      "cityFrom": "Manila",
+      "cityCodeFrom": "MNL",
+      "cityTo": "Cebu",
+      "cityCodeTo": "CEB",
+      "countryFrom": {
+        "code": "PH",
+        "name": "Philippines"
+      },
+      "countryTo": {
+        "code": "PH",
+        "name": "Philippines"
+      },
+      "nightsInDest": null,
+      "quality": 292.584544,
+      "distance": 567.63,
+      "duration": {
+        "departure": 25200,
+        "return": 0,
+        "total": 25200
+      },
+      "price": 13508,
+      "conversion": {
+        "EUR": 224.584714,
+        "PHP": 13508
+      },
+      "fare": {
+        "adults": 13508,
+        "children": 13508,
+        "infants": 13508
+      },
+      "price_dropdown": {
+        "base_fare": 13267.41,
+        "fees": 240.59
+      },
+      "bags_price": {},
+      "baglimit": {
+        "hand_height": 36,
+        "hand_length": 56,
+        "hand_weight": 7,
+        "hand_width": 23,
+        "personal_item_height": 30,
+        "personal_item_length": 40,
+        "personal_item_weight": 4,
+        "personal_item_width": 10
+      },
+      "availability": {
+        "seats": null
+      },
+      "airlines": [
+        "PR"
+      ],
+      "route": [
+        {
+          "id": "1edb12104c3b0000eee965ff_0",
+          "combination_id": "1edb12104c3b0000eee965ff",
+          "flyFrom": "MNL",
+          "flyTo": "USU",
+          "cityFrom": "Manila",
+          "cityCodeFrom": "MNL",
+          "cityTo": "Busuanga, Palawan",
+          "cityCodeTo": "USU",
+          "airline": "PR",
+          "flight_no": 2963,
+          "operating_carrier": "2P",
+          "operating_flight_no": "",
+          "fare_basis": "XHTPH",
+          "fare_category": "M",
+          "fare_classes": "X",
+          "fare_family": "",
+          "return": 0,
+          "bags_recheck_required": false,
+          "vi_connection": false,
+          "guarantee": false,
+          "equipment": null,
+          "vehicle_type": "aircraft",
+          "local_arrival": "2023-06-07T11:25:00.000Z",
+          "utc_arrival": "2023-06-07T03:25:00.000Z",
+          "local_departure": "2023-06-07T10:20:00.000Z",
+          "utc_departure": "2023-06-07T02:20:00.000Z"
+        },
+        {
+          "id": "1edb12104c3b0000eee965ff_1",
+          "combination_id": "1edb12104c3b0000eee965ff",
+          "flyFrom": "USU",
+          "flyTo": "CEB",
+          "cityFrom": "Busuanga, Palawan",
+          "cityCodeFrom": "USU",
+          "cityTo": "Cebu",
+          "cityCodeTo": "CEB",
+          "airline": "PR",
+          "flight_no": 2681,
+          "operating_carrier": "2P",
+          "operating_flight_no": "",
+          "fare_basis": "XLTPH",
+          "fare_category": "M",
+          "fare_classes": "X",
+          "fare_family": "",
+          "return": 0,
+          "bags_recheck_required": false,
+          "vi_connection": false,
+          "guarantee": false,
+          "equipment": null,
+          "vehicle_type": "aircraft",
+          "local_arrival": "2023-06-07T17:20:00.000Z",
+          "utc_arrival": "2023-06-07T09:20:00.000Z",
+          "local_departure": "2023-06-07T15:50:00.000Z",
+          "utc_departure": "2023-06-07T07:50:00.000Z"
+        }
+      ],
+      "booking_token": "F9vxb4PQrgjxhlBLSuogJmyl7f3mtfaKnjcW72Cz7jk496MrKuK82coGf_IFZzf8xd12CiQo0a6CManoHKYb16h2-9X26e1-Ja_xFBzGzQvVAhAk2Ga0mEZv2DcmGajSEeg2xJiq6uUbH25gPaREkGn24QW8Ne8TIQQNqQdJ8A99PFOhYVDybityA3sQb63KFQCiwgALa_pDdL2J3Cj7fxS8dV0VCw-ErO0UEpaTvlJ01STU8hPt3HjWF9O8CtTRFmrc53YsAcnGHjlZ8SgARq9OO7d-rtFRSuVcyYLdRocn0TmjcP8fRN5k7bu2QvAp9qDutU80kihGdXzKd_2uIRiAjzYHTBO9i1rOuP2inbfcaeee51obYY6KtF7Br-rXigxpIk9sAnMIRhCwmbdtTabn45R4UQ9UktFpg-hDMHzFW1A2LN4HmZ-yHFPtq8UoVCyc_QP2nq64yOVP7GfKLhIS7O3OPF6TbaTP9BNPWLmwcww03j0JRN_Ht7pg9B57tPAPYjgvh4yTlz9Q_aCXv1RhwDgmZvtmoaerovGEfMriDrRYB9pHx1JIsFDJZrFqUk8H2BA4MzOh0Nb5vYIcgD4xKQn55fwAEHo5aent9_Ffsi_Qy0WPO_hJo_6aAQbRpGYu3tm9D0JxhLK3mfz_B_m0MxEtXZW_MGxr45zmP_EK2cB1Xe9jhIQSZDjE4q3d5MeaQZeaiZd0GRMXTGHYZ9fsdMPfC6GNweHc0XUZZYUgaaR0L3W7qk96NIiZUKInh",
+      "facilitated_booking_available": false,
+      "pnr_count": 1,
+      "has_airport_change": false,
+      "technical_stops": 0,
+      "throw_away_ticketing": false,
+      "hidden_city_ticketing": false,
+      "virtual_interlining": false,
+      "local_arrival": "2023-06-07T17:20:00.000Z",
+      "utc_arrival": "2023-06-07T09:20:00.000Z",
+      "local_departure": "2023-06-07T10:20:00.000Z",
+      "utc_departure": "2023-06-07T02:20:00.000Z"
+    },
+    {
+      "id": "1edb12104c3b0000feeaa13e_0|1edb12104c3b0000feeaa13e_1",
+      "flyFrom": "MNL",
+      "flyTo": "CEB",
+      "cityFrom": "Manila",
+      "cityCodeFrom": "MNL",
+      "cityTo": "Cebu",
+      "cityCodeTo": "CEB",
+      "countryFrom": {
+        "code": "PH",
+        "name": "Philippines"
+      },
+      "countryTo": {
+        "code": "PH",
+        "name": "Philippines"
+      },
+      "nightsInDest": null,
+      "quality": 268.050947,
+      "distance": 567.63,
+      "duration": {
+        "departure": 14100,
+        "return": 0,
+        "total": 14100
+      },
+      "price": 13516,
+      "conversion": {
+        "EUR": 224.717722,
+        "PHP": 13516
+      },
+      "fare": {
+        "adults": 13516,
+        "children": 13516,
+        "infants": 13516
+      },
+      "price_dropdown": {
+        "base_fare": 13275.41,
+        "fees": 240.59
+      },
+      "bags_price": {},
+      "baglimit": {
+        "hand_height": 36,
+        "hand_length": 56,
+        "hand_weight": 7,
+        "hand_width": 23,
+        "personal_item_height": 30,
+        "personal_item_length": 40,
+        "personal_item_weight": 4,
+        "personal_item_width": 10
+      },
+      "availability": {
+        "seats": null
+      },
+      "airlines": [
+        "PR"
+      ],
+      "route": [
+        {
+          "id": "1edb12104c3b0000feeaa13e_0",
+          "combination_id": "1edb12104c3b0000feeaa13e",
+          "flyFrom": "MNL",
+          "flyTo": "IAO",
+          "cityFrom": "Manila",
+          "cityCodeFrom": "MNL",
+          "cityTo": "Del Carmen",
+          "cityCodeTo": "IAO",
+          "airline": "PR",
+          "flight_no": 2973,
+          "operating_carrier": "2P",
+          "operating_flight_no": "",
+          "fare_basis": "VKTPH",
+          "fare_category": "M",
+          "fare_classes": "V",
+          "fare_family": "",
+          "return": 0,
+          "bags_recheck_required": false,
+          "vi_connection": false,
+          "guarantee": false,
+          "equipment": null,
+          "vehicle_type": "aircraft",
+          "local_arrival": "2023-06-07T15:55:00.000Z",
+          "utc_arrival": "2023-06-07T07:55:00.000Z",
+          "local_departure": "2023-06-07T14:00:00.000Z",
+          "utc_departure": "2023-06-07T06:00:00.000Z"
+        },
+        {
+          "id": "1edb12104c3b0000feeaa13e_1",
+          "combination_id": "1edb12104c3b0000feeaa13e",
+          "flyFrom": "IAO",
+          "flyTo": "CEB",
+          "cityFrom": "Del Carmen",
+          "cityCodeFrom": "IAO",
+          "cityTo": "Cebu",
+          "cityCodeTo": "CEB",
+          "airline": "PR",
+          "flight_no": 2383,
+          "operating_carrier": "2P",
+          "operating_flight_no": "",
+          "fare_basis": "KLTPH",
+          "fare_category": "M",
+          "fare_classes": "K",
+          "fare_family": "",
+          "return": 0,
+          "bags_recheck_required": false,
+          "vi_connection": false,
+          "guarantee": false,
+          "equipment": null,
+          "vehicle_type": "aircraft",
+          "local_arrival": "2023-06-07T17:55:00.000Z",
+          "utc_arrival": "2023-06-07T09:55:00.000Z",
+          "local_departure": "2023-06-07T17:00:00.000Z",
+          "utc_departure": "2023-06-07T09:00:00.000Z"
+        }
+      ],
+      "booking_token": "FCaO_PXvwwiuy31bfKFDbPiks1aPugsNg6q-_MbWgN54Xkch4af9mP9A4zBGfOB14gPBVfPfvFmtYUvtxcNaoK_JTMbO9Au8miyD09A9DD6gvCKY4Em2-QV6Ss4bn1m32SYj0xCqLuXqMxdfB6EgWxnZ6UxlGlaCfz5dLyYft3qjuBktrwOsNg-tFR4tTDk46VdLzE9f5lMa6Jf_zkipuYgtVy9_6TqlhpNcp9h9ghciQgKPdnteQE0sc2HLJ3CNtLmefdfNJxjQCWyI2giT-WMZlP7EM0WaN_YdB0QLED--vRxEQpDlreAc52nbvzVuAH9017hHyVij0I6GDkd5mCyZOTLybV2m1yuxQ-8etq722Bu3A4y03mLl7Nz_MWJst40GQmxYk3Fan3F0HQF7Fgn8SdaKYALkEm2fvFtZYJRjAH_j2CSsZLsCTzbwBem3HJMTt90lldT8-lBGvwquse__M3uS01gkMzvskR5Z2m5BjBtVFdGZ0xN9ndsWXEZhAThAH624qlr_eVJR4GgJoYURHlpT6l7rYc_jUWFapoGGzNYl6tpKjdn0xc0nxqour0reTJON5yDOjiaCcqKI2X4opAj795x0v-Ijv3yC2MqgjKzaykvVGFX8-7w9lk7Ob3IlkGHsacOHFc_2n6esB9EDzZAWIxfO7mlmA415DpspF_WQLt_2izSKkCWcVDlrWRmGlOpheiPsWSDH_koEVd5KcmUbNO2O92jOM81MyjpD2Crh2M55KKZ0sLO1gUvZF",
+      "facilitated_booking_available": false,
+      "pnr_count": 1,
+      "has_airport_change": false,
+      "technical_stops": 0,
+      "throw_away_ticketing": false,
+      "hidden_city_ticketing": false,
+      "virtual_interlining": false,
+      "local_arrival": "2023-06-07T17:55:00.000Z",
+      "utc_arrival": "2023-06-07T09:55:00.000Z",
+      "local_departure": "2023-06-07T14:00:00.000Z",
+      "utc_departure": "2023-06-07T06:00:00.000Z"
+    },
+    {
+      "id": "1edb07544c3b000022b64719_0|075418844c3c0000bc6b8382_0|188412104c3c0000caf0d3d0_0",
+      "flyFrom": "MNL",
+      "flyTo": "CEB",
+      "cityFrom": "Manila",
+      "cityCodeFrom": "MNL",
+      "cityTo": "Cebu",
+      "cityCodeTo": "CEB",
+      "countryFrom": {
+        "code": "PH",
+        "name": "Philippines"
+      },
+      "countryTo": {
+        "code": "PH",
+        "name": "Philippines"
+      },
+      "nightsInDest": null,
+      "quality": 432.961292,
+      "distance": 567.63,
+      "duration": {
+        "departure": 78000,
+        "return": 0,
+        "total": 78000
+      },
+      "price": 14894,
+      "conversion": {
+        "EUR": 247.628422,
+        "PHP": 14894
+      },
+      "fare": {
+        "adults": 14894,
+        "children": 14894,
+        "infants": 14894
+      },
+      "price_dropdown": {
+        "base_fare": 14894,
+        "fees": 0
+      },
+      "bags_price": {
+        "1": 105.93
+      },
+      "baglimit": {
+        "hand_height": 36,
+        "hand_length": 54,
+        "hand_weight": 7,
+        "hand_width": 23,
+        "hold_dimensions_sum": 158,
+        "hold_height": 50,
+        "hold_length": 70,
+        "hold_weight": 20,
+        "hold_width": 38
+      },
+      "availability": {
+        "seats": null
+      },
+      "airlines": [
+        "AK",
+        "TR",
+        "5J"
+      ],
+      "route": [
+        {
+          "id": "1edb07544c3b000022b64719_0",
+          "combination_id": "1edb07544c3b000022b64719",
+          "flyFrom": "MNL",
+          "flyTo": "BKI",
+          "cityFrom": "Manila",
+          "cityCodeFrom": "MNL",
+          "cityTo": "Kota Kinabalu",
+          "cityCodeTo": "BKI",
+          "airline": "5J",
+          "flight_no": 733,
+          "operating_carrier": "",
+          "operating_flight_no": "",
+          "fare_basis": "",
+          "fare_category": "M",
+          "fare_classes": "C",
+          "fare_family": "",
+          "return": 0,
+          "bags_recheck_required": false,
+          "vi_connection": false,
+          "guarantee": false,
+          "equipment": null,
+          "vehicle_type": "aircraft",
+          "local_arrival": "2023-06-08T01:50:00.000Z",
+          "utc_arrival": "2023-06-07T17:50:00.000Z",
+          "local_departure": "2023-06-07T23:40:00.000Z",
+          "utc_departure": "2023-06-07T15:40:00.000Z"
+        },
+        {
+          "id": "075418844c3c0000bc6b8382_0",
+          "combination_id": "075418844c3c0000bc6b8382",
+          "flyFrom": "BKI",
+          "flyTo": "SIN",
+          "cityFrom": "Kota Kinabalu",
+          "cityCodeFrom": "BKI",
+          "cityTo": "Singapore",
+          "cityCodeTo": "SIN",
+          "airline": "AK",
+          "flight_no": 1793,
+          "operating_carrier": "AK",
+          "operating_flight_no": "1793",
+          "fare_basis": "",
+          "fare_category": "M",
+          "fare_classes": "E",
+          "fare_family": "",
+          "return": 0,
+          "bags_recheck_required": true,
+          "vi_connection": true,
+          "guarantee": true,
+          "equipment": null,
+          "vehicle_type": "aircraft",
+          "local_arrival": "2023-06-08T11:30:00.000Z",
+          "utc_arrival": "2023-06-08T03:30:00.000Z",
+          "local_departure": "2023-06-08T09:05:00.000Z",
+          "utc_departure": "2023-06-08T01:05:00.000Z"
+        },
+        {
+          "id": "188412104c3c0000caf0d3d0_0",
+          "combination_id": "188412104c3c0000caf0d3d0",
+          "flyFrom": "SIN",
+          "flyTo": "CEB",
+          "cityFrom": "Singapore",
+          "cityCodeFrom": "SIN",
+          "cityTo": "Cebu",
+          "cityCodeTo": "CEB",
+          "airline": "TR",
+          "flight_no": 388,
+          "operating_carrier": "TR",
+          "operating_flight_no": "388",
+          "fare_basis": "N1CCOA",
+          "fare_category": "M",
+          "fare_classes": "N",
+          "fare_family": "",
+          "return": 0,
+          "bags_recheck_required": true,
+          "vi_connection": true,
+          "guarantee": true,
+          "equipment": null,
+          "vehicle_type": "aircraft",
+          "local_arrival": "2023-06-08T21:20:00.000Z",
+          "utc_arrival": "2023-06-08T13:20:00.000Z",
+          "local_departure": "2023-06-08T17:25:00.000Z",
+          "utc_departure": "2023-06-08T09:25:00.000Z"
+        }
+      ],
+      "booking_token": "F1-5uXLxX4-iUkQ4Cz8QwfJppkTDkkDh9cp_KwjnQmChrjsCOYPUZlzXdcJ3MQtYpTY9kCtcOu2jIZ6REDdwNCvCf3WHBha2oVQZMJ_o86mTgT5c3HPRKdXsfVI9jf2t0MELwVFkk9aE0a3xZP0sfi1Qbcu1o6UYIsoEM55_5pdXQoJlBJqyg8t48aVvBWDqUFOHV6NhUPCrEQ_1_M2rYAVWQeNNB3XV8qgCXInI0edzLogz9Q_HYkUBMYJqTi1B4VKeidAHWCM_IlEEKSZ4xwCQm9Y-dd5J9wldKKEYskkIkKyv0GDB6npgbbryV9KQDUsoYDRhCP9D-o3fD8Vxw3MIlJxd5uam3Zcn9HBsv85jRwPMK4AUiit5m_c1r7egjBGXugvwD_D5c8xto8XTA3NxZ4pDy_0skzCHX_TUvhIitULPx6AXn8RW36iLBLpUH78Dl7gGQvuLCLjE9ikHevqoFTM-Xf80VOgOQLYnHG7GiR4j77BWrsHbwU4WLtEm27SzyFZFWo0hbpjlD2SVRFlNjAO8aD4YmZqcLtp9YCuXX6_o1zzOCL9nBfH7iTpdwxJzgQC8UPYYPQqUbPjHf3t-ZKObrNI6bKIeZNiNswgM8JNbz8ic2JUusLT7ZbJpGJ3E2rjWT6wcQxBTzkvECobCqJIO_W1pmnl6YdTW4ShIguGMYInC2f-G12zNBZIc30gHZJCoFRtRWYUFPzsAWWk51guqag39dhVFEjbTR3GDTvJ3Brv4_lTARRjRgekrvfvTT7sRPmgUtTGCGAqhw0kN2nBXVZj2TQxZ89gEenCRfAFYKih4QX_mr9b3KQAiZW_7CHlmLL-Y9YigcgTflXv1V104BFJ14RSenjQZH3zB8EcldlWD5KSeXJwNnsDV0",
+      "facilitated_booking_available": true,
+      "pnr_count": 3,
+      "has_airport_change": false,
+      "technical_stops": 0,
+      "throw_away_ticketing": false,
+      "hidden_city_ticketing": false,
+      "virtual_interlining": true,
+      "local_arrival": "2023-06-08T21:20:00.000Z",
+      "utc_arrival": "2023-06-08T13:20:00.000Z",
+      "local_departure": "2023-06-07T23:40:00.000Z",
+      "utc_departure": "2023-06-07T15:40:00.000Z"
+    },
+    {
+      "id": "1edb12104c3b0000d553a4c8_0|1edb12104c3b0000d553a4c8_1",
+      "flyFrom": "MNL",
+      "flyTo": "CEB",
+      "cityFrom": "Manila",
+      "cityCodeFrom": "MNL",
+      "cityTo": "Cebu",
+      "cityCodeTo": "CEB",
+      "countryFrom": {
+        "code": "PH",
+        "name": "Philippines"
+      },
+      "countryTo": {
+        "code": "PH",
+        "name": "Philippines"
+      },
+      "nightsInDest": null,
+      "quality": 300.283597,
+      "distance": 567.63,
+      "duration": {
+        "departure": 16200,
+        "return": 0,
+        "total": 16200
+      },
+      "price": 15174,
+      "conversion": {
+        "EUR": 252.283717,
+        "PHP": 15174
+      },
+      "fare": {
+        "adults": 15174,
+        "children": 15174,
+        "infants": 15174
+      },
+      "price_dropdown": {
+        "base_fare": 15174,
+        "fees": 0
+      },
+      "bags_price": {
+        "1": 30.18
+      },
+      "baglimit": {
+        "hand_height": 36,
+        "hand_length": 56,
+        "hand_weight": 7,
+        "hand_width": 23,
+        "hold_dimensions_sum": 158,
+        "hold_height": 52,
+        "hold_length": 78,
+        "hold_weight": 20,
+        "hold_width": 28
+      },
+      "availability": {
+        "seats": 1
+      },
+      "airlines": [
+        "DG"
+      ],
+      "route": [
+        {
+          "id": "1edb12104c3b0000d553a4c8_0",
+          "combination_id": "1edb12104c3b0000d553a4c8",
+          "flyFrom": "MNL",
+          "flyTo": "USU",
+          "cityFrom": "Manila",
+          "cityCodeFrom": "MNL",
+          "cityTo": "Busuanga, Palawan",
+          "cityCodeTo": "USU",
+          "airline": "DG",
+          "flight_no": 6047,
+          "operating_carrier": "",
+          "operating_flight_no": "",
+          "fare_basis": "",
+          "fare_category": "M",
+          "fare_classes": "L",
+          "fare_family": "",
+          "return": 0,
+          "bags_recheck_required": false,
+          "vi_connection": false,
+          "guarantee": false,
+          "equipment": null,
+          "vehicle_type": "aircraft",
+          "local_arrival": "2023-06-07T12:50:00.000Z",
+          "utc_arrival": "2023-06-07T04:50:00.000Z",
+          "local_departure": "2023-06-07T11:30:00.000Z",
+          "utc_departure": "2023-06-07T03:30:00.000Z"
+        },
+        {
+          "id": "1edb12104c3b0000d553a4c8_1",
+          "combination_id": "1edb12104c3b0000d553a4c8",
+          "flyFrom": "USU",
+          "flyTo": "CEB",
+          "cityFrom": "Busuanga, Palawan",
+          "cityCodeFrom": "USU",
+          "cityTo": "Cebu",
+          "cityCodeTo": "CEB",
+          "airline": "DG",
+          "flight_no": 6067,
+          "operating_carrier": "",
+          "operating_flight_no": "",
+          "fare_basis": "",
+          "fare_category": "M",
+          "fare_classes": "L",
+          "fare_family": "",
+          "return": 0,
+          "bags_recheck_required": false,
+          "vi_connection": false,
+          "guarantee": false,
+          "equipment": null,
+          "vehicle_type": "aircraft",
+          "local_arrival": "2023-06-07T16:00:00.000Z",
+          "utc_arrival": "2023-06-07T08:00:00.000Z",
+          "local_departure": "2023-06-07T14:20:00.000Z",
+          "utc_departure": "2023-06-07T06:20:00.000Z"
+        }
+      ],
+      "booking_token": "FKbCqIB1umycnorC4BSVB7JNvoUNyDL1yMY3uzmZzgUsKLsx0ubh9LdNVbePyYwPbSH4_8KuNN3JhlaX69RbbAwdN60KS5yd-ZDMfNRb5bS9TlpYhe25GNCQ5i6MCXadzTw9aJY6lAjPg9YY_CB8HAlQPMwKIMyICioPhwaQWlXAuGgWZ8QspoDcRJR6OEHocOSmFSYfDRj_o7VTLp_mJMljNnerUmkFrItkQjMyB3UDp6HoLiI1Tg0vv5xfiVXDyE8CnY6TrV25b-myiC9HCoLofQKuJwzriOGiNTGB3IyX0zkE7tHVYmzN3WPLZe_U8XR19eOH7qb6gwkd5WMHpgAGwGWpHuyg_jXtuIrQO3gz3WLsKbX_eDyEKAmTSUxGA7CH7w7SgXI8jylOd1Qs1n1mjKPLoZKz76eHlYLXHrmPp9haav1cgpm0JYiACmarJWCfa-kiOq7BObaYMw-YzxmJhigfbdJ5PlDqQy4gHYJeyS9b_nC5fJpNtd96L2oQQi8WynZtBSPejNkZ3eHUtpIvrVAXGof2wtUkRO0Cr5yTgX7XoaZtfAt6SuRZ0fJstk8bVPajoq_IvapHuBrlJit6SnwwzeMSzsy-gMy26wTUsKMYiPao3cRFszme8rKhPYAO8IwIt9IN5yA2trbYwrNTuEl9RdzQGtgga39kvu6Wa8Bzq206FhNLP-DvAPtlSdqLV4GBG_-NZ_EWW0T_RWw==",
+      "facilitated_booking_available": true,
+      "pnr_count": 1,
+      "has_airport_change": false,
+      "technical_stops": 0,
+      "throw_away_ticketing": false,
+      "hidden_city_ticketing": false,
+      "virtual_interlining": false,
+      "local_arrival": "2023-06-07T16:00:00.000Z",
+      "utc_arrival": "2023-06-07T08:00:00.000Z",
+      "local_departure": "2023-06-07T11:30:00.000Z",
+      "utc_departure": "2023-06-07T03:30:00.000Z"
+    },
+    {
+      "id": "1edb09934c3b00003fd17086_0|099312104c3c000067efefab_0",
+      "flyFrom": "MNL",
+      "flyTo": "CEB",
+      "cityFrom": "Manila",
+      "cityCodeFrom": "MNL",
+      "cityTo": "Cebu",
+      "cityCodeTo": "CEB",
+      "countryFrom": {
+        "code": "PH",
+        "name": "Philippines"
+      },
+      "countryTo": {
+        "code": "PH",
+        "name": "Philippines"
+      },
+      "nightsInDest": null,
+      "quality": 801.448167,
+      "distance": 567.63,
+      "duration": {
+        "departure": 87900,
+        "return": 0,
+        "total": 87900
+      },
+      "price": 35734,
+      "conversion": {
+        "EUR": 594.115352,
+        "PHP": 35734
+      },
+      "fare": {
+        "adults": 35734,
+        "children": 35734,
+        "infants": 35734
+      },
+      "price_dropdown": {
+        "base_fare": 35734,
+        "fees": 0
+      },
+      "bags_price": {
+        "1": 70.02
+      },
+      "baglimit": {
+        "hand_height": 40,
+        "hand_length": 55,
+        "hand_weight": 8,
+        "hand_width": 20,
+        "hold_dimensions_sum": 158,
+        "hold_height": 52,
+        "hold_length": 78,
+        "hold_weight": 15,
+        "hold_width": 28
+      },
+      "availability": {
+        "seats": 3
+      },
+      "airlines": [
+        "7C",
+        "OZ"
+      ],
+      "route": [
+        {
+          "id": "1edb09934c3b00003fd17086_0",
+          "combination_id": "1edb09934c3b00003fd17086",
+          "flyFrom": "MNL",
+          "flyTo": "ICN",
+          "cityFrom": "Manila",
+          "cityCodeFrom": "MNL",
+          "cityTo": "Seoul",
+          "cityCodeTo": "SEL",
+          "airline": "OZ",
+          "flight_no": 704,
+          "operating_carrier": "OZ",
+          "operating_flight_no": "704",
+          "fare_basis": "BLOSK",
+          "fare_category": "M",
+          "fare_classes": "B",
+          "fare_family": "",
+          "return": 0,
+          "bags_recheck_required": false,
+          "vi_connection": false,
+          "guarantee": false,
+          "equipment": null,
+          "vehicle_type": "aircraft",
+          "local_arrival": "2023-06-08T04:50:00.000Z",
+          "utc_arrival": "2023-06-07T19:50:00.000Z",
+          "local_departure": "2023-06-07T23:55:00.000Z",
+          "utc_departure": "2023-06-07T15:55:00.000Z"
+        },
+        {
+          "id": "099312104c3c000067efefab_0",
+          "combination_id": "099312104c3c000067efefab",
+          "flyFrom": "ICN",
+          "flyTo": "CEB",
+          "cityFrom": "Seoul",
+          "cityCodeFrom": "SEL",
+          "cityTo": "Cebu",
+          "cityCodeTo": "CEB",
+          "airline": "7C",
+          "flight_no": 2405,
+          "operating_carrier": "7C",
+          "operating_flight_no": "2405",
+          "fare_basis": "EVOWKP",
+          "fare_category": "M",
+          "fare_classes": "E",
+          "fare_family": "",
+          "return": 0,
+          "bags_recheck_required": true,
+          "vi_connection": true,
+          "guarantee": true,
+          "equipment": null,
+          "vehicle_type": "aircraft",
+          "local_arrival": "2023-06-09T00:20:00.000Z",
+          "utc_arrival": "2023-06-08T16:20:00.000Z",
+          "local_departure": "2023-06-08T20:50:00.000Z",
+          "utc_departure": "2023-06-08T11:50:00.000Z"
+        }
+      ],
+      "booking_token": "FVBFy6p_2gm39Ci6XPu_u82G3816pQRLbW5AYio23s2gJz4tL5hooidzp6a1pHzFnx1Y3lt1nCg_kgcUG3D2jKgYf0VxnbltJiQ4cmTakbmQ74l70_o3Wcz6g5tv3Q6ow64RiP9zIxjcrpF1XEsNtlhMVEoOzF3rep9Kwrn6CJXBg0l63IEDwWVsA_GgzZXHrfugGEJG92_Mfzk75mrTiQejzUIfdW1-5uGEjj8siNCPjqci6_F3jTAk5XJ_mv1qpNGOyklTB2LRpybtleeIQOCkenIWF59f7QBKCnlxYOUOUQ6cyeTE5XqfiWXC82TjqklhFuO5kEzQOyFnK-epL0O3r1V70qiPrw_C584KtMcLLQ4XU5UnHDLI0qo_AEHYOBVNzqQyVAFmyC1OPm5-DJsKNTVEAhscTuW6QbrdaNaqAdCauRvWujugYLIDJ1euIH3_pOihyMfw6qqJ3TgwiLqsV4wQ0Hh9a0DAzg0AsJ7Y-9kKtyagrItH9bYe2GqX9IOnnfrTsExnJq5CCWpIiVj5eZ8zKLvwH8tc3SoDP_gNZn2i0FAbTADMcV-dxTxS9S4ONl8cSKDjv81uLm_rCsD1IgCCT5UXc2AY4mbLfh4lUYtLbl7m_zmqFYh7BSD8MG99DbwIop9yFPZgKCG4usQ-xqhH0DWkfQmlnCeEzZRdxjJs7rwg690bUbiVzU-3sMgrf-S_kA3RfUgIXO9e88-4j2GY5lG5mXlPelQfQ9E5Xst3WDI3MvtLGxuqmj9HrkSk2oGUBaEFCMu2oU_7rnMxA3JdEg4Ja4viqjavhMQF2DZ4kf5_UYGKZd9AnUfZc2_LRSK9MgkMegcygQ6aNkw==",
+      "facilitated_booking_available": true,
+      "pnr_count": 2,
+      "has_airport_change": false,
+      "technical_stops": 0,
+      "throw_away_ticketing": false,
+      "hidden_city_ticketing": false,
+      "virtual_interlining": true,
+      "local_arrival": "2023-06-09T00:20:00.000Z",
+      "utc_arrival": "2023-06-08T16:20:00.000Z",
+      "local_departure": "2023-06-07T23:55:00.000Z",
+      "utc_departure": "2023-06-07T15:55:00.000Z"
+    },
+    {
+      "id": "1edb09934c3b00003fd17086_0|099312104c3c0000ac504fbb_0",
+      "flyFrom": "MNL",
+      "flyTo": "CEB",
+      "cityFrom": "Manila",
+      "cityCodeFrom": "MNL",
+      "cityTo": "Cebu",
+      "cityCodeTo": "CEB",
+      "countryFrom": {
+        "code": "PH",
+        "name": "Philippines"
+      },
+      "countryTo": {
+        "code": "PH",
+        "name": "Philippines"
+      },
+      "nightsInDest": null,
+      "quality": 816.55638,
+      "distance": 567.63,
+      "duration": {
+        "departure": 87000,
+        "return": 0,
+        "total": 87000
+      },
+      "price": 36763,
+      "conversion": {
+        "EUR": 611.22356,
+        "PHP": 36763
+      },
+      "fare": {
+        "adults": 36763,
+        "children": 36763,
+        "infants": 36763
+      },
+      "price_dropdown": {
+        "base_fare": 36763,
+        "fees": 0
+      },
+      "bags_price": {
+        "1": 0
+      },
+      "baglimit": {
+        "hand_height": 38,
+        "hand_length": 57,
+        "hand_weight": 10,
+        "hand_width": 20,
+        "hold_dimensions_sum": 158,
+        "hold_height": 52,
+        "hold_length": 78,
+        "hold_weight": 15,
+        "hold_width": 28
+      },
+      "availability": {
+        "seats": 3
+      },
+      "airlines": [
+        "LJ",
+        "OZ"
+      ],
+      "route": [
+        {
+          "id": "1edb09934c3b00003fd17086_0",
+          "combination_id": "1edb09934c3b00003fd17086",
+          "flyFrom": "MNL",
+          "flyTo": "ICN",
+          "cityFrom": "Manila",
+          "cityCodeFrom": "MNL",
+          "cityTo": "Seoul",
+          "cityCodeTo": "SEL",
+          "airline": "OZ",
+          "flight_no": 704,
+          "operating_carrier": "OZ",
+          "operating_flight_no": "704",
+          "fare_basis": "BLOSK",
+          "fare_category": "M",
+          "fare_classes": "B",
+          "fare_family": "",
+          "return": 0,
+          "bags_recheck_required": false,
+          "vi_connection": false,
+          "guarantee": false,
+          "equipment": null,
+          "vehicle_type": "aircraft",
+          "local_arrival": "2023-06-08T04:50:00.000Z",
+          "utc_arrival": "2023-06-07T19:50:00.000Z",
+          "local_departure": "2023-06-07T23:55:00.000Z",
+          "utc_departure": "2023-06-07T15:55:00.000Z"
+        },
+        {
+          "id": "099312104c3c0000ac504fbb_0",
+          "combination_id": "099312104c3c0000ac504fbb",
+          "flyFrom": "ICN",
+          "flyTo": "CEB",
+          "cityFrom": "Seoul",
+          "cityCodeFrom": "SEL",
+          "cityTo": "Cebu",
+          "cityCodeTo": "CEB",
+          "airline": "LJ",
+          "flight_no": 25,
+          "operating_carrier": "LJ",
+          "operating_flight_no": "25",
+          "fare_basis": "PKOW",
+          "fare_category": "M",
+          "fare_classes": "P",
+          "fare_family": "",
+          "return": 0,
+          "bags_recheck_required": true,
+          "vi_connection": true,
+          "guarantee": true,
+          "equipment": null,
+          "vehicle_type": "aircraft",
+          "local_arrival": "2023-06-09T00:05:00.000Z",
+          "utc_arrival": "2023-06-08T16:05:00.000Z",
+          "local_departure": "2023-06-08T20:25:00.000Z",
+          "utc_departure": "2023-06-08T11:25:00.000Z"
+        }
+      ],
+      "booking_token": "FL7iND0pPOoMlUwxHEbFusOa4MXlmQxYaplqWh7hE5qmny6VU-Zv1-BE3JoZaUb6nXLTTcliBdy8rVF3neNv7qnpaKRspCd5k7F5nYmaHLMwqQCL7RRCL-T3YAw_LEzPuKy2wYzc-CMD0V240C5DOlLmpGORw2bsb7pEDIHn-tsY6zicPIsUqsUHJl9IsLvunbmradCE1IXGNH1ZetwoNsegh3KIhWWaXMqIuod6r0aSGmsi2hXjnuhZ-fhfhK0aMjwod0zL5NLNWaLU1lnIGkod4eS6c8OZocMRs3V30pctW_V4yXhDXeB_8-wdnkxiNYb9LmoOkn9VanFgrK1Dt2P0I1-Jg6vHLCAfNyUmKpXGpSkXdc01SSJBZz4fN5eLElv675uPx_b9AyliIx1IlJMDgEMY7IjvlTJJwNaav0RBXB_fEtQVGOcYilMfeKbswo3IpabS6xxeOWQcCjZhTnl5VAlurz2SW6jgGceaAGrXMA2Y09C7zg9qqhv2OHLDYFrxTFaoFk8tnHn47hHYE8aNr63Dt9LSCJ4MDl1ayUkejM8FTo7MWwkWRtbZYmanxQwMcKjTjtFzPO02OLsO6xF3v1KGQKUKkJvU9DuGlyjkwWcR9c_LOXfd86ROfyjW9wXFwnh6LuB9K-MnWQMBifieeBytGQAdaeWZItHTDFqQ6Zeo9EwY04aCKIk2RSqVz0_wmtwcQDTgd9H8KYvCOnmZGPDZLHmJFCItno6VTz7X9JGJyRag9SbMdXMGvTi7b-2OSMuEE8XkxgQO9rUFoOjzX5uU--c9FSS2c-FF7zW2M1M3527_y867yaBqagyQp0jY33b44jrFNhvFZegalhg==",
+      "facilitated_booking_available": true,
+      "pnr_count": 2,
+      "has_airport_change": false,
+      "technical_stops": 0,
+      "throw_away_ticketing": false,
+      "hidden_city_ticketing": false,
+      "virtual_interlining": true,
+      "local_arrival": "2023-06-09T00:05:00.000Z",
+      "utc_arrival": "2023-06-08T16:05:00.000Z",
+      "local_departure": "2023-06-07T23:55:00.000Z",
+      "utc_departure": "2023-06-07T15:55:00.000Z"
+    },
+    {
+      "id": "1edb09934c3b00003fd17086_0|099312104c3c000004b534fd_0",
+      "flyFrom": "MNL",
+      "flyTo": "CEB",
+      "cityFrom": "Manila",
+      "cityCodeFrom": "MNL",
+      "cityTo": "Cebu",
+      "cityCodeTo": "CEB",
+      "countryFrom": {
+        "code": "PH",
+        "name": "Philippines"
+      },
+      "countryTo": {
+        "code": "PH",
+        "name": "Philippines"
+      },
+      "nightsInDest": null,
+      "quality": 857.001762,
+      "distance": 567.63,
+      "duration": {
+        "departure": 42900,
+        "return": 0,
+        "total": 42900
+      },
+      "price": 45090,
+      "conversion": {
+        "EUR": 749.668697,
+        "PHP": 45090
+      },
+      "fare": {
+        "adults": 45090,
+        "children": 45090,
+        "infants": 45090
+      },
+      "price_dropdown": {
+        "base_fare": 44969.71,
+        "fees": 120.29
+      },
+      "bags_price": {
+        "1": 0
+      },
+      "baglimit": {
+        "hand_height": 36,
+        "hand_length": 56,
+        "hand_weight": 7,
+        "hand_width": 23,
+        "hold_dimensions_sum": 158,
+        "hold_height": 52,
+        "hold_length": 78,
+        "hold_weight": 20,
+        "hold_width": 28
+      },
+      "availability": {
+        "seats": 3
+      },
+      "airlines": [
+        "PR",
+        "OZ"
+      ],
+      "route": [
+        {
+          "id": "1edb09934c3b00003fd17086_0",
+          "combination_id": "1edb09934c3b00003fd17086",
+          "flyFrom": "MNL",
+          "flyTo": "ICN",
+          "cityFrom": "Manila",
+          "cityCodeFrom": "MNL",
+          "cityTo": "Seoul",
+          "cityCodeTo": "SEL",
+          "airline": "OZ",
+          "flight_no": 704,
+          "operating_carrier": "OZ",
+          "operating_flight_no": "704",
+          "fare_basis": "BLOSK",
+          "fare_category": "M",
+          "fare_classes": "B",
+          "fare_family": "",
+          "return": 0,
+          "bags_recheck_required": false,
+          "vi_connection": false,
+          "guarantee": false,
+          "equipment": null,
+          "vehicle_type": "aircraft",
+          "local_arrival": "2023-06-08T04:50:00.000Z",
+          "utc_arrival": "2023-06-07T19:50:00.000Z",
+          "local_departure": "2023-06-07T23:55:00.000Z",
+          "utc_departure": "2023-06-07T15:55:00.000Z"
+        },
+        {
+          "id": "099312104c3c000004b534fd_0",
+          "combination_id": "099312104c3c000004b534fd",
+          "flyFrom": "ICN",
+          "flyTo": "CEB",
+          "cityFrom": "Seoul",
+          "cityCodeFrom": "SEL",
+          "cityTo": "Cebu",
+          "cityCodeTo": "CEB",
+          "airline": "PR",
+          "flight_no": 485,
+          "operating_carrier": "PR",
+          "operating_flight_no": "485",
+          "fare_basis": "XLOFKRC",
+          "fare_category": "M",
+          "fare_classes": "X",
+          "fare_family": "",
+          "return": 0,
+          "bags_recheck_required": true,
+          "vi_connection": true,
+          "guarantee": true,
+          "equipment": null,
+          "vehicle_type": "aircraft",
+          "local_arrival": "2023-06-08T11:50:00.000Z",
+          "utc_arrival": "2023-06-08T03:50:00.000Z",
+          "local_departure": "2023-06-08T08:30:00.000Z",
+          "utc_departure": "2023-06-07T23:30:00.000Z"
+        }
+      ],
+      "booking_token": "FFH5nnARqbqmld9yK_0-MhzcxzJYqqHrsJdUQXSP5IAABuLZCl4DkJ8rEuNZzojfGRkzJkrwnHNrK7KrMiJYYyBetWtcw31Se8N0zOhdHMXfpGWlyEEXWQwpzYhjbmLq9XA5nPwYXuz95UmCRl8HAdNwwDDLfRRlVOmqRGbZ70MCygHazZeJBwojjB2teqN7CjJAg-NUGhajLx1X9C6kKWTPetepJQPEbBokYTJuI1yJOQWp6KEmP_wC_okIX2ebzhPttTghB3BgVz6QYcvu1-MlZwrhaj8HKm62tJhNs-hBkFIGoGSE2k8P3gnHwRqcoYXfA-wlokeAhXppJvUEj800E7DtwMAdXm2elHbMxq3qV40K-SLPql_OTlM6AB7maZIhYE7wRPFebgJA-RjABNf6_qn8KtJK10ynwYjp7zVSRdyO3_bcxZMuXdyFzdptupfNbjOTslgYUynQJlfBfAdOHRwl0N_VArvw5jDkr1bjyQAiaE2aP-wSBZUvQ6Jgvnv3inZSgimOrFAGzLyKFeYGr4cz9c7jtOUBue4rGCxcZrxnY3Gc3Tu0h7CjPM6gcvvQgulB03AX_ZLZAn3cg_QC-4cGRIFKyYaEtnAP1rFcKesbkZ41m4Q-RYHMJXhAIsYw381dGi6SnfocTfDuqc94gx0Iy88FNbF45cIRaL3eZ_7GCSv4ksX3PYsJ4Usea2n-vcwE1QwUOMOVQHPgHfIeCIUVq54rKOVaGYMikIeqqwjYvbhROuqT20xeI6rufA9JVbUkZsaafxMa1AmX-Yu9do_Oz0CoBdP5pLJra--swgQlkRvQqxc8iucpM3tELJjGKyHq6z6UzyPi-gdP1eA==",
+      "facilitated_booking_available": false,
+      "pnr_count": 2,
+      "has_airport_change": false,
+      "technical_stops": 0,
+      "throw_away_ticketing": false,
+      "hidden_city_ticketing": false,
+      "virtual_interlining": true,
+      "local_arrival": "2023-06-08T11:50:00.000Z",
+      "utc_arrival": "2023-06-08T03:50:00.000Z",
+      "local_departure": "2023-06-07T23:55:00.000Z",
+      "utc_departure": "2023-06-07T15:55:00.000Z"
+    }
+  ],
+  "_results": 40,
+  "search_params": {
+    "flyFrom_type": "airport",
+    "to_type": "airport",
+    "seats": {
+      "passengers": 1,
+      "adults": 1,
+      "children": 0,
+      "infants": 0
+    }
+  },
+  "all_stopover_airports": [],
+  "sort_version": 0
+}
