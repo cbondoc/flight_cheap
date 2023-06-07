@@ -76,7 +76,7 @@ export default function FixedSizeGrid(props) {
       sortable: false,
       renderCell: (params) => {
         const onClick = (e) => {
-          e.stopPropagation(); // don't select this row after clicking
+          e.stopPropagation(); // avoid select this row after clicking
           setBooking(params.row);
           router.push("/booking/select");
         };
