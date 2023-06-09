@@ -34,7 +34,7 @@ Before you begin, make sure you have the following installed:
 
 ```npm run dev```
 
-6. 
+6. (Optional) If you are using yarn instead of npm, you may install the dependency using:
 
 ```npm install -g yarn```
 
