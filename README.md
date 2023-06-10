@@ -13,7 +13,7 @@ Before you begin, make sure you have the following installed:
 
 1. Clone the repository:
 
-```git clone https://github.com/cedricp95/flight-cheap-react.git```
+```https://github.com/cbondoc/flight_cheap.git```
 
 
 2. Switch to the `main` branch:
@@ -25,10 +25,18 @@ Before you begin, make sure you have the following installed:
 
 ```npm i --save```
 
+4. Check for update (if there's any) on the main branch
 
-4. Start the development server:
+```git pull origin main```
+
+
+5. Start the development server:
 
 ```npm run dev```
+
+6. (Optional) If you are using yarn instead of npm, you may install the dependency using:
+
+```npm install -g yarn```
 
 
 That's it! You should now be able to access the application at `http://localhost:3000`.

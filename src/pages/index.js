@@ -37,7 +37,6 @@ export default function Dashboard() {
             backgroundImage: `url(/banner2.jpg)`,
           }}
         >
-          {/* <BannerSection banner={BannerSectionDetails} /> */}
           <Carousel
             showArrows={false}
             showIndicators={false}
