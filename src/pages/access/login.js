@@ -2,6 +2,7 @@ import Layout from "../../components/layout/Layout";
 import React, { useState } from "react";
 import { login } from "../../api/auth";
 import Router from "next/router";
+import ErrorModal from "../../components/ErrorModal";
 
 import {
   Container,
@@ -15,14 +16,35 @@ import {
 } from "@mui/material";
 
 export default function Login() {
+  // Error Modal Trigger
+  const [openModal, setOpenModal] = useState(false);
+  const [errorMessage, setErrorMessage] = useState("");
+  const handleOpenModal = () => {
+    setOpenModal(true);
+  };
+
+  const handleCloseModal = () => {
+    setOpenModal(false);
+  };
+
   function submit() {
     login(username, password)
       .then((res, req) => {
         sessionStorage.setItem("token", res.data.token);
         Router.push("/");
       })
-      .catch((e) => {
-        alert(e.response.data.detail);
+      .catch((error) => {
+        // alert(e.response.data.detail);
+        console.log("ERROR");
+
+        if (error.response && error.response.status === 403) {
+          setErrorMessage("Incorrect username / password");
+          handleOpenModal();
+        } else {
+          // Handle other types of errors
+          setErrorMessage("Error on API endpoint");
+          handleOpenModal();
+        }
       });
   }
 
@@ -38,7 +60,7 @@ export default function Login() {
           alignItems: "center",
           minHeight: "calc(110vh - 120px)",
           backgroundImage: "url('/airplane-background.jpg')",
-          backgroundSize: "cover", 
+          backgroundSize: "cover",
           backgroundPosition: "center",
         }}
       >
@@ -90,6 +112,11 @@ export default function Login() {
           </Typography>
         </Paper>
       </Box>
+      <ErrorModal
+        open={openModal}
+        onClose={handleCloseModal}
+        errorMessage={errorMessage}
+      />
     </Layout>
   );
 }
