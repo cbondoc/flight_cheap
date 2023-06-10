@@ -1,19 +1,154 @@
-single deep_link
+single api
 
-https://www.kiwi.com/en/booking?activeStep=0&backToSearchUrl=https%3A%2F%2F
+compare the following URL on their parameters
 
-www.kiwi.com%2Fen%2Fsearch%2Fresults%2F
+https://www.kiwi.com/en/booking?activeStep=0&affilid=caryflightcheap&currency=php&deeplinkId=28684554700&flightsId=1edb02494c710000cccca831_0&handBags=1&holdBags=null&lang=en&parentHref=%27undefined%27&passengers=1&price=25.43&session_identifier=YbBk9Zoa8kzQyPJPaEDvG9ds5%2Bazz9t8vsNCU5jE5sg%3D&session_token=c76rHZVQ9HQX5%2FAx5jMjVyztXbOVl4AWznrPPGqoabA78ysViMdSICHApthmNVQv7%2BpEafHiS14HyzwC%2BLJnKbuwUExAnaAJY0eR%2Fg4Gnruou63%2FtkajRr3c90pwBGk1ufCO1evzSW%2F0nzZJVOvs9QBW3J46tO%2FM06ABlaANaYeHzryfGhYj5AHUDClDsxbjypyGNBgNkQdFNv%2FGXqt2lQ%3D%3D&token=EGwUJSlGywQ3To2Ie2bQvBTTuJRApYImzmzCaZ9WaB-3P9n3vBrlaJzm6vY7isgZlJn9xieIa6G3Flnr6YBSftgp0TQBGSyv-awdvOUEIqX13OnyNElF89osn9y8F8XeYVQwwyWL9U1a8kaO1LsHapgFoEEv2dmqJpdmTVycPguEGlb_6dldDLSAXbWM5Re2cmEqUdwXgpzQUAHDkfB1JAoZYhKVpPyFinXdHzTLPx2Hcg_-6obiUDj2Zv0LZdMfohUtcmPTHoTEdbs1VKvdvGJWAVhULidgX4GO26bpW3sACw3y-wvYb5yfKLSKMUGjugqmM4lRv8Xxuqni5fT7I24GPi04JZsP7w9EMMQkmpVpdvdWk0GuoR9ul6JJzIKlsPexwy7Mj2GY3th-1yGvWKE9J90dkG83tKpQP4JG4nziMtJxIxfyx_857k6tL-ZNw5MD3PzizIRcifqj2UPId8hULgxNtFcjerM2YKqlOGIommSYe7XRCJaZOknrZC3HDDgPhbJU8nUwvtwKAtqEtDsUR5STwLdRB5aH-1dpgnRCYZQfFvkN_ZllDwScmCHq3AibevTzhbDkyeojr7SLqGIV9DXrii3-KorT9LMnMc91nDTQELaNzfyfl45kGNO1USsgkDHszJfgdhc5GVN9eSrmnii17FwIcfrJl4bCXtQqdBZsiezU16qi0JO-BjRul7TmFs82KvU0gGdNQxwog5pM3KbiaCQBro4vevRYTPl4%3D&user_id=48eb43f4-1df6-4d9b-9461-b5fbcf9116c1&utm_medium=widget&utm_source=tequila&widget=true
 
-manila-philippines
 
-%2Fozamiz-philippines%2F2023-08-13%2Fno-return%3Fbags%3D1.0-&currency=php&direct=true&flightsId=1edb04fd4c7e0000f4ce0e55*0&handBags=0&holdBags=null&locale=en&passengers=1&price=31.27&searchType=oneWay&token=F1QCg8aBnsCUd9j3h6VTTPYzKuekYn39XzZahyrRrc_EYw9n-oSToX5v1yooBvurHrMYUpnkXQz_oIWXLrZdZiCjDkMotcTYjeQgy6GV6ZBzeCqp-GRziy9JQIsotYB9sfPZr-CcBEeuEMBvYQi3a5M_Ie7n7ZVimgoUQtovdfiKclS67b3HgjgDGM6qb2qb9RPPQ-pBqiZ2a-S_6zJ35_kAJdvNfeI9lwtTsbZnDMONv10dn0FNkYuF3Nt_DkX5XBH9o46xFrgFbperXEXOfGdZbEAycusXaxGvdNCVshpyBGakP7VP1dQ7dEhezKPf_11zuc9bCAu3aVxGx794Sq6HkxETd6hcUkdWNo2gVwHTj4wV9VvpAkOWMooxfAOkJsYxj6VQor43OLscPU8GTj3FHKH7x40KB0uM3nS6M7bDH1dd56eJXj4pOcWlJ0GrxWYpuEPFcRMyFVLobFZ1Rog3eEof1vb-36Lbv6HeBFu97Jl5Eq6IvqeY8PGXD9qBZ_bFQ-ImnFX8L9ZHN2gGZMzbTgvX2s71oKaJH5uiWqZaWTXH8TS2HMM03E3T6xpg2m4aqi-Rgw5WSJcDEno3ratXAe21ziXajLcieXwLNcjO2lkUR2F9da_TfPKrp-T-\_nASHoEvOZv_Hy7vkEXIvXKn*-66X9fgHvTprqZciDYb62JbuOqjeAyVs9oCEiY_R
+https://www.kiwi.com/en/booking?activeStep=0&affilid=caryflightcheap&currency=php&deeplinkId=28684554709&flightsId=1edb02494c880000f5265900_0&handBags=1&holdBags=null&lang=en&parentHref=%27undefined%27&passengers=1&price=25.43&session_identifier=YbBk9Zoa8kzQyPJPaEDvG9ds5%2Bazz9t8vsNCU5jE5sg%3D&session_token=c76rHZVQ9HQX5%2FAx5jMjVyztXbOVl4AWznrPPGqoabA78ysViMdSICHApthmNVQv7%2BpEafHiS14HyzwC%2BLJnKRgpeItgWIiTorX1IYt11o%2FEeaQka2jgfI6Rer%2FYMfV%2BtHUKqprD0da%2FWiKk%2FoPwIosN5h4LDCuWkXBor2K3RtpatI75142gHKgY0iZMHZGfkI6JNZ58jaH8fUmlxBxdHA%3D%3D&token=E7XgybCkOzy4hBeTfASTaA9lkj1MeAkuVw62P5x_-iJ1xMlECrLmk1hvPHFfEgcQiLraAlPoMSLkdYQGJB4AUQPH7fzimdn09T7RhimLz61fhpWd5f9c4ibBdBNuL5jnScq04M2B5jGmfqzlfX0mektPnCWHRsFKttjRQMsX6oF8ym00EoiLL1wJjy_3-mPTvE_qputPfmSlr2cJbTJOqbEkVbHERPdXrwGANrKQ2xqo9S4ErnUjE34gY6hzGv3B1eHR1yu-krWTkzDuFwN3THfu8tCCjrjTPmj9-ha0XfB1XZchqIz8_ldXWIicU1n9nA5MuoxFggBM4W6bjHqLLlKsEEX1SzySALgW-2_mcN9TC-ftSqHBMc3uqz3sVa1av5iOolOGldW3nRFJlFI1UbUXqi-wInjPQrzDnnWLgoqFeLBVtbBh-Zc4XmklriOtS1TIAbqB-Z8yqbAKqWw1QoP2Jn3rJGpxomFDwhMeMzDVT8LKsqlYemydhxwyQaN8fWjhKRETss0ZtN_-Rng31IGqkkylzJ93VCrmQ9PT8WbgjWoOSOoyKFlbTzuROYxZoePGeCVI1jQ29-Tb2SBk6CiEkOZ0AqM9p-KUYTJleBqHL6BIPzYTeGxSQs4BRxRPg1xZ53XbCCNvvrIFOXRNmzDdKdxKbi_kLCCsXfS8K3BBbyqSRa5_hEHsRTMcykbXHH8s2nmfIVB6ALU9BnUQ6sw8ETTVinAJ51uHVHDplOns3Ut8_1xRjYeezCuxuL-8I&user_id=48eb43f4-1df6-4d9b-9461-b5fbcf9116c1&utm_medium=widget&utm_source=tequila&widget=true
 
-one way url from kiwi.com
-https://www.kiwi.com/en/booking?activeStep=0&backToSearchUrl=https%3A%2F%2F
-www.kiwi.com%2Fen%2Fmulticity%2Fresults%2Fmanila-philippines~caticlan-philippines~2023-08-13%2Fcaticlan-philippines~cebu-philippines~2023-08-16%3Fbags%3D1.0-&currency=php&direct=true&flightsId=1edb02494c7e000098f6d1b9_0-024912104c810000c62906d6_0&handBags=1&holdBags=null&locale=en&passengers=1&price=39.73&searchType=multicity&token=FUpk6lok_Nv0qRi_0axfufCDwBKBXEyzShcr5VaZhXCAMt5oAnQhQyPYdX_U_8Xt9VHZfG2JNdMRs2kywCmEfBw_V2J0ZYV5EK08yY295vC5h2W79jlVFD2Iu9UiX22O9Ghc_cN-tJLtq2DzgMf4EB1Tql-b5vZAAjLqZzitYnfQYW8jZEBsQ0EoleCBJ_xrjXwR0OMbCQXySd_kp0283110HGgPjLDEWHqWfzb99g3h3O-7mLu7ZbU2Did709SLAYQHgtsgUIooaEcXq1WM8pf1tiKwKggkmRsM76CKQlcq3OJJxmeRCs01QqaBMaS5xrcruUF0XQvHMYDjG-RXwrajAF10R_gV9dxcnk--Pn4HsaKer9pw1vY4wQArYsgnjM4-0hjO390vDoHctCaId_jsdb4GywHQ4HXJ4PaYnr7KO7Lm0HTorDkT4s1ctjGpYSLVor_WSK7HtgyjM-v5ZQtIT3bo65nOzkxFgRsnn6LwyHCG8LspvTBFRehhUb90NKUGFmB9wOcZ2YcoV6weCgDzuXHz-IIxjKhnnRwxTFimWpJGft4CE74rhrSL0KZdEA_2bZmg7hkku_XAwSOpRgbitpzdp6xyWyQv90IZ0_mpBXCJb0jZ48Hg-qu0PF8Vc
 
-www.kiwi.com/deep?affilid=caryflightcheap&currency=PHP&departure=anytime&destination=CEB&origin=manila_ph&return=no-return&returnFromDifferentAirport=false&returnToDifferentAirport=false&transport=aircraft
+https://www.kiwi.com/en/booking?activeStep=0&affilid=caryflightcheap&currency=php&deeplinkId=28684554721&flightsId=1edb02494caf0000c5d675fe_0&handBags=1&holdBags=null&lang=en&parentHref=%27undefined%27&passengers=1&price=25.92&session_identifier=YbBk9Zoa8kzQyPJPaEDvG9ds5%2Bazz9t8vsNCU5jE5sg%3D&session_token=c76rHZVQ9HQX5%2FAx5jMjVyztXbOVl4AWznrPPGqoabA78ysViMdSICHApthmNVQv7%2BpEafHiS14HyzwC%2BLJnKUVMx4OqW1vJLiMXJtoQityHiFgWs8ze6Y0jijIr5YOT6wEfwD9q4kQejMj8YP8xzZDcqyyR%2FwEHdUWo%2FwhZmObFJfaXLOG9ML4Cac5VM%2BFi87z2kRJJOqahtOoY%2BmHChQ%3D%3D&token=EkASS3iaFToxDcxCxiPMCd8zdRjdypkYMyI_S9rsJSpPsXDoTy0UyRj2TZWOnCWUi46Uho1YBGqv449LXmyfThd9pZO3s2MIQ3p2mz194BR3sEszxwjS0oZ09W4gTObph8Fe-SsfZNFU4WRAWP72ydJPL4X3Ql1ESm4s803jqY28TqMDCuN17EshmTVt_KrvGSYrgzSk100SGaI3s_c6wAGsZOZnOK0133LnPCQwvCC02tUuJjcPPHGJU66LazCu09g9BSW08NKFG6VRmuE40laIYpjnigCv_V4o6PBOhwSezPcFavd5W-6XSvH9_O8gcrRffYsEFeuxSjdnRNuu70CZHOTzd4_eR01JQO5QvOrpQMOKKFh_3djpOwEUHg57Pu662IcyzzwK1BKtrYer_OMZfjCBkdsY35P0KGLgn_C2LkpaCkwO8hNVJIwZ0pmZ4YWu0z2vAChtBt2mGZ9UD2iN1EMFaHcPAzRgFCUWFsIAAFvv55u_8gJRcTKRTzUzs9-1jjkhQW0RfryszzWpntkPgZoiXs7fi60stBxZZ506GAhD7Gt7EPZIpwuhG6yslKebDImoMaBsJLlz9BQQq84TYOnMUFvfAt4xpm3ll0BoczRRnVk1Y0GGKTrVDmKMF6yQ_FjYdSdKV7B7rm_84NUQL_Emr_u-qdpdMFoUvuH8h2QVcdAMMIiOD8fM2UE9pDI_Www-vDh-jhsV0xTOVixsGi5Gy4ujJasvIxTKKtrQ%3D&user_id=48eb43f4-1df6-4d9b-9461-b5fbcf9116c1&utm_medium=widget&utm_source=tequila&widget=true
 
-https://kiwi.com/u/ndquvh
+ChatGPT
+Comparing the three URLs, it appears that the parameters vary in some values while remaining consistent in others. Let's break down the parameters and compare them:
 
-https://www.kiwi.com/en/booking?direct=true&locale=en&currency=php&passengers=1-0-0&token=FUXoE_8NKUbDIF9fTfI7jWnMtG5MnQQzz1ky7j53mswJ2fvWXS-PATkf2K24Uu2-L1aq_YCntbK6dsZ5Z-7wxIq8ZR_QCCk-PFRt-CBMWaqgCra_RlOTRAWMgPfdspHJSxsUVkJSwzVRrxNHpkI661yGFfu3MPALtueIP0Po8muwtjf401MQ9gQ6qLRk7PY4wn1Sv6CRb2VOnQqyKxn-hhgQHJIPA2rqTyPtZhfFS3kgG1BzszIZfm1v-yKhrAuwNd4vV96rKd-fYbm3BlBrHI20rI9KXCxP4HfONYhKu0RdkbxyiwZWLfPzCg0GfKGaComCdbHnsO_Z1Q23s2Efh7QEPDEXUzkFlfg_WuK1Jy_a6V-0bU6UkihNHVDPG-nnIb7i3QjfZKVKmCkDWv9zixbTpHNMw_bW19HG_Qk8ST_v1tI-ICX3378IVkXJIPym8gzr5_HT8pM6Ns8ZcCgw90v7qzCC6G-aE95QIYrJanjJuX0F6bfhajmcZcK-7iYQsUn77JfvxeADywPOHdpq1X0kWDAvagUVyUEB6OZ-MgEAtVEoiuIltkJHP0z0Uv9_EfXRAKyu0RUXn6wio_kkUeR8QH461-peUkCKep2x7jDLRi6RmG7YSqyyVp3AVU5WcaSYb-0zpCuddoxlrwxlbx6dNxA_mn-wN5GIB7vwEf_8%3D&searchType=oneWay&searchBags=0.0&backToSearchUrl=https%3A%2F%2Fwww.kiwi.com%2Fen%2Fsearch%2Fresults%2Fmanila-philippines%2Fmactan-cebu-international-cebu-philippines%2Fanytime%2Fno-return%2F%3Fcurrency%3Dphp%26user_id%3D48eb43f4-1df6-4d9b-9461-b5fbcf9116c1%26affilid%3Dcaryflightcheap%26returnFromDifferentAirport%3Dfalse%26returnToDifferentAirport%3Dfalse%26transport%3Daircraft%26session_token%3Dc76rHZVQ9HQX5%252FAx5jMjVyztXbOVl4AWznrPPGqoabAlkahz1g1GjpnIX8ApzPn%252FefUGf4m74ZHh82I9HTcA0ihDWtqu33NP7CU6JlnBkvP4V0Zvobnbj4Y9v5uZD4eM%26session_identifier%3DYbBk9Zoa8kzQyPJPaEDvG9ds5%252Bazz9t8vsNCU5jE5sg%253D%26deeplinkId%3D28684621056
+URL 1:
+
+deeplinkId: 28684554700
+flightsId: 1edb02494c710000cccca831_0
+price: 25.43
+
+URL 2:
+
+deeplinkId: 28684554709
+flightsId: 1edb02494c880000f5265900_0
+price: 25.43
+
+URL 3:
+
+deeplinkId: 28684554721
+flightsId: 1edb02494caf0000c5d675fe_0
+price: 25.92
+
+From the above comparison, the main differences are in the values of the deeplinkId, flightsId, and price parameters. The other parameters, such as activeStep, affilid, currency, handBags, holdBags, lang, parentHref, passengers, session_identifier, session_token, token, user_id, utm_medium, utm_source, and widget, remain the same across all three URLs.
+
+Therefore, the URLs are mostly similar, with only variations in the specific flight details (deeplinkId, flightsId) and price.
+
+
+
+
+
+
+"data": [
+    {
+      "id": "1edb12104c93000089158b2c_0",
+      "flyFrom": "MNL",
+      "flyTo": "CEB",
+      "cityFrom": "Manila",
+      "cityCodeFrom": "MNL",
+      "cityTo": "Cebu",
+      "cityCodeTo": "CEB",
+      "countryFrom": {
+        "code": "PH",
+        "name": "Philippines"
+      },
+      "countryTo": {
+        "code": "PH",
+        "name": "Philippines"
+      },
+      "nightsInDest": null,
+      "quality": 36.801823,
+      "distance": 567.63,
+      "duration": {
+        "departure": 4800,
+        "return": 0,
+        "total": 4800
+      },
+      "price": 852,
+      "conversion": {
+        "EUR": 14.135213,
+        "PHP": 852
+      },
+      "fare": {
+        "adults": 852,
+        "children": 852,
+        "infants": 852
+      },
+      "price_dropdown": {
+        "base_fare": 852,
+        "fees": 0
+      },
+      "bags_price": {
+        "1": 12.99,
+        "2": 57.99
+      },
+      "baglimit": {
+        "hand_height": 36,
+        "hand_length": 56,
+        "hand_weight": 7,
+        "hand_width": 23,
+        "hold_dimensions_sum": 319,
+        "hold_height": 119,
+        "hold_length": 119,
+        "hold_weight": 20,
+        "hold_width": 81
+      },
+      "availability": {
+        "seats": null
+      },
+      "airlines": [
+        "Z2"
+      ],
+      "route": [
+        {
+          "id": "1edb12104c93000089158b2c_0",
+          "combination_id": "1edb12104c93000089158b2c",
+          "flyFrom": "MNL",
+          "flyTo": "CEB",
+          "cityFrom": "Manila",
+          "cityCodeFrom": "MNL",
+          "cityTo": "Cebu",
+          "cityCodeTo": "CEB",
+          "airline": "Z2",
+          "flight_no": 773,
+          "operating_carrier": "",
+          "operating_flight_no": "",
+          "fare_basis": "X00H02",
+          "fare_category": "M",
+          "fare_classes": "X",
+          "fare_family": "",
+          "return": 0,
+          "bags_recheck_required": false,
+          "vi_connection": false,
+          "guarantee": false,
+          "equipment": null,
+          "vehicle_type": "aircraft",
+          "local_arrival": "2023-09-03T23:25:00.000Z",
+          "utc_arrival": "2023-09-03T15:25:00.000Z",
+          "local_departure": "2023-09-03T22:05:00.000Z",
+          "utc_departure": "2023-09-03T14:05:00.000Z"
+        }
+      ],
+      "booking_token": "FJ0-0A24dEXS8K97-XhmL1sV3qhbkQ0tcG5oiv3Ixlwow_xfONeldFW6cC0c5Sl-5g4lx4ssa0RYsOr8oxOI7dbW8AZ5g-DFzF79coxB-TCD5smkVmtrDCo5YXFahweanwPKnZ-GcUujFA5w76RkQpfcPojH_g2-SS5N4sCclorQHtIw287JkRF0FZwyTuRW7fUgIUPN7nMrpW4PC2bhRb8eth2JAKzYg29s1X53lmXxMQHWSTOmDzNbTMtxz8R860ySfirwPLwa8RcxNj7fTdi9PNomGj6Eq8qyzPqiPGASsXVq_AkQD6FGlBKE1t2mbQTf8ZCkvm-oudkqqb37XcyLPUfb3Z8ktKjZtVdtDqHmDz3MvjvHe6UoP7reGNbyX9aEM3TSlfhu_noE6ibgpvrTCMifrHMoBUiKfMkXx0Q1g9SGxS8SEnUbxlWgOsiPMqKnvO_Tu0uH5pmlLQcN_bMygcAz8xg49Q8mpnZhfZHCuCrFLm5Tl6FiZ9iUcAeC042uIe0iPSaakymsk6GMccZ14LrRwZ31a41TxTgK5REVjwbe2siILOR7B2AzBsGFBprGasj3YgTo0db84i-uooItbUQgJfCR0QtRhG8Rmw0ayvR1_kurW1ic97p7GzECN8qhjdAgqiBkoDkI-R9NIvXWP9U24PjkDS-AJLJOUFgOsuY9FtN9iCQgBZ3qH0gLe",
+      "facilitated_booking_available": true,
+      "pnr_count": 1,
+      "has_airport_change": false,
+      "technical_stops": 0,
+      "throw_away_ticketing": false,
+      "hidden_city_ticketing": false,
+      "virtual_interlining": false,
+      "local_arrival": "2023-09-03T23:25:00.000Z",
+      "utc_arrival": "2023-09-03T15:25:00.000Z",
+      "local_departure": "2023-09-03T22:05:00.000Z",
+      "utc_departure": "2023-09-03T14:05:00.000Z"
+    },
+
+
+
+
+
+FJ0-0A24dEXS8K97-XhmL1sV3qhbkQ0tcG5oiv3Ixlwow_xfONeldFW6cC0c5Sl-5g4lx4ssa0RYsOr8oxOI7dbW8AZ5g-DFzF79coxB-TCD5smkVmtrDCo5YXFahweanwPKnZ-GcUujFA5w76RkQpfcPojH_g2-SS5N4sCclorQHtIw287JkRF0FZwyTuRW7fUgIUPN7nMrpW4PC2bhRb8eth2JAKzYg29s1X53lmXxMQHWSTOmDzNbTMtxz8R860ySfirwPLwa8RcxNj7fTdi9PNomGj6Eq8qyzPqiPGASsXVq_AkQD6FGlBKE1t2mbQTf8ZCkvm-oudkqqb37XcyLPUfb3Z8ktKjZtVdtDqHmDz3MvjvHe6UoP7reGNbyX9aEM3TSlfhu_noE6ibgpvrTCMifrHMoBUiKfMkXx0Q1g9SGxS8SEnUbxlWgOsiPMqKnvO_Tu0uH5pmlLQcN_bMygcAz8xg49Q8mpnZhfZHCuCrFLm5Tl6FiZ9iUcAeC042uIe0iPSaakymsk6GMccZ14LrRwZ31a41TxTgK5REVjwbe2siILOR7B2AzBsGFBprGasj3YgTo0db84i-uooItbUQgJfCR0QtRhG8Rmw0ayvR1_kurW1ic97p7GzECN8qhjdAgqiBkoDkI-R9NIvXWP9U24PjkDS-AJLJOUFgOsuY9FtN9iCQgBZ3qH0gLe
+
+
+FKO5t5ZSUtmAG4D_Fl2gFvyvIsdQJe-YOqUVafsMygY4-f1GZcEjwsNm_0QhDx9tWiuABOKly12rB6eR0Wydv_sQh9YjJ_Xg3Z-RYpJP6KZgDolgOcaS2ls1ltW6Spo_QxWy-FgETeX81VWXoE1srbEncbSfxlw4vO9VLjdFIAcusMqJjm8LC_cwyKWTB0QiwA_W_v2qTg4GzgPwRjtq7CRd42DpbYayvME4fN-Lv2-s4P_jW-2buZBV0o9KNaV-0_tWXSM8CCj4t28lRz7hXfWilvPxv5vURyla70UwXWeSeX5Ek519meQxcgfQP8DbfE8R7uw3J3QeixT4-NRCNieBE65aVkXhppbv3sxECXuwo0BOqY5_702LVXjcLVNM0VxWamEFRmYweNpmCWA3SvjvGjSCMZE3eZSw7HEKgA3c5J6jSjk80tvt2dBlBB8u3X7fYNP4lBN7M_PJGLI1_asMVHkSLaKxtr2rUIW5HYHF7Ajn9QYURJdbogKDySMe5o2JF73eCJsa5fhLe9mm787fRQEp777bq70ENR23eL2kyx-fDrNozki-Jv-69bQe673cwobiovtWjW6nsHomWPaRmkoYSIdfN7pN57QhuQCk-ciHJ4Xz9gkJQfQ3BHVzQrvYg3Fq4fiOg4opmgOmdbaknMjcjbJQWN_Q6mY3M7Afu4HnwJiBbQz8auZUKJvuQifTVCz-06k7AvPg6kvAPtQ%3D%3D
