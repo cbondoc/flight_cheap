@@ -61,7 +61,16 @@ export default function FixedSizeGrid(props) {
       headerName: "Kiwi link",
       sortable: false,
       renderCell: (params) => {
-        let url = params.row.deep_link;
+        if (params.row.deep_link && params.row.deep_link.trim() !== "") {
+          // deep_link is not empty
+          console.log("deep_link is not empty");
+
+          let url = params.row.deep_link;
+        } else {
+          // deep_link is empty
+          console.log("deep_link is empty");
+          let url = www.google.com;
+        }
         return (
           <a href={url} target="_blank">
             Visit Kiwi
