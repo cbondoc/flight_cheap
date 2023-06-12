@@ -4,7 +4,7 @@ const list_except_path_auth = ["/login", "/healthz"];
 export default function handler() {
   const instance = axios.create({
     baseURL: "http://test-api.flightcheap.store",
-    withCredentials: false,
+    withCredentials: true,
     // baseURL: "http://api.flightcheap.store",
     // withCredentials: true,
   });
