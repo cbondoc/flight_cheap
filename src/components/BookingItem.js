@@ -87,7 +87,7 @@ function BookingItem({ booking }) {
           </Grid>
           <Grid item xs={2}>
             <Typography fontSize={18} color="#1976d2" fontWeight={600}>
-              PHP {booking.conversion.PHP}
+              {/* PHP {booking.conversion.PHP} */}
             </Typography>
           </Grid>
         </Grid>
