@@ -15,17 +15,17 @@ export default function FixedSizeGrid(props) {
 
   const handleBookNow = () => {
     router.push("/booking/select");
-  }
+  };
 
   const handleBookNowOpen = (bookingItem) => {
-    setBooking(bookingItem)
-    setBookNowOpen(true)
-  }
+    setBooking(bookingItem);
+    setBookNowOpen(true);
+  };
 
   const handleBookNowClose = () => {
-    setBooking({})
-    setBookNowOpen(false)
-  }
+    setBooking({});
+    setBookNowOpen(false);
+  };
 
   const columns = [
     { field: "booking_token", headerName: "ID", width: 70 },
@@ -74,19 +74,6 @@ export default function FixedSizeGrid(props) {
       valueGetter: (params) => params.row.conversion,
     },
     {
-      field: "deep_link",
-      headerName: "Kiwi link",
-      sortable: false,
-      renderCell: (params) => {
-        let url = params.row.deep_link;
-        return (
-          <a href={url} target="_blank">
-            Visit Kiwi
-          </a>
-        );
-      },
-    },
-    {
       field: "action",
       width: 200,
       headerName: "Action",
@@ -97,7 +84,11 @@ export default function FixedSizeGrid(props) {
         //   setBooking(params.row);
         //   router.push("/booking/select");
         // };
-        return <Button onClick={() => handleBookNowOpen(params.row)}>Book now</Button>;
+        return (
+          <Button onClick={() => handleBookNowOpen(params.row)}>
+            Book now
+          </Button>
+        );
       },
     },
   ];
@@ -121,8 +112,6 @@ export default function FixedSizeGrid(props) {
       });
     }
   }
-
-
 
   return (
     <>
@@ -171,7 +160,14 @@ export default function FixedSizeGrid(props) {
           />
         </div>
       </div>
-      {isBookNowOpen && <BookNowModal isOpen={isBookNowOpen} onClose={handleBookNowClose} bookingItem={booking} onBookNow={handleBookNow} />}
+      {isBookNowOpen && (
+        <BookNowModal
+          isOpen={isBookNowOpen}
+          onClose={handleBookNowClose}
+          bookingItem={booking}
+          onBookNow={handleBookNow}
+        />
+      )}
     </>
   );
 }

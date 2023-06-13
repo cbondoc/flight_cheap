@@ -19,7 +19,12 @@ import Modal from "./Modal";
 import "react-date-range/dist/styles.css"; // main style file
 import "react-date-range/dist/theme/default.css"; // theme css file
 
-import { get_iata, get_search_flights_single,get_search_flights_multiple, get_airline_code } from "@/api/auth";
+import {
+  get_iata,
+  get_search_flights_single,
+  get_search_flights_multiple,
+  get_airline_code,
+} from "@/api/auth";
 
 function SearchForm(props) {
   const [iataDataFrom, setIataDataFrom] = useState([]);
@@ -116,73 +121,73 @@ function SearchForm(props) {
             to_time: endDate.toLocaleDateString("en-GB"),
           },
         ];
-        
+
         get_search_flights_multiple(dataSearchFlights)
-        .then(async (res, req) => {
-          const row_data = await res.data.map((res_data) => {
-            return res_data.route.map((res_data1) => {
-              return {
-                baglimit: res_data.baglimit,
-                booking_token: res_data.booking_token,
-                deep_link: res_data.deep_link,
-                price: res_data.price,
-                quality: res_data.quality,
-                airlines_code: res_data1["airlines"],
-                airlines_name: airlineData[res_data1["airlines"]],
-                cityFrom: res_data1["cityFrom"],
-                cityTo: res_data1["cityTo"],
-                conversion: res_data1["conversion"],
-                fare: res_data1["fare"],
-                facilitated_booking_available:
-                  res_data1["facilitated_booking_available"],
-                utc_arrival: res_data1["utc_arrival"],
-                utc_departure: res_data1["utc_departure"],
-              };
+          .then(async (res, req) => {
+            const row_data = await res.data.map((res_data) => {
+              return res_data.route.map((res_data1) => {
+                return {
+                  baglimit: res_data.baglimit,
+                  booking_token: res_data.booking_token,
+                  deep_link: res_data.deep_link,
+                  price: res_data.price,
+                  quality: res_data.quality,
+                  airlines_code: res_data1["airlines"],
+                  airlines_name: airlineData[res_data1["airlines"]],
+                  cityFrom: res_data1["cityFrom"],
+                  cityTo: res_data1["cityTo"],
+                  conversion: res_data1["conversion"],
+                  fare: res_data1["fare"],
+                  facilitated_booking_available:
+                    res_data1["facilitated_booking_available"],
+                  utc_arrival: res_data1["utc_arrival"],
+                  utc_departure: res_data1["utc_departure"],
+                };
+              });
             });
-          });
-          props.setDataFlightSearch(row_data);
-        })
-        .catch((e) => {});
+            props.setDataFlightSearch(row_data);
+          })
+          .catch((e) => {});
       }
       if (trip === 21) {
         dataSearchFlights = {
-            from_city_code: fromValue.IATA_CODE,
-            to_city_code: toValue.IATA_CODE,
-            from_time: startDate.toLocaleDateString("en-GB"),
-            to_time: endDate.toLocaleDateString("en-GB"),
+          from_city_code: fromValue.IATA_CODE,
+          to_city_code: toValue.IATA_CODE,
+          from_time: startDate.toLocaleDateString("en-GB"),
+          to_time: endDate.toLocaleDateString("en-GB"),
         };
-        console.log('okay')
+        console.log("okay");
         get_search_flights_single(dataSearchFlights)
-        .then(async (res, req) => {
-          console.log(res)
-          const row_data = await res.data.data.map((res_data) => {
-            return res_data.route.map((res_data1) => {
-              return {
-                baglimit: res_data.baglimit,
-                booking_token: res_data.booking_token,
-                deep_link: res_data.deep_link,
-                price: res_data.price,
-                quality: res_data.quality,
-                airlines_code: res_data1["airlines"],
-                airlines_name: airlineData[res_data1["airlines"]],
-                cityFrom: res_data1["cityFrom"],
-                cityTo: res_data1["cityTo"],
-                conversion: res_data1["conversion"],
-                fare: res_data1["fare"],
-                facilitated_booking_available:
-                  res_data1["facilitated_booking_available"],
-                utc_arrival: res_data1["utc_arrival"],
-                utc_departure: res_data1["utc_departure"],
-              };
+          .then(async (res, req) => {
+            console.log(res);
+            const row_data = await res.data.data.map((res_data) => {
+              return res_data.route.map((res_data1) => {
+                return {
+                  baglimit: res_data.baglimit,
+                  booking_token: res_data.booking_token,
+                  deep_link: res_data.deep_link,
+                  price: res_data.price,
+                  quality: res_data.quality,
+                  airlines_code: res_data1["airlines"],
+                  airlines_name: airlineData[res_data1["airlines"]],
+                  cityFrom: res_data1["cityFrom"],
+                  cityTo: res_data1["cityTo"],
+                  conversion: res_data1["conversion"],
+                  fare: res_data1["fare"],
+                  facilitated_booking_available:
+                    res_data1["facilitated_booking_available"],
+                  utc_arrival: res_data1["utc_arrival"],
+                  utc_departure: res_data1["utc_departure"],
+                };
+              });
             });
+            console.log(row_data);
+            props.setDataFlightSearch(row_data);
+          })
+          .catch((e) => {
+            console.log(e);
+            console.log("catch123");
           });
-          console.log(row_data)
-          props.setDataFlightSearch(row_data);
-        })
-        .catch((e) => {
-          console.log(e)
-          console.log('catch123')
-        });
       }
     }
   };
@@ -252,8 +257,8 @@ function SearchForm(props) {
                   variant="filled"
                   color="white"
                 >
-                  <MenuItem value={21}>One Way</MenuItem>
-                  <MenuItem value={10}>Round-trip</MenuItem>
+                  <MenuItem value={21}>No Return</MenuItem>
+                  <MenuItem value={10}>Multi-city</MenuItem>
                 </Select>
               </FormControl>
             </Grid>
