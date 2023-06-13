@@ -1,14 +1,13 @@
-import React, { useEffect, useState } from "react";
+import EmailIcon from "@mui/icons-material/Email";
+import { Container } from "@mui/material";
 import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
-import Typography from "@mui/material/Typography";
-import Modal from "@mui/material/Modal";
-import FormHelperText from "@mui/material/InputLabel";
-import InputAdornment from "@mui/material/InputAdornment";
-import TextField from "@mui/material/TextField";
-import EmailIcon from "@mui/icons-material/Email";
-import { Container, Grid, Card } from "@mui/material";
 import CircularProgress from "@mui/material/CircularProgress";
+import InputAdornment from "@mui/material/InputAdornment";
+import Modal from "@mui/material/Modal";
+import TextField from "@mui/material/TextField";
+import Typography from "@mui/material/Typography";
+import { useEffect, useState } from "react";
 import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
 
@@ -49,10 +48,12 @@ function NotificationModal() {
 
   useEffect(() => {
     validatePhone();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [phone]);
 
   useEffect(() => {
     validateEmail();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [email]);
 
   const validatePhone = () => {
