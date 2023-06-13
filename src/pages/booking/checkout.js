@@ -38,7 +38,10 @@ function SelectFlight() {
   const [expiration, setExpiration] = useState(dayjs(new Date()));
   const [isModal, setIsModal] = useState(false);
 
-  const bookingUserInfo = localStorage.getItem("booking_user_info");
+  useEffect(() => {
+    // Perform localStorage action
+    const bookingUserInfo = localStorage.getItem("booking_user_info");
+  }, []);
   const paymentSubmit = () => {
     post_booking_payment({
       credit_card_no: creditCardNo,
