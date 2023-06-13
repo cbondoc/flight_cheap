@@ -8,6 +8,9 @@ export default function handler() {
     withCredentials: true,
     // baseURL: "https://api.flightcheap.store",
     // withCredentials: true,
+
+    baseURL: "https://api.flightcheap.store",
+    withCredentials: true,
   });
 
   // Add a request interceptor
