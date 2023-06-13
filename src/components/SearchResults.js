@@ -1,4 +1,4 @@
-import * as React from "react";
+import React, { useState } from "react";
 import { DataGrid } from "@mui/x-data-grid";
 
 import { Typography, Button, Box, Link } from "@mui/material";
@@ -6,9 +6,26 @@ import { Typography, Button, Box, Link } from "@mui/material";
 import { useBookingContext } from "@/context/booking";
 import { useRouter } from "next/router";
 
+import BookNowModal from "./BookNowModal";
+
 export default function FixedSizeGrid(props) {
+  const [isBookNowOpen, setBookNowOpen] = useState(false);
   const router = useRouter();
   const [booking, setBooking] = useBookingContext();
+
+  const handleBookNow = () => {
+    router.push("/booking/select");
+  }
+
+  const handleBookNowOpen = (bookingItem) => {
+    setBooking(bookingItem)
+    setBookNowOpen(true)
+  }
+
+  const handleBookNowClose = () => {
+    setBooking({})
+    setBookNowOpen(false)
+  }
 
   const columns = [
     { field: "booking_token", headerName: "ID", width: 70 },
@@ -75,12 +92,12 @@ export default function FixedSizeGrid(props) {
       headerName: "Action",
       sortable: false,
       renderCell: (params) => {
-        const onClick = (e) => {
-          e.stopPropagation(); // avoid select this row after clicking
-          setBooking(params.row);
-          router.push("/booking/select");
-        };
-        return <Button onClick={onClick}>Book now</Button>;
+        // const onClick = (e) => {
+        //   e.stopPropagation(); // avoid select this row after clicking
+        //   setBooking(params.row);
+        //   router.push("/booking/select");
+        // };
+        return <Button onClick={() => handleBookNowOpen(params.row)}>Book now</Button>;
       },
     },
   ];
@@ -104,6 +121,8 @@ export default function FixedSizeGrid(props) {
       });
     }
   }
+
+
 
   return (
     <>
@@ -152,6 +171,7 @@ export default function FixedSizeGrid(props) {
           />
         </div>
       </div>
+      {isBookNowOpen && <BookNowModal isOpen={isBookNowOpen} onClose={handleBookNowClose} bookingItem={booking} onBookNow={handleBookNow} />}
     </>
   );
 }

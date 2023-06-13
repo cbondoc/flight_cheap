@@ -4,11 +4,13 @@ const list_except_path_auth = ["/login", "/healthz"];
 
 export default function handler() {
   const instance = axios.create({
-    // baseURL: "http://test-api.flightcheap.store",
-    // withCredentials: true,
-
-    baseURL: "https://api.flightcheap.store",
+    // For localhost
+    baseURL: "http://test-api.flightcheap.store",
     withCredentials: true,
+
+    // For live link deployment
+    // baseURL: "https://api.flightcheap.store",
+    // withCredentials: true,
   });
 
   // Add a request interceptor
