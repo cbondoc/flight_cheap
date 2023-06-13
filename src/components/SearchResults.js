@@ -107,7 +107,9 @@ export default function FixedSizeGrid(props) {
         airlines_name: dataRow2.airlines_name,
         utc_departure: dataRow2.utc_departure,
         utc_arrival: dataRow2.utc_arrival,
-        conversion: dataRow2.price,
+        conversion: dataRow2.price.toLocaleString(undefined, {
+          maximumFractionDigits: 2,
+        }),
         deep_link: dataRow2.deep_link,
       });
     }
