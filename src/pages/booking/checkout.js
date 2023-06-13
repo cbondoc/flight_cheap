@@ -13,10 +13,6 @@ import {
 } from "@mui/material";
 
 import dayjs from "dayjs";
-// import { DemoContainer } from "@mui/x-date-pickers/internals/demo";
-// import { LocalizationProvider } from "@mui/x-date-pickers/LocalizationProvider";
-// import { AdapterDayjs } from "@mui/x-date-pickers/AdapterDayjs";
-// import { DatePicker } from "@mui/x-date-pickers/DatePicker";
 
 import { useBookingContext } from "@/context/booking";
 import { useRouter } from "next/router";
@@ -28,6 +24,7 @@ import {
 import BookingItem from "@/components/BookingItem";
 
 import BookingVerificationModal from "@/components/BookingVerificationModal";
+import CreditCardDatePicker from "@/components/CreditCardDatePicker";
 
 function SelectFlight() {
   const router = useRouter();
@@ -50,12 +47,17 @@ function SelectFlight() {
     })
       .then((val) => {
         window.localStorage.setItem("booking_payment_info", val.data.token);
-        //props.router.push('/bookings');
         setIsModal(true);
       })
       .catch((e) => {
         alert(e.response.data.detail);
       });
+  };
+
+  const [expirationDate, setExpirationDate] = useState(null);
+
+  const handleDateChange = (date) => {
+    setExpirationDate(date);
   };
 
   return (
@@ -99,20 +101,14 @@ function SelectFlight() {
               onChange={(event) => setCreditCardNo(event.target.value)}
             />
           </Grid>
-          <Grid item xs={12} md={6}>
-            {/* <LocalizationProvider dateAdapter={AdapterDayjs}>
-            <DemoContainer components={['DatePicker', 'DatePicker']}>
-            <DatePicker
+          <Grid item xs={12} md={6} sx={{ mt: 3 }}>
+            <CreditCardDatePicker
               required
-              views={['month', 'year']}
-              id="expDate"
-              label="Expiry date"
-              value={expiration}
+              selectedDate={expirationDate}
+              handleDateChange={handleDateChange}
+              fullWidth
               variant="standard"
-              onChange={(event)=>setExpiration(event.target.value)}
             />
-            </DemoContainer>
-          </LocalizationProvider> */}
           </Grid>
           <Grid item xs={12} md={6}>
             <TextField
