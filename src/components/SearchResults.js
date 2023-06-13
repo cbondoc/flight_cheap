@@ -73,28 +73,19 @@ export default function FixedSizeGrid(props) {
       width: 130,
       valueGetter: (params) => params.row.conversion,
     },
-    // {
-    //   field: "deep_link",
-    //   headerName: "Kiwi link",
-    //   sortable: false,
-    //   renderCell: (params) => {
-    //     let url = "www.google.com";
-    //     if (params.row.deep_link && params.row.deep_link.trim() !== "") {
-    //       // deep_link is not empty
-    //       console.log("deep_link is not empty");
-
-    //       url = params.row.deep_link;
-    //     } else {
-    //       // deep_link is empty
-    //       console.log("deep_link is empty");
-    //     }
-    //     return (
-    //       <a href={url} target="_blank">
-    //         Visit Kiwi
-    //       </a>
-    //     );
-    //   },
-    // },
+    {
+      field: "deep_link",
+      headerName: "Kiwi link",
+      sortable: false,
+      renderCell: (params) => {
+        let url = params.row.deep_link;
+        return (
+          <a href={url} target="_blank">
+            Visit Kiwi
+          </a>
+        );
+      },
+    },
     {
       field: "action",
       width: 200,
