@@ -6,7 +6,7 @@ export default function handler() {
   const instance = axios.create({
     // baseURL: "http://test-api.flightcheap.store",
     // withCredentials: true,
-    baseURL: "http://api.flightcheap.store",
+    baseURL: "https://api.flightcheap.store",
     withCredentials: true,
   });
 
