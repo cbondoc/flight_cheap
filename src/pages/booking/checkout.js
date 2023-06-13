@@ -1,6 +1,4 @@
 import React, { useState, useEffect } from "react";
-import Layout from "../../components/layout/Layout";
-
 import {
   Grid,
   TextField,
@@ -13,23 +11,15 @@ import {
 } from "@mui/material";
 
 import dayjs from "dayjs";
-
-import { useBookingContext } from "@/context/booking";
 import { useRouter } from "next/router";
-import {
-  post_booking_users,
-  post_booking_payment,
-  post_booking_final,
-} from "@/api/auth";
-import BookingItem from "@/components/BookingItem";
-
+import { post_booking_payment } from "@/api/auth";
 import BookingVerificationModal from "@/components/BookingVerificationModal";
 import CreditCardDatePicker from "@/components/CreditCardDatePicker";
+import Layout from "@/components/layout/Layout";
 
 function SelectFlight() {
   const router = useRouter();
 
-  const [creditCardName, setCreditCardName] = useState("");
   const [creditCardNo, setCreditCardNo] = useState("");
   const [cvv, setCvv] = useState("");
   const [expiration, setExpiration] = useState(dayjs(new Date()));
@@ -39,6 +29,7 @@ function SelectFlight() {
     // Perform localStorage action
     const bookingUserInfo = localStorage.getItem("booking_user_info");
   }, []);
+
   const paymentSubmit = () => {
     post_booking_payment({
       credit_card_no: creditCardNo,
