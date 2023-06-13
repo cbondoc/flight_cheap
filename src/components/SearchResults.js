@@ -1,4 +1,4 @@
-import * as React from "react";
+import React, { useState } from "react";
 import { DataGrid } from "@mui/x-data-grid";
 
 import { Typography, Button, Box, Link } from "@mui/material";
@@ -6,9 +6,26 @@ import { Typography, Button, Box, Link } from "@mui/material";
 import { useBookingContext } from "@/context/booking";
 import { useRouter } from "next/router";
 
+import BookNowModal from "./BookNowModal";
+
 export default function FixedSizeGrid(props) {
+  const [isBookNowOpen, setBookNowOpen] = useState(false);
   const router = useRouter();
   const [booking, setBooking] = useBookingContext();
+
+  const handleBookNow = () => {
+    router.push("/booking/select");
+  }
+
+  const handleBookNowOpen = (bookingItem) => {
+    setBooking(bookingItem)
+    setBookNowOpen(true)
+  }
+
+  const handleBookNowClose = () => {
+    setBooking({})
+    setBookNowOpen(false)
+  }
 
   const columns = [
     { field: "booking_token", headerName: "ID", width: 70 },
@@ -56,40 +73,40 @@ export default function FixedSizeGrid(props) {
       width: 130,
       valueGetter: (params) => params.row.conversion,
     },
-    {
-      field: "deep_link",
-      headerName: "Kiwi link",
-      sortable: false,
-      renderCell: (params) => {
-        if (params.row.deep_link && params.row.deep_link.trim() !== "") {
-          // deep_link is not empty
-          console.log("deep_link is not empty");
+    // {
+    //   field: "deep_link",
+    //   headerName: "Kiwi link",
+    //   sortable: false,
+    //   renderCell: (params) => {
+    //     let url = "www.google.com";
+    //     if (params.row.deep_link && params.row.deep_link.trim() !== "") {
+    //       // deep_link is not empty
+    //       console.log("deep_link is not empty");
 
-          let url = params.row.deep_link;
-        } else {
-          // deep_link is empty
-          console.log("deep_link is empty");
-          let url = www.google.com;
-        }
-        return (
-          <a href={url} target="_blank">
-            Visit Kiwi
-          </a>
-        );
-      },
-    },
+    //       url = params.row.deep_link;
+    //     } else {
+    //       // deep_link is empty
+    //       console.log("deep_link is empty");
+    //     }
+    //     return (
+    //       <a href={url} target="_blank">
+    //         Visit Kiwi
+    //       </a>
+    //     );
+    //   },
+    // },
     {
       field: "action",
       width: 200,
       headerName: "Action",
       sortable: false,
       renderCell: (params) => {
-        const onClick = (e) => {
-          e.stopPropagation(); // avoid select this row after clicking
-          setBooking(params.row);
-          router.push("/booking/select");
-        };
-        return <Button onClick={onClick}>Book now</Button>;
+        // const onClick = (e) => {
+        //   e.stopPropagation(); // avoid select this row after clicking
+        //   setBooking(params.row);
+        //   router.push("/booking/select");
+        // };
+        return <Button onClick={() => handleBookNowOpen(params.row)}>Book now</Button>;
       },
     },
   ];
@@ -113,6 +130,8 @@ export default function FixedSizeGrid(props) {
       });
     }
   }
+
+
 
   return (
     <>
@@ -161,6 +180,7 @@ export default function FixedSizeGrid(props) {
           />
         </div>
       </div>
+      {isBookNowOpen && <BookNowModal isOpen={isBookNowOpen} onClose={handleBookNowClose} bookingItem={booking} onBookNow={handleBookNow} />}
     </>
   );
 }
