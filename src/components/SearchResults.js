@@ -28,7 +28,6 @@ export default function FixedSizeGrid(props) {
   };
 
   const columns = [
-    { field: "booking_token", headerName: "ID", width: 70 },
     { field: "cityFrom", headerName: "From", width: 170 },
     { field: "cityTo", headerName: "To", width: 170 },
     { field: "airlines_name", headerName: "Airlines", width: 170 },
@@ -100,7 +99,6 @@ export default function FixedSizeGrid(props) {
     for (var i1 in dataRow) {
       const dataRow2 = dataRow[i1];
       rows.push({
-        booking_token: dataRow2.booking_token,
         deep_link: dataRow2.deep_link,
         cityFrom: dataRow2.cityFrom,
         cityTo: dataRow2.cityTo,
