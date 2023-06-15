@@ -132,6 +132,7 @@ function SearchForm(props) {
                   deep_link: res_data.deep_link,
                   price: res_data.price,
                   quality: res_data.quality,
+                  // TODO
                   airlines_code: res_data1["airlines"],
                   airlines_name: airlineData[res_data1["airlines"]],
                   cityFrom: res_data1["cityFrom"],
@@ -168,8 +169,9 @@ function SearchForm(props) {
                   deep_link: res_data.deep_link,
                   price: res_data.price,
                   quality: res_data.quality,
-                  airlines_code: res_data1["airlines"],
-                  airlines_name: airlineData[res_data1["airlines"]],
+                  // TODO
+                  airlines_code: res_data1["airline"],
+                  airlines_name: airlineData[res_data1["airline"]],
                   cityFrom: res_data1["cityFrom"],
                   cityTo: res_data1["cityTo"],
                   conversion: res_data1["conversion"],

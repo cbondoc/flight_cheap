@@ -28,7 +28,7 @@ export default function FixedSizeGrid(props) {
   };
 
   const columns = [
-    { field: "booking_token", headerName: "ID", width: 70 },
+    
     { field: "cityFrom", headerName: "From", width: 170 },
     { field: "cityTo", headerName: "To", width: 170 },
     { field: "airlines_name", headerName: "Airlines", width: 170 },
