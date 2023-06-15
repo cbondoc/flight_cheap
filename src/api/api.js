@@ -5,12 +5,16 @@ const list_except_path_auth = ["/login", "/healthz"];
 export default function handler() {
   const instance = axios.create({
     // For localhost
-    baseURL: "http://test-api.flightcheap.store",
-    withCredentials: true,
+    // baseURL: "http://test-api.flightcheap.store",
 
     // For live link deployment
     // baseURL: "https://api.flightcheap.store",
-    // withCredentials: true,
+
+    // For accessing localhost python
+    baseURL: "http://localhost:6700",
+
+    // Needed, regardless if for localhost, live or python backend
+    withCredentials: true,
   });
 
   // Add a request interceptor
@@ -21,6 +25,7 @@ export default function handler() {
         const token = sessionStorage.getItem("token");
         if (token !== null) {
           config.headers["Bearer-Authentication"] = token;
+
           return config;
         } else {
           window.sessionStorage.clear();
