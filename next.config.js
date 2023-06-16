@@ -1,13 +1,17 @@
 module.exports = {
-  images: {
-    remotePatterns: [
+  async headers() {
+    return [
       {
-        protocol: "https",
-        hostname: "images.pexels.com",
-        port: "",
-        pathname: "/",
+        // matching all API routes
+        source: "/api/(.*)",
+        headers: [
+          { key: "Access-Control-Allow-Origin", value: "*" },
+          {
+            key: "Access-Control-Allow-Methods",
+            value: "GET,DELETE,POST,PUT",
+          },
+        ],
       },
-    ],
+    ];
   },
-  transpilePackages: ["@acme/ui", "lodash-es"],
 };
