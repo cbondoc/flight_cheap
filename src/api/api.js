@@ -8,7 +8,7 @@ export default function handler() {
     // baseURL: "http://test-api.flightcheap.store",
 
     // For live link deployment
-    baseURL: "https://api.flightcheap.store",
+    baseURL: "http://api.flightcheap.store",
 
     // For accessing localhost python
     // baseURL: "http://localhost:6700",
