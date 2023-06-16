@@ -79,7 +79,7 @@ function BookingItem({ booking }) {
           </Grid>
           <Grid item xs={2}>
             {/* TODO: Comment this line to fix vercel issue */}
-            <Typography>{booking.booking_token.slice(0, 5)}</Typography>
+            {/* <Typography>{booking.booking_token.slice(0, 5)}</Typography> */}
           </Grid>
           <Grid item xs={2}>
             <Typography>
@@ -89,7 +89,7 @@ function BookingItem({ booking }) {
           <Grid item xs={2}>
             <Typography fontSize={18} color="#1976d2" fontWeight={600}>
               {/* TODO: Comment this line tto fix vercel issue  */}
-              PHP {booking.conversion.PHP}
+              {/* PHP {booking.conversion.PHP} */}
             </Typography>
           </Grid>
         </Grid>
