@@ -1,8 +1,8 @@
-import Layout from "../../components/layout/Layout";
+import Layout from "@/components/layout/Layout";
 import React, { useState } from "react";
-import { login } from "../../api/auth";
+import { login } from "@/api/auth";
 import Router from "next/router";
-import ErrorModal from "../../components/ErrorModal";
+import ErrorModal from "@/components/ErrorModal";
 
 import {
   Container,
@@ -36,7 +36,6 @@ export default function Login() {
       .catch((error) => {
         // alert(e.response.data.detail);
         console.log("ERROR");
-
         if (error.response && error.response.status === 403) {
           setErrorMessage("Incorrect username / password");
           handleOpenModal();
