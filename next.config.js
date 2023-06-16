@@ -1,10 +1,13 @@
 module.exports = {
-  async rewrites() {
-    return [
+  images: {
+    remotePatterns: [
       {
-        source: "/api/:path*",
-        destination: "https://api.flightcheap.store/:path*",
+        protocol: "https",
+        hostname: "images.pexels.com",
+        port: "",
+        pathname: "/",
       },
-    ];
+    ],
   },
+  transpilePackages: ["@acme/ui", "lodash-es"],
 };
