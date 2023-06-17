@@ -1,11 +1,8 @@
 import React, { useState } from "react";
 import { DataGrid } from "@mui/x-data-grid";
-
 import { Typography, Button, Box, Link } from "@mui/material";
-
 import { useBookingContext } from "@/context/booking";
 import { useRouter } from "next/router";
-
 import BookNowModal from "./BookNowModal";
 
 export default function FixedSizeGrid(props) {
@@ -28,11 +25,9 @@ export default function FixedSizeGrid(props) {
   };
 
   const columns = [
-    
     { field: "cityFrom", headerName: "From", width: 170 },
     { field: "cityTo", headerName: "To", width: 170 },
     { field: "airlines_name", headerName: "Airlines", width: 170 },
-
     {
       field: "utc_departure",
       headerName: "Departure",

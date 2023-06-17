@@ -93,16 +93,6 @@ function SearchForm(props) {
     },
   ]);
 
-  // console.log("ERROR");
-  //       if (error.response && error.response.status === 403) {
-  //         setErrorMessage("Incorrect username / password");
-  //         handleOpenModal();
-  //       } else {
-  //         // Handle other types of errors
-  //         setErrorMessage("Error on API endpoint");
-  //         handleOpenModal();
-  //       }
-
   const handleButtonClick = async () => {
     if (!fromValue || !fromValue.IATA_CODE) {
       // handle error when textbox is empty
