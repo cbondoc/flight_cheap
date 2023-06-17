@@ -11,7 +11,7 @@ export default function handler() {
     baseURL: "https://api.flightcheap.store",
 
     // For accessing localhost python
-    // baseURL: "http://localhost:6700",
+    //baseURL: "http://localhost:6700",
 
     // Needed, regardless if for localhost, live or python backend
     withCredentials: true,
