@@ -161,7 +161,9 @@ function SearchForm(props) {
             });
             props.setDataFlightSearch(row_data);
           })
-          .catch((e) => {});
+          .catch((e) => {
+            console.log("Error:" + e);
+          });
       }
       if (trip === 21) {
         dataSearchFlights = {
@@ -231,10 +233,7 @@ function SearchForm(props) {
     <>
       <Card
         sx={{
-          maxWidth: "80%",
-          margin: "50px auto",
           marginTop: -90,
-          backgroundColor: "white",
         }}
       >
         <Box component="section" sx={{ display: "flex", overflow: "hidden" }}>
