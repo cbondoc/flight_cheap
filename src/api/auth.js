@@ -1,4 +1,5 @@
 import api from "./api";
+import axios from "axios";
 
 export async function healthz() {
   return await api().get("/healthz");
@@ -26,7 +27,7 @@ export async function get_search_flights_single(data) {
   const headers = {
     // Add your desired headers here
     "Content-Type": "application/json",
-    Authorization:  sessionStorage.getItem("token"),
+    Authorization: sessionStorage.getItem("token"),
   };
 
   try {
