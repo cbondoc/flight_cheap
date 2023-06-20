@@ -32,7 +32,7 @@ function SearchForm(props) {
   const [airlineData, setAirlineData] = useState({});
   const [fromValue, setFromValue] = useState(null);
   const [toValue, setToValue] = useState(null);
-  const [trip, setTrip] = React.useState(10);
+  const [trip, setTrip] = useState(10);
 
   // Error Modal Trigger
   const [openModal, setOpenModal] = useState(false);
@@ -209,15 +209,6 @@ function SearchForm(props) {
     }
   };
 
-  const handleLogDates = () => {
-    console.log(
-      dateRange.map(({ startDate, endDate }) => ({
-        startDate: startDate.toLocaleDateString("en-GB"),
-        endDate: endDate.toLocaleDateString("en-GB"),
-      }))
-    );
-  };
-
   const cabinClass = [
     { label: "Economy", id: "M" },
     { label: "Economy Premium", id: "W" },
@@ -227,6 +218,7 @@ function SearchForm(props) {
 
   const handleChange = (event) => {
     setTrip(event.target.value);
+    console.log("Booking option is " + event.target.value);
   };
 
   return (
@@ -356,7 +348,6 @@ function SearchForm(props) {
                 />
                 <Autocomplete
                   disablePortal
-                  id="combo-box-demo"
                   options={cabinClass}
                   defaultValue={"Economy"}
                   renderInput={(params) => (
