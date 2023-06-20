@@ -19,13 +19,13 @@ const devTeam = [
   {
     id: 3,
     name: "Cary",
-    role: "Team Leader",
+    role: "Team Leader / Frontend",
     picture: "cary.jpg",
   },
   {
     id: 5,
     name: "Francely",
-    role: "Assistant Team Leader/Backend",
+    role: "Assistant Team Leader / Backend",
     picture: "franceley.jpg",
   },
   {
@@ -37,14 +37,20 @@ const devTeam = [
   {
     id: 2,
     name: "Rocky",
-    role: "Frontend Lead",
+    role: "Frontend Developer",
     picture: "rocky.jpg",
   },
   {
     id: 1,
     name: "Ezekiel",
+    role: "Frontend Developer",
+    picture: "ezekiel.png ",
+  },
+  {
+    id: 1,
+    name: "Starsky",
     role: "Backend Developer",
-    picture: "placeholder.jpg",
+    picture: "starsky.jpg",
   },
 ];
 
@@ -52,14 +58,8 @@ const devTeamContributors = [
   {
     id: 2,
     name: "Cedric",
-    role: "Frontend Lead",
+    role: "Frontend Developer",
     picture: "cedric.jpg",
-  },
-  {
-    id: 1,
-    name: "Starsky",
-    role: "Backend Developer",
-    picture: "starsky.jpg",
   },
   {
     id: 6,
