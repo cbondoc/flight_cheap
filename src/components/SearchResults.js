@@ -121,9 +121,17 @@ export default function FixedSizeGrid(props) {
           margin: "20px 0",
           padding: "10px",
           bgcolor: "rgba(37, 198, 218, 0.5)",
+          paddingTop: 4,
         }}
       >
-        <Typography variant="h3">Search Results</Typography>
+        <Typography variant="h3">
+          Search Results
+          {props.propsParentToResult === 21
+            ? " - No Return"
+            : props.propsParentToResult === 10
+            ? " - Multi City"
+            : props.propsParentToResult}
+        </Typography>
       </Box>
       <div
         style={{

@@ -219,6 +219,7 @@ function SearchForm(props) {
   const handleChange = (event) => {
     setTrip(event.target.value);
     console.log("Booking option is " + event.target.value);
+    props.handleChildProps(event.target.value);
   };
 
   return (
@@ -253,9 +254,7 @@ function SearchForm(props) {
               >
                 {/* Booking Options */}
                 <FormControl required fullWidth>
-                  <InputLabel id="demo-simple-select-autowidth-label">
-                    Booking Options
-                  </InputLabel>
+                  <InputLabel>Booking Options</InputLabel>
                   <Select
                     value={trip}
                     onChange={handleChange}
