@@ -109,7 +109,7 @@ const BookNowModal = (props) => {
           }}
           onClick={() =>
             window.open(
-              `https://www.kiwi.com/en/booking?token=${bookingItem}`,
+              `https://www.kiwi.com/en/booking?token=${bookingItem.booking_token}`,
               "_blank"
             )
           }
