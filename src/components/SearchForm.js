@@ -138,27 +138,49 @@ function SearchForm(props) {
         get_search_flights_multiple(dataSearchFlights)
           .then(async (res, req) => {
             const row_data = await res.data.map((res_data) => {
-              return res_data.route.map((res_data1) => {
-                return {
-                  baglimit: res_data.baglimit,
-                  booking_token: res_data.booking_token,
-                  deep_link: res_data.deep_link,
-                  price: res_data.price,
-                  quality: res_data.quality,
-                  // TODO
-                  airlines_code: res_data1["airlines"],
-                  airlines_name: airlineData[res_data1["airlines"]],
-                  cityFrom: res_data1["cityFrom"],
-                  cityTo: res_data1["cityTo"],
-                  conversion: res_data1["conversion"],
-                  fare: res_data1["fare"],
-                  facilitated_booking_available:
-                    res_data1["facilitated_booking_available"],
-                  utc_arrival: res_data1["utc_arrival"],
-                  utc_departure: res_data1["utc_departure"],
-                };
+              const routes = res_data.route.map((route) => {
+                return route.airline ? ({ ...route, airline_name: airlineData[route.airline] }) : ({ ...route, airline_name: airlineData[route.airlines[route.airlines.length - 1]] })
               });
+
+              let shownRoutes = [routes[0]]
+
+              if (routes.length > 1) {
+                shownRoutes = [...shownRoutes, routes[routes.length - 1]]
+              }
+
+              return {
+                baglimit: res_data.baglimit,
+                booking_token: res_data.booking_token,
+                deep_link: res_data.deep_link,
+                price: res_data.price,
+                quality: res_data.quality,
+                route: shownRoutes,
+                allRoutes: routes,
+                stops: res_data.route.length - 2,
+              }
+              // return res_data.route.map((res_data1) => {
+              //   console.log(res_data1["airlines"], 'airlines')
+              //   return {
+              //     baglimit: res_data.baglimit,
+              //     booking_token: res_data.booking_token,
+              //     deep_link: res_data.deep_link,
+              //     price: res_data.price,
+              //     quality: res_data.quality,
+              //     // TODO
+              //     airlines_code: res_data1["airlines"],
+              //     airlines_name: airlineData[res_data1["airlines"]],
+              //     cityFrom: res_data1["cityFrom"],
+              //     cityTo: res_data1["cityTo"],
+              //     conversion: res_data1["conversion"],
+              //     fare: res_data1["fare"],
+              //     facilitated_booking_available:
+              //       res_data1["facilitated_booking_available"],
+              //     utc_arrival: res_data1["utc_arrival"],
+              //     utc_departure: res_data1["utc_departure"],
+              //   };
+              // });
             });
+            console.log(row_data)
             props.setDataFlightSearch(row_data);
           })
           .catch((e) => {
@@ -175,8 +197,28 @@ function SearchForm(props) {
         console.log("okay");
         get_search_flights_single(dataSearchFlights)
           .then(async (res, req) => {
-            console.log(res);
             const row_data = await res.data.data.map((res_data) => {
+              const routes = res_data.route.map((route) => {
+                return route.airline ? ({ ...route, airline_name: airlineData[route.airline] }) : ({ ...route, airline_name: airlineData[route.airlines[route.airlines.length - 1]] })
+              });
+
+              let shownRoutes = [routes[0]]
+
+              if (routes.length > 1) {
+                shownRoutes = [...shownRoutes, routes[routes.length - 1]]
+              }
+
+              return {
+                baglimit: res_data.baglimit,
+                booking_token: res_data.booking_token,
+                deep_link: res_data.deep_link,
+                price: res_data.price,
+                quality: res_data.quality,
+                route: shownRoutes,
+                allRoutes: routes,
+                stops: res_data.route.length - 2,
+              }
+
               return res_data.route.map((res_data1) => {
                 return {
                   baglimit: res_data.baglimit,

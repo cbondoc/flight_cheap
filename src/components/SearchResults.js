@@ -1,9 +1,12 @@
 import React, { useState } from "react";
+import Divider from '@mui/material/Divider';
+import ConnectingAirportsIcon from '@mui/icons-material/ConnectingAirports';
 import { DataGrid } from "@mui/x-data-grid";
 import { Typography, Button, Box, Link } from "@mui/material";
 import { useBookingContext } from "@/context/booking";
 import { useRouter } from "next/router";
 import BookNowModal from "./BookNowModal";
+import FlightRouteItem from "./FlightRouteItem";
 
 export default function FixedSizeGrid(props) {
   const [isBookNowOpen, setBookNowOpen] = useState(false);
@@ -25,52 +28,68 @@ export default function FixedSizeGrid(props) {
   };
 
   const columns = [
-    { field: "cityFrom", headerName: "From", width: 170 },
-    { field: "cityTo", headerName: "To", width: 170 },
-    { field: "airlines_name", headerName: "Airlines", width: 170 },
     {
-      field: "utc_departure",
-      headerName: "Departure",
-      width: 250,
-      valueGetter: (params) => {
-        const utcDate = new Date(params.row.utc_departure);
-        const localDate = new Date(
-          utcDate.toLocaleString("en-US", { timeZone: "Asia/Manila" })
-        );
-        const formattedDate = localDate.toLocaleString("en-US", {
-          timeZone: "Asia/Manila",
-          dateStyle: "medium",
-          timeStyle: "medium",
-        });
-        return formattedDate;
-      },
+      field: "deep_link", headerName: "Flight", minWidth: 400, renderCell: (params) => {
+        const { route } = params.row
+        return <>{route.map((routeItem, key) => <>
+          <FlightRouteItem routeItem={routeItem} />
+          {route.length !== key + 1
+            ? <Divider orientation="vertical" flexItem>
+              <ConnectingAirportsIcon sx={{ fontSize: 14 }} color="primary" />
+              <br />
+              <Typography sx={{ fontSize: 9, m: 0, width: 30 }} color="text.primary" >
+                {params.row.stops > 0 ? `${params.row.stops} Stops ` : "Direct"}
+              </Typography>
+            </Divider>
+            : <></>
+          }</>)}</>
+      }
     },
+    // { field: "cityTo", headerName: "To", width: 170 },
+    // { field: "airlines_name", headerName: "Airlines", width: 170 },
+    // {
+    //   field: "utc_departure",
+    //   headerName: "Departure",
+    //   width: 250,
+    //   valueGetter: (params) => {
+    //     const utcDate = new Date(params.row.utc_departure);
+    //     const localDate = new Date(
+    //       utcDate.toLocaleString("en-US", { timeZone: "Asia/Manila" })
+    //     );
+    //     const formattedDate = localDate.toLocaleString("en-US", {
+    //       timeZone: "Asia/Manila",
+    //       dateStyle: "medium",
+    //       timeStyle: "medium",
+    //     });
+    //     return formattedDate;
+    //   },
+    // },
+    // {
+    //   field: "utc_arrival",
+    //   headerName: "Arrival",
+    //   width: 250,
+    //   valueGetter: (params) => {
+    //     const utcDate = new Date(params.row.utc_arrival);
+    //     const localDate = new Date(
+    //       utcDate.toLocaleString("en-US", { timeZone: "Asia/Manila" })
+    //     );
+    //     const formattedDate = localDate.toLocaleString("en-US", {
+    //       timeZone: "Asia/Manila",
+    //       dateStyle: "medium",
+    //       timeStyle: "medium",
+    //     });
+    //     return formattedDate;
+    //   },
+    // },
     {
-      field: "utc_arrival",
-      headerName: "Arrival",
-      width: 250,
-      valueGetter: (params) => {
-        const utcDate = new Date(params.row.utc_arrival);
-        const localDate = new Date(
-          utcDate.toLocaleString("en-US", { timeZone: "Asia/Manila" })
-        );
-        const formattedDate = localDate.toLocaleString("en-US", {
-          timeZone: "Asia/Manila",
-          dateStyle: "medium",
-          timeStyle: "medium",
-        });
-        return formattedDate;
-      },
-    },
-    {
-      field: "conversion",
+      field: "price",
       headerName: "Fare",
-      width: 130,
-      valueGetter: (params) => params.row.conversion,
+      minWidth: 130,
+      valueGetter: (params) => params.row.price,
     },
     {
       field: "action",
-      width: 200,
+      minWidth: 200,
       headerName: "Action",
       sortable: false,
       renderCell: (params) => {
@@ -88,27 +107,27 @@ export default function FixedSizeGrid(props) {
     },
   ];
 
-  const rows = [];
-
-  for (var i in props.dataFlightSearch) {
-    const dataRow = props.dataFlightSearch[i];
-    for (var i1 in dataRow) {
-      const dataRow2 = dataRow[i1];
-      rows.push({
-        booking_token: dataRow2.booking_token,
-        deep_link: dataRow2.deep_link,
-        cityFrom: dataRow2.cityFrom,
-        cityTo: dataRow2.cityTo,
-        airlines_name: dataRow2.airlines_name,
-        utc_departure: dataRow2.utc_departure,
-        utc_arrival: dataRow2.utc_arrival,
-        conversion: dataRow2.price.toLocaleString(undefined, {
-          maximumFractionDigits: 2,
-        }),
-        deep_link: dataRow2.deep_link,
-      });
-    }
-  }
+  // const rows = [];
+  // console.log(props.dataFlightSearch)
+  // for (var i in props.dataFlightSearch) {
+  //   const dataRow = props.dataFlightSearch[i];
+  //   for (var i1 in dataRow) {
+  //     const dataRow2 = dataRow[i1];
+  //     rows.push({
+  //       booking_token: dataRow2.booking_token,
+  //       deep_link: dataRow2.deep_link,
+  //       cityFrom: dataRow2.cityFrom,
+  //       cityTo: dataRow2.cityTo,
+  //       airlines_name: dataRow2.airlines_name,
+  //       utc_departure: dataRow2.utc_departure,
+  //       utc_arrival: dataRow2.utc_arrival,
+  //       conversion: dataRow2.price.toLocaleString(undefined, {
+  //         maximumFractionDigits: 2,
+  //       }),
+  //       deep_link: dataRow2.deep_link,
+  //     });
+  //   }
+  // }
 
   return (
     <>
@@ -137,6 +156,7 @@ export default function FixedSizeGrid(props) {
       >
         <div style={{ height: 500, width: "100%" }}>
           <DataGrid
+            rowHeight={150}
             className="centered"
             getRowId={(row) =>
               row.booking_token +
@@ -146,7 +166,7 @@ export default function FixedSizeGrid(props) {
               new Date().getTime()
             }
             columns={columns}
-            rows={rows}
+            rows={props.dataFlightSearch}
             pageSize={5}
             rowsPerPageOptions={[5]}
             style={{
