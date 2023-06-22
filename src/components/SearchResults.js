@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import Divider from '@mui/material/Divider';
-import ConnectingAirportsIcon from '@mui/icons-material/ConnectingAirports';
+import Divider from "@mui/material/Divider";
+import ConnectingAirportsIcon from "@mui/icons-material/ConnectingAirports";
 import { DataGrid } from "@mui/x-data-grid";
 import { Typography, Button, Box, Link } from "@mui/material";
 import { useBookingContext } from "@/context/booking";
@@ -30,21 +30,40 @@ export default function FixedSizeGrid(props) {
 
   const columns = [
     {
-      field: "deep_link", headerName: "Flight", minWidth: 400, renderCell: (params) => {
-        const { route } = params.row
-        return <>{route.map((routeItem, key) => <>
-          <FlightRouteItem routeItem={routeItem} />
-          {route.length !== key + 1
-            ? <Divider orientation="vertical" flexItem>
-              <ConnectingAirportsIcon sx={{ fontSize: 14 }} color="primary" />
-              <br />
-              <Typography sx={{ fontSize: 9, m: 0, width: 30 }} color="text.primary" >
-                {params.row.stops > 0 ? `${params.row.stops} Stops ` : "Direct"}
-              </Typography>
-            </Divider>
-            : <></>
-          }</>)}</>
-      }
+      field: "deep_link",
+      headerName: "Flight",
+      minWidth: 400,
+      renderCell: (params) => {
+        const { route } = params.row;
+        return (
+          <>
+            {route.map((routeItem, key) => (
+              <>
+                <FlightRouteItem routeItem={routeItem} />
+                {route.length !== key + 1 ? (
+                  <Divider orientation="vertical" flexItem>
+                    <ConnectingAirportsIcon
+                      sx={{ fontSize: 14 }}
+                      color="primary"
+                    />
+                    <br />
+                    <Typography
+                      sx={{ fontSize: 9, m: 0, width: 30 }}
+                      color="text.primary"
+                    >
+                      {params.row.stops > 0
+                        ? `${params.row.stops} Stops `
+                        : "Direct"}
+                    </Typography>
+                  </Divider>
+                ) : (
+                  <></>
+                )}
+              </>
+            ))}
+          </>
+        );
+      },
     },
     // { field: "cityTo", headerName: "To", width: 170 },
     // { field: "airlines_name", headerName: "Airlines", width: 170 },
