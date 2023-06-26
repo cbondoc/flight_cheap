@@ -8,7 +8,7 @@ import AirlinesIcon from '@mui/icons-material/Airlines';
 
 const FlightRouteItem = ({ routeItem }) => {
     const { cityFrom, cityTo, cityCodeFrom, cityCodeTo, utc_arrival,
-        utc_departure, airline_name } = routeItem
+        utc_departure, airline_name, stops } = routeItem
 
     const mins = moment.utc(moment(utc_arrival).diff(moment(utc_departure))).format("mm")
     const hours = moment(utc_arrival).diff(moment(utc_departure), 'hours')
@@ -30,9 +30,9 @@ const FlightRouteItem = ({ routeItem }) => {
                         <AirlinesIcon sx={{ fontSize: 11 }} /> {airline_name}
                     </Typography>
                 </div>
-                <Divider textAlign='left'>
+                <Divider>
                     <Typography display="inline" sx={{ fontSize: 11, fontWeight: 400, fontStyle: "italic", m: 0.3 }} color="text.secondary" >
-                        {hours}h   {mins}m
+                        {hours}h   {mins}m  {stops > 0 ? `- ${stops} Stops` : "- Direct"}
                     </Typography>
                 </Divider>
                 <div>

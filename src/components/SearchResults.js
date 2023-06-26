@@ -38,9 +38,9 @@ export default function FixedSizeGrid(props) {
             ? <Divider orientation="vertical" flexItem>
               <ConnectingAirportsIcon sx={{ fontSize: 14 }} color="primary" />
               <br />
-              <Typography sx={{ fontSize: 9, m: 0, width: 30 }} color="text.primary" >
+              {params.row.data === "single" && <Typography sx={{ fontSize: 9, m: 0, width: 30 }} color="text.primary" >
                 {params.row.stops > 0 ? `${params.row.stops} Stops ` : "Direct"}
-              </Typography>
+              </Typography>}
             </Divider>
             : <></>
           }</>)}</>

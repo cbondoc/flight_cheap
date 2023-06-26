@@ -139,7 +139,11 @@ function SearchForm(props) {
           .then(async (res, req) => {
             const row_data = await res.data.map((res_data) => {
               const routes = res_data.route.map((route) => {
-                return route.airline ? ({ ...route, airline_name: airlineData[route.airline] }) : ({ ...route, airline_name: airlineData[route.airlines[route.airlines.length - 1]] })
+                return ({
+                  ...route,
+                  stops: route.route.length - 1,
+                  airline_name: route.airline ? airlineData[route.airline] : airlineData[route.route[0].airline]
+                })
               });
 
               let shownRoutes = [routes[0]]
@@ -149,6 +153,8 @@ function SearchForm(props) {
               }
 
               return {
+                local_arrival: res_data.local_arrival,
+                local_departure: res_data.local_departure,
                 baglimit: res_data.baglimit,
                 booking_token: res_data.booking_token,
                 deep_link: res_data.deep_link,
@@ -156,7 +162,8 @@ function SearchForm(props) {
                 quality: res_data.quality,
                 route: shownRoutes,
                 allRoutes: routes,
-                stops: res_data.route.length - 2,
+                stops: res_data.route.length - 1,
+                data: "multiple"
               }
               // return res_data.route.map((res_data1) => {
               //   console.log(res_data1["airlines"], 'airlines')
@@ -199,7 +206,26 @@ function SearchForm(props) {
           .then(async (res, req) => {
             const row_data = await res.data.data.map((res_data) => {
               const routes = res_data.route.map((route) => {
-                return route.airline ? ({ ...route, airline_name: airlineData[route.airline] }) : ({ ...route, airline_name: airlineData[route.airlines[route.airlines.length - 1]] })
+                if(!iataDataFrom.some((iataData) => iataData.IATA_CODE === route.flyFrom)) {
+                  console.log(route, 'some from route')
+                }
+
+                if(!iataDataFrom.some((iataData) => iataData.IATA_CODE === route.flyTo)) {
+                  console.log(route, 'some to route')
+                }
+                let newRoute = {
+                  ...route,
+                  countryFrom: iataDataFrom.find((iataData) => iataData.IATA_CODE === route.flyFrom).Country,
+                  countryTo: iataDataFrom.find((iataData) => iataData.IATA_CODE === route.flyTo).Country,
+                }
+
+                if (route.airline) {
+                  newRoute = { ...newRoute, airline_name: airlineData[route.airline] }
+                } else {
+                  newRoute = { ...newRoute, airline_name: airlineData[route.airlines[route.airlines.length - 1]] }
+                }
+
+                return newRoute
               });
 
               let shownRoutes = [routes[0]]
@@ -209,6 +235,8 @@ function SearchForm(props) {
               }
 
               return {
+                local_arrival: res_data.local_arrival,
+                local_departure: res_data.local_departure,
                 baglimit: res_data.baglimit,
                 booking_token: res_data.booking_token,
                 deep_link: res_data.deep_link,
@@ -216,7 +244,8 @@ function SearchForm(props) {
                 quality: res_data.quality,
                 route: shownRoutes,
                 allRoutes: routes,
-                stops: res_data.route.length - 2,
+                stops: res_data.route.length - 1,
+                data: "single"
               }
 
               return res_data.route.map((res_data1) => {
