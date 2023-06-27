@@ -30,9 +30,9 @@ const devTeam = [
   },
   {
     id: 4,
-    name: "John Paul",
+    name: "Paul John",
     role: "Full Stack Developer",
-    picture: "john.jpg",
+    picture: "paul.png",
   },
   {
     id: 2,
