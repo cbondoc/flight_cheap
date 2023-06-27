@@ -1,59 +1,84 @@
-import "bootstrap/dist/css/bootstrap.css"; // Add this line
+import React, { useState } from "react";
+import Layout from "@/components/layout/Layout";
+import BannerSection from "@/components/BannerSection";
+import SearchForm from "@/components/cary_test/SearchForm";
+import SearchResults from "@/components/cary_test/SearchResults";
+import Grid from "@mui/material/Unstable_Grid2";
 
-import { Container, Row, Col, Table, Form } from "react-bootstrap";
+import { Box } from "@mui/material";
 
-function AutoLayoutSizingExample() {
+import Image from "next/image";
+
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from "react-responsive-carousel";
+
+var settings = {
+  dots: false,
+  infinite: true,
+  speed: 500,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+};
+
+export default function Dashboard() {
+  const [dataFlightSearch, setDataFlightSearch] = useState([]);
+
+  const [receivedProps, setReceivedProps] = useState(null);
+
+  const handleChildProps = (propsData) => {
+    setReceivedProps(propsData);
+  };
+
   return (
-    <Container>
-      <Form.Control type="date" />
-      <Row>
-        <Col>1 of 3</Col>
-        <Col xs={6}>2 of 3 (wider)</Col>
-        <Col>3 of 3</Col>
-      </Row>
-      <Row>
-        <Col>1 of 3</Col>
-        <Col xs={5}>2 of 3 (wider)</Col>
-        <Col>3 of 3</Col>
-      </Row>
-      <Row>
-        <Table striped bordered hover>
-          <thead>
-            <tr>
-              <th>#</th>
-              <th>First Name</th>
-              <th>Last Name</th>
-              <th>Username</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>1</td>
-              <td>Mark</td>
-              <td>Otto</td>
-              <td>@mdo</td>
-              <td>@mdo</td>
-              <td>@mdo</td>
-              <td>@mdo</td>
-              <td>@mdo</td>
-              <td>@mdo</td>
-            </tr>
-            <tr>
-              <td>2</td>
-              <td>Jacob</td>
-              <td>Thornton</td>
-              <td>@fat</td>
-            </tr>
-            <tr>
-              <td>3</td>
-              <td colSpan={2}>Larry the Bird</td>
-              <td>@twitter</td>
-            </tr>
-          </tbody>
-        </Table>
-      </Row>
-    </Container>
+    <>
+      {/* <Layout type="auth">
+        <Box
+          sx={{
+            position: "relative",
+            backgroundColor: "grey.800",
+            color: "#fff",
+            mb: 4,
+            backgroundSize: "cover",
+            backgroundRepeat: "no-repeat",
+            backgroundPosition: "center",
+            backgroundImage: `url(/banner2.jpg)`,
+          }}
+        >
+          <Carousel
+            showArrows={false}
+            showIndicators={false}
+            showStatus={false}
+            showThumbs={false}
+            interval={2000}
+            autoPlay={true}
+            infiniteLoop={true}
+            stopOnHover={false}
+          >
+            <div style={{ width: "100%", height: 800 }}>
+              <Image src="/banner/1.jpeg" alt="1" fill={true} />
+            </div>
+            <div style={{ width: "100%", height: 800 }}>
+              <Image src="/banner/3.jpeg" alt="3" fill={true} />
+            </div>
+            <div style={{ width: "100%", height: 800 }}>
+              <Image src="/banner/4.jpeg" alt="4" fill={true} />
+            </div>
+            <div style={{ width: "100%", height: 800 }}>
+              <Image src="/banner/5.jpeg" alt="5" fill={true} />
+            </div>
+          </Carousel> 
+
+          */}
+      <SearchForm
+        setDataFlightSearch={setDataFlightSearch}
+        handleChildProps={handleChildProps}
+      />
+      <SearchResults
+        dataFlightSearch={dataFlightSearch}
+        propsParentToResult={receivedProps}
+      />
+      {/* </Box>
+      </Layout> */}
+    </>
   );
 }
-
-export default AutoLayoutSizingExample;
