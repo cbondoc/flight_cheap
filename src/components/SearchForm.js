@@ -255,7 +255,6 @@ function SearchForm(props) {
                 };
               });
             });
-            console.log(row_data);
             props.setDataFlightSearch(row_data);
           })
           .catch((e) => {
