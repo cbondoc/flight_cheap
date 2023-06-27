@@ -97,6 +97,7 @@ const BookNowModal = (props) => {
             allRoutes.map(
               ({ id, cityFrom, cityTo, utc_departure, utc_arrival, route }) => (
                 <Accordion
+                  key={id}
                   expanded={expanded === id}
                   onChange={handleExpand(id)}
                 >
@@ -184,7 +185,13 @@ const RouteItem = ({ route, fontSize = 10 }) => {
 
         console.log(routeItem);
         return (
-          <Grid container spacing={1} p={1} alignItems="center">
+          <Grid
+            key={routeItem.id}
+            container
+            spacing={1}
+            p={1}
+            alignItems="center"
+          >
             <Grid item xs={3}>
               <Typography fontWeight={600} fontSize={fontSize - 1}>
                 {moment(routeItem.utc_departure).format("MMM DD YYYY kk:mm")}
