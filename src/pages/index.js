@@ -21,9 +21,7 @@ var settings = {
 
 export default function Dashboard() {
   const [dataFlightSearch, setDataFlightSearch] = useState([]);
-
   const [receivedProps, setReceivedProps] = useState(null);
-
   const handleChildProps = (propsData) => {
     setReceivedProps(propsData);
   };
@@ -65,8 +63,8 @@ export default function Dashboard() {
             <div style={{ width: "100%", height: 800 }}>
               <Image src="/banner/5.jpeg" alt="5" fill={true} />
             </div>
-          </Carousel> 
-         <SearchForm
+          </Carousel>
+          <SearchForm
             setDataFlightSearch={setDataFlightSearch}
             handleChildProps={handleChildProps}
           />

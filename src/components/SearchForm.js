@@ -275,6 +275,7 @@ function SearchForm(props) {
 
   const handleChange = (event) => {
     setTrip(event.target.value);
+    props.handleChildProps(event.target.value);
   };
 
   return (
