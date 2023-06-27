@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import moment from "moment";
-import cityTimezones from "city-timezones";
 import Button from "@mui/material/Button";
 import Box from "@mui/material/Box";
 import Modal from "@mui/material/Modal";
@@ -50,12 +49,6 @@ const BookNowModal = (props) => {
     flight = { ...flight, utc_arrival: lastFlight.utc_arrival };
     console.log(lastFlight, "lastFlight");
   }
-
-  console.log(
-    cityTimezones.findFromCityStateProvince(
-      "Los Angeles United States of America"
-    )
-  );
 
   useEffect(() => {
     if (allRoutes.length >= 1) {
