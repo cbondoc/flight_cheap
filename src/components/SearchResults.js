@@ -47,14 +47,16 @@ export default function FixedSizeGrid(props) {
                       color="primary"
                     />
                     <br />
-                    <Typography
-                      sx={{ fontSize: 9, m: 0, width: 30 }}
-                      color="text.primary"
-                    >
-                      {params.row.stops > 0
-                        ? `${params.row.stops} Stops `
-                        : "Direct"}
-                    </Typography>
+                    {params.row.data === "single" && (
+                      <Typography
+                        sx={{ fontSize: 9, m: 0, width: 30 }}
+                        color="text.primary"
+                      >
+                        {params.row.stops > 0
+                          ? `${params.row.stops} Stops `
+                          : "Direct"}
+                      </Typography>
+                    )}
                   </Divider>
                 ) : (
                   <></>
