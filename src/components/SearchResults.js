@@ -18,7 +18,6 @@ export default function FixedSizeGrid(props) {
   };
 
   const handleBookNowOpen = (bookingItem) => {
-    console.log(bookingItem);
     setBooking(bookingItem); //kiwi link booking
     setBookNowOpen(true);
   };
