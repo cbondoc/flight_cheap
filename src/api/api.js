@@ -5,10 +5,10 @@ const list_except_path_auth = ["/login", "/healthz"];
 export default function handler() {
   const instance = axios.create({
     // For localhost
-    baseURL: "http://test-api.flightcheap.store",
+    // baseURL: "http://test-api.flightcheap.store",
 
     // For live link deployment
-    // baseURL: "https://api.flightcheap.store",
+    baseURL: "https://api.flightcheap.store",
 
     // For accessing localhost python
     //baseURL: "http://localhost:6700",
