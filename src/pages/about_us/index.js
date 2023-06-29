@@ -20,37 +20,37 @@ const devTeam = [
     id: 3,
     name: "Cary",
     role: "Team Leader / Frontend",
-    picture: "cary.jpg",
+    picture: "cary",
   },
   {
     id: 5,
     name: "Francely",
     role: "Assistant Team Leader / Backend",
-    picture: "franceley.jpg",
+    picture: "franceley",
   },
   {
     id: 4,
     name: "Paul John",
     role: "Full Stack Developer",
-    picture: "paul.png",
+    picture: "paul",
   },
   {
     id: 2,
     name: "Rocky",
     role: "Frontend Developer",
-    picture: "rocky.jpg",
+    picture: "rocky",
   },
   {
     id: 1,
     name: "Ezekiel",
     role: "Frontend Developer",
-    picture: "ezekiel.png ",
+    picture: "ezekiel",
   },
   {
     id: 1,
     name: "Starsky",
     role: "Backend Developer",
-    picture: "starsky.jpg",
+    picture: "starsky",
   },
 ];
 
@@ -59,13 +59,13 @@ const devTeamContributors = [
     id: 2,
     name: "Cedric",
     role: "Frontend Developer",
-    picture: "cedric.jpg",
+    picture: "cedric",
   },
   {
     id: 6,
     name: "Romart",
     role: "Frontend Developer",
-    picture: "romart.jpg",
+    picture: "romart",
   },
 ];
 
@@ -157,7 +157,7 @@ const AboutUs = () => {
             <Card>
               <CardContent>
                 <Avatar
-                  src={`/about-us/${persons.picture}`}
+                  src={`/about-us/${persons.picture}.png`}
                   sx={{
                     margin: "auto",
                     width: 125,
@@ -194,11 +194,11 @@ const AboutUs = () => {
         pb={8}
       >
         {devTeamContributors.map((persons, index) => (
-          <Grid item xs={12} sm={4} key={persons.id}>
+          <Grid item xs={12} sm={6} key={persons.id}>
             <Card>
               <CardContent>
                 <Avatar
-                  src={`/about-us/${persons.picture}`}
+                  src={`/about-us/${persons.picture}.png`}
                   sx={{
                     margin: "auto",
                     width: 125,
