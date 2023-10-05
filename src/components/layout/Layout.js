@@ -139,7 +139,7 @@ function Layout(props) {
                 "aria-labelledby": "basic-button",
               }}
             >
-              <MenuItem onClick={handleClose}>Logout</MenuItem>
+              <MenuItem onClick={handleClose}>Login</MenuItem>
             </Menu>
           </nav>
         </Toolbar>
