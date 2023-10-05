@@ -29,8 +29,9 @@ export default function handler() {
           return config;
         } else {
           window.sessionStorage.clear();
-          alert("Session has expired, please try to login again");
-          window.location.href = "/access/login"; // add this line
+          // For portfolio, since no backend I need to disable this
+          // alert("Session has expired, please try to login again");
+          // window.location.href = "/access/login"; // add this line
         }
       }
       return config;
